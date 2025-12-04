@@ -284,23 +284,37 @@ GopherQualityFilter::GopherQualityFilter(
         stop_words_vec_ = stop_words;
         using_default_stopwords_ = false;
     }
+    stop_check_enabled_ = (min_stop_words_ > 0) && (!stop_words_vec_.empty() || using_default_stopwords_);
+
+    if (!using_default_stopwords_) {
+        for (const auto& sw : stop_words_vec_) {
+            size_t len = sw.size();
+            if (len <= kStopBucketMaxLen) {
+                stop_buckets_[len].push_back(sw);
+            } else {
+                stop_long_.push_back(sw);
+            }
+        }
+    }
 
     const std::string punctuation = R"(!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~)";
-    punctuation_table_.fill(false);
+    punctuation_mask_.fill(0);
     for (unsigned char c : punctuation) {
-        punctuation_table_[c] = true;
+        punctuation_mask_[c >> 6] |= (1ULL << (c & 63));
     }
 
-    space_table_.fill(false);
+    space_mask_.fill(0);
     for (unsigned char c : std::string(" \t\n\r\f\v")) {
-        space_table_[c] = true;
+        space_mask_[c >> 6] |= (1ULL << (c & 63));
     }
-    alpha_table_.fill(false);
-    for (unsigned char c = 'A'; c <= 'Z'; ++c) alpha_table_[c] = true;
-    for (unsigned char c = 'a'; c <= 'z'; ++c) alpha_table_[c] = true;
+    alpha_mask_.fill(0);
+    for (unsigned char c = 'A'; c <= 'Z'; ++c) alpha_mask_[c >> 6] |= (1ULL << (c & 63));
+    for (unsigned char c = 'a'; c <= 'z'; ++c) alpha_mask_[c >> 6] |= (1ULL << (c & 63));
 }
 
 bool GopherQualityFilter::isStopWord(const char* w, size_t len) const {
+    if (!stop_check_enabled_) return false;
+
     if (using_default_stopwords_) {
         switch (len) {
             case 2:
@@ -318,9 +332,16 @@ bool GopherQualityFilter::isStopWord(const char* w, size_t len) const {
                 break;
         }
     }
-    for (const auto& sw : stop_words_vec_) {
-        if (sw.size() != len) continue;
-        if (std::memcmp(sw.data(), w, len) == 0) return true;
+    if (len <= kStopBucketMaxLen) {
+        const auto& bucket = stop_buckets_[len];
+        for (const auto& sw : bucket) {
+            if (std::memcmp(sw.data(), w, len) == 0) return true;
+        }
+    } else {
+        for (const auto& sw : stop_long_) {
+            if (sw.size() != len) continue;
+            if (std::memcmp(sw.data(), w, len) == 0) return true;
+        }
     }
     return false;
 }
@@ -344,6 +365,7 @@ FilterResult GopherQualityFilter::filter(const std::string& text) const {
     size_t word_start = std::string::npos;
     size_t line_start = 0;
     size_t dot_run = 0; // track ascii ellipsis non-overlapping
+    size_t unicode_ellipsis_pending = 0; // bytes left to confirm U+2026
 
     auto flush_word = [&](size_t start, size_t end) {
         if (start >= end) return;
@@ -354,8 +376,8 @@ FilterResult GopherQualityFilter::filter(const std::string& text) const {
         size_t len = end - start;
         for (size_t i = 0; i < len; ++i) {
             unsigned char uc = static_cast<unsigned char>(w[i]);
-            if (!punctuation_table_[uc]) non_symbol = true;
-            if (alpha_table_[uc]) has_alpha = true;
+            if (!isPunct(uc)) non_symbol = true;
+            if (isAlpha(uc)) has_alpha = true;
         }
         if (non_symbol) {
             n_non_symbol_words++;
@@ -364,8 +386,10 @@ FilterResult GopherQualityFilter::filter(const std::string& text) const {
         if (has_alpha) {
             words_with_alpha++;
         }
-        if (min_stop_words_ && isStopWord(w, len)) {
-            stop_word_count++;
+        if (min_stop_words_ && (using_default_stopwords_ || !stop_words_vec_.empty())) {
+            if (isStopWord(w, len)) {
+                stop_word_count++;
+            }
         }
     };
 
@@ -373,8 +397,8 @@ FilterResult GopherQualityFilter::filter(const std::string& text) const {
         if (start > end) return;
         line_count++;
         // trim
-        while (start < end && space_table_[static_cast<unsigned char>(data[start])]) start++;
-        while (end > start && space_table_[static_cast<unsigned char>(data[end - 1])]) end--;
+        while (start < end && isSpace(static_cast<unsigned char>(data[start]))) start++;
+        while (end > start && isSpace(static_cast<unsigned char>(data[end - 1]))) end--;
         if (start >= end) return;
 
         if (max_bullet_lines_ratio_) {
@@ -402,49 +426,59 @@ FilterResult GopherQualityFilter::filter(const std::string& text) const {
         }
     };
 
-    for (size_t i = 0; i < n; ++i) {
-        unsigned char uc = static_cast<unsigned char>(data[i]);
-        char c = data[i];
+    {
+        Utils::ScopedTimer t("QF_scan");
+        for (size_t i = 0; i < n; ++i) {
+            unsigned char uc = static_cast<unsigned char>(data[i]);
+            char c = data[i];
 
-        if (c == '#') {
-            hash_count++;
-        }
+            if (c == '#') {
+                hash_count++;
+            }
 
-        if (c == '.') {
-            dot_run++;
-            if (dot_run == 3) {
-                ellipsis_tokens++;
+            if (c == '.') {
+                dot_run++;
+                if (dot_run == 3) {
+                    ellipsis_tokens++;
+                    dot_run = 0;
+                }
+            } else {
                 dot_run = 0;
             }
-        } else {
-            dot_run = 0;
-        }
 
-        if (uc == 0xE2 && i + 2 < n &&
-            static_cast<unsigned char>(data[i + 1]) == 0x80 &&
-            static_cast<unsigned char>(data[i + 2]) == 0xA6) {
-            ellipsis_tokens++;
-        }
-
-        if (!space_table_[uc]) {
-            if (word_start == std::string::npos) {
-                word_start = i;
+        // Track UTF-8 ellipsis without lookahead; simple DFA over 0xE2 0x80 0xA6
+        if (unicode_ellipsis_pending == 0) {
+            if (uc == 0xE2) unicode_ellipsis_pending = 1;
+        } else if (unicode_ellipsis_pending == 1) {
+            if (uc == 0x80) unicode_ellipsis_pending = 2;
+            else unicode_ellipsis_pending = (uc == 0xE2) ? 1 : 0;
+        } else if (unicode_ellipsis_pending == 2) {
+            if (uc == 0xA6) {
+                ellipsis_tokens++;
             }
-        } else if (word_start != std::string::npos) {
-            flush_word(word_start, i);
-            word_start = std::string::npos;
+            unicode_ellipsis_pending = (uc == 0xE2) ? 1 : 0;
         }
 
-        if (c == '\n') {
-            process_line(line_start, i);
-            line_start = i + 1;
-        }
-    }
+        if (!isSpace(uc)) {
+                if (word_start == std::string::npos) {
+                    word_start = i;
+                }
+            } else if (word_start != std::string::npos) {
+                flush_word(word_start, i);
+                word_start = std::string::npos;
+            }
 
-    if (word_start != std::string::npos) {
-        flush_word(word_start, n);
+            if (c == '\n') {
+                process_line(line_start, i);
+                line_start = i + 1;
+            }
+        }
+
+        if (word_start != std::string::npos) {
+            flush_word(word_start, n);
+        }
+        process_line(line_start, n);
     }
-    process_line(line_start, n);
 
     if (line_count == 0) {
         line_count = 1;

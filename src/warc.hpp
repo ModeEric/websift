@@ -26,7 +26,8 @@ public:
 private:
     std::string filename;
     gzFile file;
-    char buffer[8192];
+    static constexpr int kLineBufSize = 65536;
+    char buffer[kLineBufSize];
 
     std::string readLine();
     bool readHeaders(WarcRecord& record);

@@ -93,12 +93,28 @@ private:
     double max_non_alpha_words_ratio_;
     int min_stop_words_;
 
+    static constexpr size_t kStopBucketMaxLen = 32;
+    bool stop_check_enabled_ = true;
     bool using_default_stopwords_ = true;
     std::vector<std::string> stop_words_vec_;
-    std::array<bool, 256> punctuation_table_{};
-    std::array<bool, 256> space_table_{};
-    std::array<bool, 256> alpha_table_{};
+    std::array<std::vector<std::string>, kStopBucketMaxLen + 1> stop_buckets_;
+    std::vector<std::string> stop_long_;
+    // Bitmask tables for fast char classification (256 bits each)
+    std::array<uint64_t, 4> punctuation_mask_{}; // 4 * 64 = 256 bits
+    std::array<uint64_t, 4> space_mask_{};
+    std::array<uint64_t, 4> alpha_mask_{};
+
+    inline bool isPunct(unsigned char c) const {
+        return (punctuation_mask_[c >> 6] >> (c & 63)) & 1ULL;
+    }
+    inline bool isSpace(unsigned char c) const {
+        return (space_mask_[c >> 6] >> (c & 63)) & 1ULL;
+    }
+    inline bool isAlpha(unsigned char c) const {
+        return (alpha_mask_[c >> 6] >> (c & 63)) & 1ULL;
+    }
 
     bool isStopWord(const char* w, size_t len) const;
+    static constexpr bool kHasMinStopWordsDefault = true;
 };
 

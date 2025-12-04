@@ -19,18 +19,34 @@ namespace Utils {
 
     // Simple HTML stripper (removes <...>)
     inline std::string extractText(const std::string& html) {
+        // Fast path: no tags detected.
+        size_t first_tag = html.find('<');
+        if (first_tag == std::string::npos) {
+            return html;
+        }
+
         std::string text;
         text.reserve(html.size());
-        bool inTag = false;
-        for (char c : html) {
-            if (c == '<') {
-                inTag = true;
-            } else if (c == '>') {
-                inTag = false;
-                text += ' '; // Replace tag with space to avoid merging words
-            } else if (!inTag) {
-                text += c;
+
+        const char* data = html.data();
+        size_t n = html.size();
+        size_t i = 0;
+        while (i < n) {
+            size_t lt = html.find('<', i);
+            if (lt == std::string::npos) {
+                text.append(data + i, n - i);
+                break;
             }
+            if (lt > i) {
+                text.append(data + i, lt - i);
+            }
+            size_t gt = html.find('>', lt + 1);
+            if (gt == std::string::npos) {
+                // Unterminated tag; stop emitting further text to mirror prior behavior.
+                break;
+            }
+            text.push_back(' '); // keep spacing where a tag was removed
+            i = gt + 1;
         }
         return text;
     }

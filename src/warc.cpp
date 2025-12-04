@@ -8,6 +8,8 @@ WarcReader::WarcReader(const std::string& filename) : filename(filename) {
     if (!file) {
         std::cerr << "Error: Could not open file " << filename << std::endl;
     }
+    // Increase zlib internal buffer to reduce syscall overhead.
+    if (file) gzbuffer(file, 1 << 20); // 1 MB
 }
 
 WarcReader::~WarcReader() {
@@ -71,17 +73,12 @@ bool WarcReader::readHeaders(WarcRecord& record) {
 bool WarcReader::readContent(WarcRecord& record) {
     if (record.contentLength == 0) return true;
 
-    // Allocate buffer
-    char* buf = new char[record.contentLength];
-    int bytesRead = gzread(file, buf, record.contentLength);
-    
+    record.content.resize(record.contentLength);
+    int bytesRead = gzread(file, record.content.data(), record.contentLength);
+
     if (bytesRead < 0) {
-        delete[] buf;
         return false; 
     }
-    
-    record.content.assign(buf, bytesRead);
-    delete[] buf;
 
     // Consume the two CRLF after content (4 bytes)
     // Actually, sometimes it's just loose. But strictly it's \r\n\r\n.
