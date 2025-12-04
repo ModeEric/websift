@@ -61,6 +61,7 @@ bool WarcReader::readHeaders(WarcRecord& record) {
             
             if (key == "WARC-Type") record.type = val;
             if (key == "WARC-Target-URI") record.url = val;
+            if (key == "WARC-Record-ID") record.id = val;
             if (key == "Content-Length") record.contentLength = std::stoul(val);
         }
     }

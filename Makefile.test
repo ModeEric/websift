@@ -1,0 +1,15 @@
+
+TEST_WARC ?= CC-MAIN-20251119093413-20251119123413-00999.warc.gz
+LIMIT ?= 1000
+
+.PHONY: test clean-test
+
+test:
+	python3 tests/test_gopher_parity.py --binary ./build/gopher_filter_cli
+
+update-baseline:
+	./build/websift $(TEST_WARC) --limit $(LIMIT) --csv-output tests/test_data/baseline.csv
+
+clean-test:
+	rm -f tests/diff_report.csv
+

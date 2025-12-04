@@ -1,0 +1,1001 @@
+record_id,status,reason
+<urn:uuid:367ed354-541b-423b-8d6a-0a4e8b83eb9a>,dropped,too_few_sentences
+<urn:uuid:b2803603-cc3c-4e67-87fb-c754e8589f3f>,dropped,too_few_sentences
+<urn:uuid:e9446aa0-c690-43fa-9e68-ae5c906d1637>,dropped,too_few_sentences
+<urn:uuid:1c5f9e16-3c6a-487d-adaa-e449395ef368>,dropped,too_few_sentences
+<urn:uuid:36d11834-50eb-4c6f-b663-28d36ef50cea>,dropped,too_few_sentences
+<urn:uuid:b4c504da-cfee-45d7-948c-5e982f4841aa>,kept,
+<urn:uuid:9df33c77-7e0b-4d81-811f-a73bd1be39b6>,dropped,too_few_sentences
+<urn:uuid:fa66afaf-1cd0-476b-a7de-e330ea3b2f5b>,dropped,too_few_sentences
+<urn:uuid:0fea0e0c-f36e-4a5c-8d44-434bddc2c61a>,dropped,too_few_sentences
+<urn:uuid:7e13575c-74a7-472d-b208-ab4889ca46ef>,dropped,too_few_sentences
+<urn:uuid:3339f61a-65b2-4872-b076-cbf84d7fed33>,dropped,too_few_sentences
+<urn:uuid:a21b8c91-8ae8-42c0-80f7-56ed98e8f0da>,dropped,too_few_sentences
+<urn:uuid:d24a4cd6-fb74-49f4-8332-62a6d71ccbfa>,dropped,too_few_sentences
+<urn:uuid:0f3e62be-e3b1-4dd2-92dc-377de28e1d46>,dropped,too_few_sentences
+<urn:uuid:66bf725d-052a-45f0-b0cc-a6b706aa0961>,dropped,too_few_sentences
+<urn:uuid:dce11024-8e3c-4e48-9045-09ecfb07275f>,dropped,too_few_sentences
+<urn:uuid:c46b20c6-dff4-46ad-8793-b07bb4ddd846>,dropped,too_few_sentences
+<urn:uuid:98817824-b446-4b97-a016-7356572670a6>,dropped,too_few_sentences
+<urn:uuid:10ab0e5d-366f-4bb6-92fc-10f291b55d87>,dropped,too_few_sentences
+<urn:uuid:bb3c2877-67d1-42bf-81f8-220f51f22b5a>,dropped,too_few_sentences
+<urn:uuid:8bb50ff6-c782-4008-abde-c56495b14df6>,dropped,too_few_sentences
+<urn:uuid:27bf7346-e816-4696-9a52-6b0aab3e298a>,dropped,too_few_sentences
+<urn:uuid:0bd4746d-0099-40c4-a750-7f3faa3167fc>,dropped,too_few_sentences
+<urn:uuid:324e2bfd-cb4f-4adc-bf7b-e947ef40cbd9>,dropped,too_few_sentences
+<urn:uuid:7c0c1c6c-df2b-4baf-8d77-6c32474a672f>,dropped,too_few_sentences
+<urn:uuid:002aac8c-9ae9-4281-b1c9-c436f4f8c9b0>,dropped,too_few_sentences
+<urn:uuid:5bdee37b-28e1-4332-bd33-308dab5145f2>,dropped,too_few_sentences
+<urn:uuid:e6e72f96-d0a9-453b-bd8c-1a82c02b678c>,dropped,too_few_sentences
+<urn:uuid:735ab3ca-872d-450c-a6e5-6ee0a6f5af3e>,dropped,too_few_sentences
+<urn:uuid:f7eb6c49-a400-4993-8aa0-13e88e02374a>,dropped,top 3 paragraphs too short
+<urn:uuid:89244681-ef22-4a57-be7c-5c9ae802d4b9>,dropped,too_few_sentences
+<urn:uuid:380d1b7c-7ede-45dd-9374-02b583e9696e>,dropped,too_few_sentences
+<urn:uuid:0f2da89e-e07f-445b-835a-094bb73101b6>,dropped,too_few_sentences
+<urn:uuid:d2e5b7c3-42c1-46c9-8198-b73f89317b3e>,dropped,too_few_sentences
+<urn:uuid:7167ee67-cdf3-4042-8f5e-e9d649487d7c>,dropped,too_few_sentences
+<urn:uuid:a471975b-8667-44e8-9899-063c9e9b66e7>,dropped,too_few_sentences
+<urn:uuid:8d86f621-e5f4-4439-978f-0df4760e12d4>,dropped,too_few_sentences
+<urn:uuid:486e2032-bf21-4bf0-b900-5e13b0eea93b>,dropped,too_few_sentences
+<urn:uuid:69073efb-a61d-4e30-8611-a71daee16b75>,dropped,too_few_sentences
+<urn:uuid:5ea3301f-93bc-493e-b029-ba24d637391c>,dropped,too_few_sentences
+<urn:uuid:8ca3904d-a03f-4b33-b8af-038328d1bf93>,dropped,too_few_sentences
+<urn:uuid:07130cf2-de44-43ca-bc78-75149ac38878>,dropped,top 3 paragraphs too short
+<urn:uuid:654aceb2-72fc-4f22-8799-6c2cc7d2991c>,dropped,too_few_sentences
+<urn:uuid:1a7bfda2-b21d-451b-bf8c-a04ad84205db>,dropped,top 3 paragraphs too short
+<urn:uuid:506c042e-a254-4ac9-862d-098cf931706a>,dropped,too_few_sentences
+<urn:uuid:a798d6fc-5400-4863-9d6d-fe6df196428e>,dropped,empty_text
+<urn:uuid:56f7c513-16be-404c-8fe7-59013f011b4b>,dropped,empty_text
+<urn:uuid:485d7264-232e-4576-a863-29255435b15d>,kept,
+<urn:uuid:87e39182-60bc-45ff-bc9e-de8a77037298>,dropped,too_few_sentences
+<urn:uuid:ce0b3d9d-cb0e-44e5-a3f0-d2f67824032c>,dropped,too_few_sentences
+<urn:uuid:63e10f94-42e1-4d3b-bbdd-dd6d71ea28ba>,dropped,too_few_sentences
+<urn:uuid:92e16f16-cd4f-4486-b891-e4f568fcf6d5>,dropped,too_few_sentences
+<urn:uuid:abd20a57-7d0e-4abf-a692-bf3168d3bf09>,dropped,too_few_sentences
+<urn:uuid:d27a4afa-caee-413f-93b0-218ed6f0ccfb>,dropped,curly_bracket
+<urn:uuid:7029e711-6c27-41f6-b61b-01ed326a1061>,dropped,too_few_sentences
+<urn:uuid:4369299a-ea76-402f-83a9-680864af55f9>,dropped,too_few_sentences
+<urn:uuid:8432f440-b7fe-43e5-8489-386756a2d2a9>,dropped,too_few_sentences
+<urn:uuid:f7361524-a836-49d2-bc4c-41cf6ee68bfe>,dropped,too_few_sentences
+<urn:uuid:1b4434ff-9e02-40ac-a3cd-49afeac05c6e>,kept,
+<urn:uuid:6de78c91-e03d-4379-b68d-da9f0ae7ae30>,dropped,too_few_sentences
+<urn:uuid:b883a063-97a1-4ef5-a778-33f96b90119f>,dropped,empty_text
+<urn:uuid:e5046ae2-13ec-48b2-aa12-b88e0a95b0c2>,dropped,too_few_sentences
+<urn:uuid:b47ac548-c1fc-48fb-ad70-3b7a4e059eb2>,dropped,too_few_sentences
+<urn:uuid:c7276be5-051c-47da-adc1-b04fcda763bf>,dropped,top 3 paragraphs too short
+<urn:uuid:a5c478c0-760e-4358-91c4-ffca4dcb8b28>,dropped,too_few_sentences
+<urn:uuid:3e55affa-ca3c-4e11-b945-8178bb722ba6>,dropped,too_few_sentences
+<urn:uuid:0f3f9a93-b537-45cb-8fdb-500c4793d5e0>,dropped,top 3 paragraphs too short
+<urn:uuid:b7b9b883-986e-45fe-8d3c-c0781b04bff2>,dropped,too_few_sentences
+<urn:uuid:ed9b9082-b6dc-4181-b11e-d5c41b5b4a82>,dropped,too_few_sentences
+<urn:uuid:5ceda39c-a959-4a39-a002-1c73643e070c>,dropped,too_few_sentences
+<urn:uuid:d745c40d-c79f-4c7d-b06e-1021dce60b65>,dropped,too_few_sentences
+<urn:uuid:4fe31d9a-785f-4635-8723-fbedc8b319ba>,dropped,too_few_sentences
+<urn:uuid:bb6bcd93-eb25-4a5b-b45a-b47a114a1eb5>,dropped,too_few_sentences
+<urn:uuid:be343a86-8d19-4f2b-92cc-1cb3b4812caa>,dropped,empty_text
+<urn:uuid:8cbd43da-41c7-4a18-9d67-c90cc819ebd4>,kept,
+<urn:uuid:fc51d2a4-2a49-4839-9cfc-286c82d520c3>,dropped,top 3 paragraphs too short
+<urn:uuid:9fe3166b-4312-4c7c-bb91-95cf8d5d3de5>,dropped,too_few_sentences
+<urn:uuid:6c7ee8e7-3cda-4dfb-9c67-8e4e44e8273f>,dropped,too_few_sentences
+<urn:uuid:8db60198-4770-412c-8a63-6238247f0014>,dropped,too_few_sentences
+<urn:uuid:88b6caa6-fbd6-4544-b545-ae9487ee4779>,kept,
+<urn:uuid:20f31223-55c7-4039-9ad6-8ec6f5a1b772>,dropped,too_few_sentences
+<urn:uuid:a2481031-3ada-4561-91b5-ddcdaf5e0581>,dropped,too_few_sentences
+<urn:uuid:2791b6e8-0c99-4252-a9ce-1d485abb128b>,dropped,too_few_sentences
+<urn:uuid:c4f36ca9-881b-45a3-998d-952a3b1cba85>,dropped,too_few_sentences
+<urn:uuid:bbf410ab-b131-4d99-b2eb-1442a78db278>,dropped,top 3 paragraphs too short
+<urn:uuid:8eec6138-bebe-4908-adc1-21683d1f11e5>,dropped,too_few_sentences
+<urn:uuid:3bf6f18f-eaa6-4bf1-938d-e6d9c66e2bb0>,dropped,curly_bracket
+<urn:uuid:1d797835-5959-42cf-8114-22d12ae7416a>,dropped,too_few_sentences
+<urn:uuid:42825dd7-feda-485f-bc80-cd958d33dfe4>,dropped,top 3 paragraphs too short
+<urn:uuid:6aa436ce-bdd6-4653-b831-b3240f46a1e2>,dropped,too_few_sentences
+<urn:uuid:e702c611-2cdb-41a2-b319-b19551348a17>,dropped,too_few_sentences
+<urn:uuid:9fd91190-f331-42c9-a648-8b710045af55>,dropped,too_few_sentences
+<urn:uuid:36788de8-f9f3-4da2-8405-9eea950b331c>,dropped,too_few_sentences
+<urn:uuid:a1da0792-e8c2-41b2-b013-7675d1a9869d>,dropped,too_few_sentences
+<urn:uuid:38ebae3f-83f0-4bb7-af41-0c108f4576fc>,dropped,too_few_sentences
+<urn:uuid:d7ebe2a5-e65c-4cea-80ff-7638a6bca853>,dropped,curly_bracket
+<urn:uuid:599c53b7-55af-4bf2-9f0d-bb4b6a9ad5bd>,kept,
+<urn:uuid:21ee927c-317d-41f6-9ac7-5cc4d2990b54>,dropped,too_few_sentences
+<urn:uuid:4c82ffae-749a-4127-b717-c89e3fe1b2a2>,dropped,too_few_sentences
+<urn:uuid:22679ed8-c2b2-475d-8d19-450ea986b419>,dropped,top 3 paragraphs too short
+<urn:uuid:2b21cdce-9d91-4b4b-b6ea-9c63998ebad0>,dropped,top 3 paragraphs too short
+<urn:uuid:d9726c49-8329-4fb4-8652-0f98045c8bb3>,dropped,too_few_sentences
+<urn:uuid:65525c04-a36c-41f0-b273-e643d691ecf5>,dropped,too_few_sentences
+<urn:uuid:5e614ae7-0217-4e8d-826e-797ba07b8712>,dropped,top 3 paragraphs too short
+<urn:uuid:143f3427-91ce-41fa-9aab-05b69a931914>,dropped,too_few_sentences
+<urn:uuid:701f2ff9-db6e-40bd-acbe-ade695d81936>,dropped,too_few_sentences
+<urn:uuid:149d6df6-46c8-4136-af4d-d1555b018c09>,dropped,top 3 paragraphs too short
+<urn:uuid:2da412cf-8e54-46a0-9b3d-24b24f91ed20>,dropped,too_few_sentences
+<urn:uuid:1710a9bd-7970-4cc8-b170-c854d86a88ba>,dropped,too_few_sentences
+<urn:uuid:b14e7d08-2080-4b1e-b8fb-75d6523b1f42>,dropped,too_few_sentences
+<urn:uuid:8472c3d1-5221-47ee-886e-a01b0cd13513>,dropped,top 3 paragraphs too short
+<urn:uuid:b1f1792a-ab1d-441c-b5ac-9620ba0fb6f0>,dropped,too_few_sentences
+<urn:uuid:1c5cea02-8338-4aae-b866-b2400ded9961>,dropped,too_few_sentences
+<urn:uuid:83ecaafb-a5eb-4012-ba3a-37e6d5ba30d7>,dropped,top 3 paragraphs too short
+<urn:uuid:59fb0991-6389-4030-adff-d87e041d2fef>,dropped,top 3 paragraphs too short
+<urn:uuid:d7357697-f056-4293-ad89-631f39eb167c>,dropped,too_few_sentences
+<urn:uuid:c822d604-180f-44f3-b71c-29e5a9f643ef>,dropped,too_few_sentences
+<urn:uuid:ada75609-5cfa-44ed-92ed-65fda6d47be3>,kept,
+<urn:uuid:c502de70-02a5-40bd-92e0-cd43646a2c66>,dropped,too_few_sentences
+<urn:uuid:6a4de297-bb3e-4df7-9294-1338557e1c5a>,dropped,too_few_sentences
+<urn:uuid:14eac6b7-3593-434f-ba9c-bae7beca2474>,dropped,too_few_sentences
+<urn:uuid:86bdf08f-d161-417d-871b-21bcc98fca8c>,dropped,too_few_sentences
+<urn:uuid:e6070bcd-c64f-425a-841b-d8cac3a0af7d>,dropped,too_few_sentences
+<urn:uuid:80c96747-83ca-4eab-b349-01f670934300>,dropped,too_few_sentences
+<urn:uuid:6fe94743-e7b0-4504-84a3-1cd1fd8e98ad>,dropped,empty_text
+<urn:uuid:46427fe3-dbca-4311-83c4-54b563e79af1>,dropped,too_few_sentences
+<urn:uuid:3a508704-0fbe-4e14-929f-c3179c83f1d2>,dropped,too_few_sentences
+<urn:uuid:5e9bbb8c-37d8-436f-8112-81cc48dfb60e>,dropped,too_few_sentences
+<urn:uuid:e56d72dd-a30f-4515-a41e-19237eb1c354>,dropped,too_few_sentences
+<urn:uuid:9baded8b-40a5-4342-a51e-f0826df2db9a>,dropped,too_few_sentences
+<urn:uuid:589d444c-a248-42d5-bd0d-fbc363e7503b>,dropped,too_few_sentences
+<urn:uuid:51c32765-383e-47df-9b70-614422e38993>,dropped,too_few_sentences
+<urn:uuid:927011a1-2672-4c5e-b423-15cbe53dde08>,dropped,curly_bracket
+<urn:uuid:ee808d3b-e9bf-4f5c-a97d-c0be3f9eebae>,kept,
+<urn:uuid:c0b0354b-74dd-4964-84d6-b2d2c8b93e59>,kept,
+<urn:uuid:c1d23a7f-59aa-4340-b1f9-b9942373b811>,dropped,too_few_sentences
+<urn:uuid:b803af45-295b-4bfa-a9d7-740aba5f39c6>,dropped,too_few_sentences
+<urn:uuid:a2b1680e-23af-41b4-9e75-6db0298aaf03>,dropped,too_few_sentences
+<urn:uuid:2f1cb50f-af16-4175-a3a1-b1df9ade305d>,dropped,too_few_sentences
+<urn:uuid:5a5afa91-abd4-4df0-b2a9-60d4c1232160>,dropped,too_few_sentences
+<urn:uuid:d764df9f-e7bb-44b8-8d60-7b4717f7e66f>,dropped,too_few_sentences
+<urn:uuid:a1ba9228-bacd-4aba-8a36-bb4245c5ab29>,dropped,top 3 paragraphs too short
+<urn:uuid:94fea791-e4c4-4e28-a432-50a6a3ae1d2c>,dropped,too_few_sentences
+<urn:uuid:41cc5ede-486b-4eeb-a261-cdabd4db554e>,dropped,too_few_sentences
+<urn:uuid:f1e99331-1864-4c39-821a-2e237350a076>,dropped,empty_text
+<urn:uuid:3b67b99d-ce53-4ef0-8186-7bf81c4c6ac1>,dropped,top 3 paragraphs too short
+<urn:uuid:c341efbe-8669-47d8-aa9f-80c64802f637>,dropped,too_few_sentences
+<urn:uuid:024c6a1a-7da5-4b02-814e-e4c6451308a4>,dropped,top 3 paragraphs too short
+<urn:uuid:b222df94-242f-42dd-807d-8b4423b86e2d>,dropped,too_few_sentences
+<urn:uuid:06d12da4-d65a-4fcc-aed5-4b55e82e353e>,dropped,curly_bracket
+<urn:uuid:3a2e30bf-1f6c-4e91-9552-63523fb83759>,dropped,too_few_sentences
+<urn:uuid:2941c0ea-9631-4308-bf02-cd35530ece87>,dropped,too_few_sentences
+<urn:uuid:82fba447-c35e-4c80-8629-67a79bdcce06>,dropped,too_few_sentences
+<urn:uuid:f1ed4deb-2f2c-42ed-a0bc-82d0d9ec96f9>,dropped,too_few_sentences
+<urn:uuid:98ac3056-1c60-4f00-bb1d-969e99f9eced>,dropped,too_few_sentences
+<urn:uuid:b44bba1c-f104-4a0e-8fca-e8f3ce484cbc>,dropped,too_few_sentences
+<urn:uuid:c3f4fddd-36e8-4b40-9b04-aa56d725755d>,dropped,too_few_sentences
+<urn:uuid:57961773-b21e-41d6-994a-2b9bb3050062>,dropped,too_few_sentences
+<urn:uuid:24d14049-fe51-454f-993e-3bda1c133d60>,kept,
+<urn:uuid:f40bdbd1-9e5a-4161-8e94-8848e0ca88fe>,dropped,too_few_sentences
+<urn:uuid:b10504ca-7726-4018-a3b6-c5780dcc891e>,dropped,top 3 paragraphs too short
+<urn:uuid:5f4cd5a9-5688-4dc3-8cca-b101be2a462a>,dropped,curly_bracket
+<urn:uuid:8a880d76-54de-4b03-b36f-6c848161acac>,dropped,curly_bracket
+<urn:uuid:48fb197f-5061-46bd-8c74-6f7c431f1d56>,dropped,too_few_sentences
+<urn:uuid:5f4da192-c26e-4582-93bf-60d9b2b9ce41>,dropped,too_few_sentences
+<urn:uuid:f29b2592-58a2-48e8-912a-1f7587338982>,dropped,too_few_sentences
+<urn:uuid:96b4e474-b669-4396-8fb7-a70847794e62>,dropped,curly_bracket
+<urn:uuid:440c197f-124b-4ce6-83a7-49dc302d3735>,dropped,too_few_sentences
+<urn:uuid:3943823a-9877-49df-9892-516aa4e26210>,kept,
+<urn:uuid:3a5155f2-0840-494c-b638-1fa30b5480e0>,dropped,too_few_sentences
+<urn:uuid:4f9699eb-0c05-4164-bec5-80aa84b3025e>,dropped,curly_bracket
+<urn:uuid:84822003-6edf-4d9b-b31a-7c2a71c36e62>,dropped,curly_bracket
+<urn:uuid:93e5800a-7542-4c03-bd97-cf74b575d8f8>,kept,
+<urn:uuid:86bfe34f-8e66-4ea9-8983-d0e332f2aaa4>,dropped,too_few_sentences
+<urn:uuid:2debf709-b60d-4d02-a5a0-bc92bc8e9d67>,dropped,too_few_sentences
+<urn:uuid:a8e3eb0f-5e13-49d7-af18-a15417e59cc9>,dropped,too_few_sentences
+<urn:uuid:d9685d53-dae9-4fc5-94cc-06f9d466609c>,dropped,too_few_sentences
+<urn:uuid:a2358776-1c1a-4ba5-952c-3de53ed66cff>,dropped,too_few_sentences
+<urn:uuid:534dc971-7d87-4bcd-a6c3-0eaada34be77>,dropped,too_few_sentences
+<urn:uuid:ce821b78-dde3-4535-a79b-9d6dbb59322a>,dropped,too_few_sentences
+<urn:uuid:d012c56d-8dc2-4fd2-9c4c-474bd4402c18>,kept,
+<urn:uuid:7b0cffdb-b5bc-4043-b7a1-e987c1cada31>,dropped,too_few_sentences
+<urn:uuid:6a9ffec4-7c04-44f7-9c77-c3169f04e0db>,dropped,too_few_sentences
+<urn:uuid:32a787d1-aedb-46a5-aede-d15d24f2ff4d>,dropped,top 3 paragraphs too short
+<urn:uuid:783afe02-5913-4ccc-a8e0-c87797fbd139>,kept,
+<urn:uuid:a4572c65-b1b5-455b-b79e-b579ac6e7dd0>,dropped,curly_bracket
+<urn:uuid:17a23898-37c5-4fc9-b44a-65108b5e21c9>,dropped,too_few_sentences
+<urn:uuid:e699d829-d5ee-4f72-8df7-6f0376c7567d>,dropped,top 3 paragraphs too short
+<urn:uuid:8f9ed4b2-c221-48cc-a865-203d557bd575>,dropped,too_few_sentences
+<urn:uuid:848b1f1c-d297-4168-9a71-ebae6ae27d22>,dropped,too_few_sentences
+<urn:uuid:6d2c082d-d847-4546-9c29-5da887e602d0>,kept,
+<urn:uuid:c8239981-3061-435d-a68d-300b0c7bb359>,dropped,too_few_sentences
+<urn:uuid:4cbbaee5-089e-4ef8-b41f-45374cbf7306>,dropped,too_few_sentences
+<urn:uuid:6f2e3e9c-6441-436c-afc2-d9c5c457cf72>,dropped,too_few_sentences
+<urn:uuid:8ba450d1-e436-4dfb-882d-cd51f0a44eaf>,dropped,too_few_sentences
+<urn:uuid:2de1c978-82a2-45b2-9161-17bc0b22d348>,dropped,too_few_sentences
+<urn:uuid:ebae54ce-f467-4ed6-9cd8-b5ce5cd21384>,dropped,top 3 paragraphs too short
+<urn:uuid:fb2c3e2a-6010-4a2f-b2c0-56a532db13f9>,dropped,top 3 paragraphs too short
+<urn:uuid:8b1facef-2436-4ee7-ace5-22bc2061f383>,dropped,too_few_sentences
+<urn:uuid:dc8769ce-9ec8-496b-99bc-6caaab729957>,dropped,too_few_sentences
+<urn:uuid:387870f5-f2e6-4fec-a796-32efecc0531f>,dropped,too_few_sentences
+<urn:uuid:c889c326-cce6-4776-9f4f-41db3b7c2d79>,dropped,too_few_sentences
+<urn:uuid:1ce67df8-9e30-46cc-89b7-5572e67a3cd9>,dropped,too_few_sentences
+<urn:uuid:8c1cb58f-6eac-4c78-aefc-8304d7efd60f>,dropped,top 3 paragraphs too short
+<urn:uuid:49b73e13-f9bf-4a60-8d65-b9bb8dee27f8>,dropped,too_few_sentences
+<urn:uuid:c58fe17c-3f57-4ccb-8173-7b417dbfd4c1>,dropped,too_few_sentences
+<urn:uuid:a9d62c53-4bf5-44e0-a945-8cb55fdacd6e>,dropped,top 3 paragraphs too short
+<urn:uuid:ef95b046-657c-487b-a1e3-fa4e6dfd8bbe>,dropped,top 3 paragraphs too short
+<urn:uuid:a6b0a7dd-55e2-4fdf-9383-34cafbffd936>,dropped,top 3 paragraphs too short
+<urn:uuid:e9a00d0f-0978-47e5-9cdb-191ac265024f>,dropped,too_few_sentences
+<urn:uuid:0f25bf0e-d9ab-49ec-b173-ac77ab8713e4>,dropped,too_few_sentences
+<urn:uuid:05caa8f5-58cb-40c0-8050-434de9546ae4>,dropped,too_few_sentences
+<urn:uuid:450e8359-0ffc-4cbb-8229-97cb9ec92609>,dropped,too_few_sentences
+<urn:uuid:be7425ac-d391-4d45-806b-6ee082989442>,dropped,too_few_sentences
+<urn:uuid:602cbb37-4a27-49df-8ae6-94b6de5910cf>,dropped,too_few_sentences
+<urn:uuid:90ffcfa9-0105-4cb5-8df0-7a8fffff8aa5>,kept,
+<urn:uuid:16372b86-fe02-48e3-aac3-28881680ad7f>,dropped,too_few_sentences
+<urn:uuid:ca0fd8f6-3d5c-46cc-800a-bb8a6b795ff3>,dropped,too_few_sentences
+<urn:uuid:0cd2434e-dd08-40ab-b837-b668f803b269>,dropped,too_few_sentences
+<urn:uuid:fb1e6721-d563-44f3-8094-ceb973b07cd7>,dropped,top 3 paragraphs too short
+<urn:uuid:185321b7-cf25-4597-9fd0-a099cc0e63ec>,dropped,too_few_sentences
+<urn:uuid:a4c92394-1f3f-49d8-a797-bd939a694e99>,dropped,too_few_sentences
+<urn:uuid:023cb3bd-2eaa-4e14-9f5e-b900ee26bbf3>,dropped,too_few_sentences
+<urn:uuid:968a72fa-2317-4eac-aaea-27f089f47005>,dropped,too_few_sentences
+<urn:uuid:ff0c05a3-eabd-4287-83c7-11ec1ed8cbdc>,dropped,too_few_sentences
+<urn:uuid:1a982676-c327-4f69-841c-ab621d939263>,dropped,too_few_sentences
+<urn:uuid:f469dc99-3dea-40fa-863d-b7b529c57292>,dropped,curly_bracket
+<urn:uuid:dc909f80-2ade-4e9f-b127-9e111ce3cd4b>,dropped,too_few_sentences
+<urn:uuid:e177b2d7-0850-479a-b2d4-78d553b90787>,dropped,too_few_sentences
+<urn:uuid:f9b104a6-0a87-4491-8690-034abe2a696e>,kept,
+<urn:uuid:2fe94a93-02d7-4e8f-a509-811820287df4>,dropped,too_few_sentences
+<urn:uuid:a862b703-b8ff-4ddd-b445-6ae59317288d>,kept,
+<urn:uuid:f4b57d11-3c05-45c0-9f0d-b8ade9c08d84>,dropped,too_few_sentences
+<urn:uuid:4526fc96-5121-466a-b036-c20f7f8814b0>,dropped,top 3 paragraphs too short
+<urn:uuid:ef9dc89e-a8af-440b-8802-424cad6e062f>,dropped,too_few_sentences
+<urn:uuid:0500a26d-845f-40ef-a868-55cc3ad112ec>,dropped,too_few_sentences
+<urn:uuid:10d79502-8217-4b4c-ba7b-fdf5dac7c264>,dropped,top 3 paragraphs too short
+<urn:uuid:c0030ef5-ad23-4ad7-b7b1-283ef8ad2f69>,dropped,too_few_sentences
+<urn:uuid:f1878f08-9386-4880-8c30-438f5714dae0>,dropped,too_few_sentences
+<urn:uuid:f257404b-e811-4498-a889-48b85e6d9502>,kept,
+<urn:uuid:7243061c-d6a4-4dd2-a2f2-1f2fac9d1716>,dropped,too_few_sentences
+<urn:uuid:fa07874e-e9cd-4ee0-93be-f87da008f46a>,dropped,too_few_sentences
+<urn:uuid:c1e5220a-0260-450c-a0e2-460c217f6680>,dropped,top 3 paragraphs too short
+<urn:uuid:cc0b9321-3362-4b85-9327-75f19f91d90a>,dropped,too_few_sentences
+<urn:uuid:86bbc64e-2964-4f64-8ded-28635d028ba0>,kept,
+<urn:uuid:22806563-19f6-4d45-9b88-82153d01800f>,dropped,too_few_sentences
+<urn:uuid:f9be8175-0d9e-4165-b641-88daad0c0da7>,dropped,too_few_sentences
+<urn:uuid:72f62b4e-ee78-4ab3-a2b4-a9c5238c45f8>,dropped,too_few_sentences
+<urn:uuid:ea70c117-dc66-471d-a74b-4ade0934fe24>,dropped,too_few_sentences
+<urn:uuid:ab2262c1-fd35-411f-a8dc-e82af21e0f8e>,dropped,too_few_sentences
+<urn:uuid:5a690702-b00e-412b-97a4-5fb245cea60a>,dropped,too_few_sentences
+<urn:uuid:c778cb5b-b991-4d7d-9bf5-bed00fa51e4d>,dropped,top 3 paragraphs too short
+<urn:uuid:436ddb29-df96-401d-b881-eac609c0e874>,dropped,too_few_sentences
+<urn:uuid:1a424295-ed0a-4104-890a-ff57793d9329>,dropped,top 3 paragraphs too short
+<urn:uuid:08767b7d-8550-4325-a917-2ae0a6379682>,kept,
+<urn:uuid:f83e89f7-bff1-4cd7-890b-14a8ee4ebbd8>,dropped,too_few_sentences
+<urn:uuid:6e65def7-9f44-4516-b768-ffff69263951>,dropped,top 3 paragraphs too short
+<urn:uuid:644c5c20-e760-4a8a-a9ee-8cdcf00fc3f6>,dropped,curly_bracket
+<urn:uuid:e533bace-ea05-43ff-a086-536e8b7d0718>,dropped,too_few_sentences
+<urn:uuid:d072283a-8040-4b01-9633-9adf9d6a49d7>,dropped,top 3 paragraphs too short
+<urn:uuid:8d455f2e-e70d-4f51-9ca1-ae26e76ea657>,kept,
+<urn:uuid:2ca6e162-a15c-44a2-b1ec-9245c0deb0dc>,dropped,too_few_sentences
+<urn:uuid:2853ed20-9f43-4360-9a08-8e597a36b6c9>,kept,
+<urn:uuid:95771f90-53f7-4c12-983e-e814448c4931>,dropped,too_few_sentences
+<urn:uuid:d32a26e2-57f3-4139-a6c9-dc173e9b8be5>,dropped,top 3 paragraphs too short
+<urn:uuid:5b557bb7-d6e5-4c2b-81d7-59524f5c5863>,dropped,too_few_sentences
+<urn:uuid:6210df52-f799-49ed-a1fb-913d746db2ae>,dropped,too_few_sentences
+<urn:uuid:00faeae3-4717-4063-a20f-f773707d889f>,dropped,too_few_sentences
+<urn:uuid:582cdbb8-7ae9-4094-a192-2e740024470a>,dropped,too_few_sentences
+<urn:uuid:c534f736-b0a2-45e7-9972-341cadbda1f9>,dropped,too_few_sentences
+<urn:uuid:9a1ba734-2c9d-475f-8f51-9ff39596d85f>,dropped,too_few_sentences
+<urn:uuid:7aa55413-6e46-4e9d-a9b3-3cd334f76a50>,dropped,too_few_sentences
+<urn:uuid:7d1b1ad0-a695-472c-8165-e37afac1e1dd>,dropped,too_few_sentences
+<urn:uuid:ca43ef2c-c3f9-4428-aef1-5dedcc1772e5>,dropped,too_few_sentences
+<urn:uuid:03e9db54-51a2-4b13-bf50-91bbdba012c4>,dropped,top 3 paragraphs too short
+<urn:uuid:8ab0c918-9d7c-4fdf-8dae-c91867d184e7>,dropped,too_few_sentences
+<urn:uuid:7e618551-1b56-4e8f-9e88-83dfd708ea72>,dropped,too_few_sentences
+<urn:uuid:610b2112-fd70-4f28-9ca8-5a31973afc57>,dropped,too_few_sentences
+<urn:uuid:345f4000-fd87-428a-a503-0d86758c8c87>,dropped,too_few_sentences
+<urn:uuid:99d57b99-c4fe-4370-8aa6-8228d228dea5>,dropped,top 3 paragraphs too short
+<urn:uuid:38b7c79a-6069-4003-9bcb-beecc7280dda>,dropped,too_few_sentences
+<urn:uuid:5f98651b-d3de-4830-82ff-cca120c7acaa>,dropped,too_few_sentences
+<urn:uuid:df3aee25-2e33-4aeb-8903-647690b26538>,dropped,too_few_sentences
+<urn:uuid:881fa3a8-2672-4333-8d9f-8a2765d645d5>,dropped,too_few_sentences
+<urn:uuid:4e265b2b-b165-4579-a828-3a77d6c287b0>,dropped,top 3 paragraphs too short
+<urn:uuid:aca6eb3c-5682-4674-85cc-f402c8a08c3f>,dropped,top 3 paragraphs too short
+<urn:uuid:a26ddc22-68e6-4f62-9292-47f803831f1b>,dropped,too_few_sentences
+<urn:uuid:bbdd2525-4ed5-42c6-832d-bbc92c797ec9>,dropped,too_few_sentences
+<urn:uuid:f2a7b72a-de6c-4e77-b636-758c0c3eb1ed>,dropped,empty_text
+<urn:uuid:080934a0-0d25-48bf-81dc-9072671d3bc2>,dropped,empty_text
+<urn:uuid:8a7203ae-88c9-436a-837d-dcb0f96543b8>,dropped,too_few_sentences
+<urn:uuid:e64c20b9-f7d2-427c-9154-abcec8694b6f>,dropped,top 3 paragraphs too short
+<urn:uuid:098f95bd-ce1e-484f-9a17-fdeff53d5130>,dropped,too_few_sentences
+<urn:uuid:ada7a7de-15a6-4eeb-b8ab-985cd36f29b3>,dropped,too_few_sentences
+<urn:uuid:53b70b55-d83c-4837-bb51-eaf78862a7cd>,dropped,too_few_sentences
+<urn:uuid:3c5d09a6-004c-4e03-ac1f-70122497e42c>,dropped,too_few_sentences
+<urn:uuid:4b048a0a-2f5c-4944-9604-f6fe030e903d>,dropped,too_few_sentences
+<urn:uuid:8e1c5370-8582-4b35-a652-5b8e4f182e64>,kept,
+<urn:uuid:6fdfaa46-5475-46ab-b4c3-fabeb9ed5c5e>,dropped,top 3 paragraphs too short
+<urn:uuid:046c8e4e-600a-4a5c-bc0d-2720ac92e0a6>,dropped,too_few_sentences
+<urn:uuid:29275dce-7f16-4746-81f5-ccc2501a897f>,dropped,too_few_sentences
+<urn:uuid:3dc142c6-e430-407b-8cc8-1dfc34494bf4>,dropped,too_few_sentences
+<urn:uuid:972e0d50-79f9-45dd-869f-204f7377d9b8>,dropped,too_few_sentences
+<urn:uuid:3232c497-b443-4ee1-8dad-e8c77fcb0cd2>,dropped,too_few_sentences
+<urn:uuid:1b1e9322-c58b-4ca8-9971-50d43927d63a>,kept,
+<urn:uuid:9a4f4c98-aa7e-44dd-bd02-dd0e4d5405cf>,dropped,too_few_sentences
+<urn:uuid:e338eaf8-8376-41bd-b1e3-50d0ca88ebb8>,dropped,too_few_sentences
+<urn:uuid:86d03712-fecd-4a02-a534-977c7404752b>,dropped,too_few_sentences
+<urn:uuid:d8c3014a-0053-40f9-8fe8-6d55e79cb4ef>,dropped,too_few_sentences
+<urn:uuid:54df37a0-5084-4f0b-9450-dd2d00ae47e6>,dropped,too_few_sentences
+<urn:uuid:826c602b-b6f2-4a89-b6c7-998e2198a5b3>,kept,
+<urn:uuid:8d562324-2e03-4a68-80c8-70003546dc8c>,dropped,top 3 paragraphs too short
+<urn:uuid:2ae8fd0b-b6d5-4da6-8175-ad1a2c0a6685>,dropped,top 3 paragraphs too short
+<urn:uuid:8d9e78ed-d3b2-4302-b1fc-048015907a6f>,dropped,too_few_sentences
+<urn:uuid:ce1984c9-c501-4692-aef8-ecd4d3683ce7>,dropped,too_few_sentences
+<urn:uuid:61f4d546-b13b-42c9-b817-5b87ad085b7f>,dropped,too_few_sentences
+<urn:uuid:61eee3af-df30-4062-9d4f-36735346efa3>,dropped,too_few_sentences
+<urn:uuid:d67bebb3-951b-4891-8866-56a5eca58793>,dropped,too_few_sentences
+<urn:uuid:47985b65-2810-4be5-944e-f584ecfaf80f>,dropped,top 3 paragraphs too short
+<urn:uuid:46bed4cb-05f2-4081-ac78-09d037ec11e9>,kept,
+<urn:uuid:e5dcd55c-c1d1-4bd5-affb-4be713292f88>,dropped,top 3 paragraphs too short
+<urn:uuid:2f0bd753-8910-4fe3-bdcf-fca98cf7889c>,dropped,too_few_sentences
+<urn:uuid:a056cbad-6cf2-4c17-86b2-9d35cbd1d0c1>,dropped,top 3 paragraphs too short
+<urn:uuid:89030ad4-1c0b-45ea-941b-5a9e3536f72f>,dropped,too_few_sentences
+<urn:uuid:5690f1f3-bcbc-46e3-a9fe-1f49374c61e4>,dropped,too_few_sentences
+<urn:uuid:6a6f58a2-dc5a-4612-af23-5ae3defbf37f>,dropped,too_few_sentences
+<urn:uuid:d840f7eb-98f4-4bf4-86bd-27b5fcd428f6>,dropped,top 3 paragraphs too short
+<urn:uuid:ee2d7a99-42ba-43f1-914a-c4495e386877>,dropped,curly_bracket
+<urn:uuid:09501bde-1be5-4d95-aea3-ad5db8ba24fe>,dropped,too_few_sentences
+<urn:uuid:3120bfe6-0bca-4224-a914-7a5ea6163aa2>,dropped,too_few_sentences
+<urn:uuid:6b2dd6e3-6186-4f1e-94ad-69b02e08918a>,dropped,too_few_sentences
+<urn:uuid:c855ccbb-9efe-46b0-a25d-39d79202795f>,dropped,too_few_sentences
+<urn:uuid:77892187-931e-45a8-87ef-048f183d099b>,dropped,too_few_sentences
+<urn:uuid:8e895364-8582-4e3e-a67c-ffdba7721329>,dropped,top 3 paragraphs too short
+<urn:uuid:0eef763f-2070-4656-99b7-49ad67dbe5de>,dropped,too_few_sentences
+<urn:uuid:a0c7c1db-4d95-4abb-b19b-f5b24ec68a73>,dropped,too_few_sentences
+<urn:uuid:6fa21fe5-a304-4c03-ab21-99f7cf468d16>,dropped,empty_text
+<urn:uuid:260a7ed8-85b5-4267-9904-a1585b318649>,dropped,top 3 paragraphs too short
+<urn:uuid:92105561-42af-42a5-9ce6-8771b647c216>,dropped,top 3 paragraphs too short
+<urn:uuid:a088fa79-ffee-4566-a7c9-b6167feea60c>,dropped,too_few_sentences
+<urn:uuid:67925c90-bf01-4939-8fc1-d5528e38af66>,dropped,top 3 paragraphs too short
+<urn:uuid:3533422f-f0ef-48ed-b790-44e161ec5883>,dropped,too_few_sentences
+<urn:uuid:52160422-4e29-4343-bf17-0c56d2ada281>,dropped,too_few_sentences
+<urn:uuid:70a1814b-02ac-4a29-8754-0dcdff56f126>,dropped,too_few_sentences
+<urn:uuid:a2d2b80c-d83f-4658-8cda-aaaf3eb8c028>,dropped,too_few_sentences
+<urn:uuid:39176f84-317e-4592-b9e4-605e3cb31bbc>,dropped,top 3 paragraphs too short
+<urn:uuid:c7d2ca7f-3937-46db-b54e-91b4ad2481e8>,dropped,too_few_sentences
+<urn:uuid:61006161-79ce-4e49-a459-3e385bb5b190>,dropped,too_few_sentences
+<urn:uuid:e44ef457-4787-4dd6-b51b-1f81cfe10c92>,dropped,too_few_sentences
+<urn:uuid:b08db84a-410f-45d1-b212-b8e5b4cd0eb5>,dropped,too_few_sentences
+<urn:uuid:a4973d58-4477-48ad-adc0-f7f9778163fe>,dropped,too_few_sentences
+<urn:uuid:f44254f6-ca1d-4ffb-b1d8-2cd061db232a>,dropped,too_few_sentences
+<urn:uuid:16a75abb-df32-4f5a-8afe-e76013aa16fd>,dropped,top 3 paragraphs too short
+<urn:uuid:7e181ed6-9760-4ade-b4c8-b98423cf5c2b>,dropped,too_few_sentences
+<urn:uuid:3fb9ae76-c65e-4b75-80aa-6e297d6cbe51>,dropped,too_few_sentences
+<urn:uuid:0e9e7ef7-c796-454d-9298-599961e9efc1>,dropped,too_few_sentences
+<urn:uuid:14e5a9c1-95df-480b-9bbb-4341a6280288>,dropped,too_few_sentences
+<urn:uuid:a4529c26-cce6-429d-b3cb-b827846779fa>,dropped,top 3 paragraphs too short
+<urn:uuid:6c735956-29e9-4544-966d-06644c0c0eba>,dropped,top 3 paragraphs too short
+<urn:uuid:c39809bf-572c-4d46-92bf-66c36033b8ce>,dropped,too_few_sentences
+<urn:uuid:462e24eb-c942-436d-811f-34375dab1d6b>,dropped,too_few_sentences
+<urn:uuid:906df84d-dce0-4396-8136-1062db490624>,dropped,too_few_sentences
+<urn:uuid:9dfd5ec4-8fca-45d3-b6f3-172030b8d78d>,kept,
+<urn:uuid:30640e8e-b9cf-48d0-9612-6bdc71eec404>,kept,
+<urn:uuid:2c4cac46-f308-40a0-96f6-0a290a0e3258>,dropped,too_few_sentences
+<urn:uuid:5ac5806c-a22c-42e1-9fd4-1331f41f4541>,dropped,too_few_sentences
+<urn:uuid:e0fcdfdc-bc81-4fe9-a641-5f278801910d>,dropped,too_few_sentences
+<urn:uuid:56224b1f-0bec-4738-a305-c218f1a301d6>,dropped,too_few_sentences
+<urn:uuid:0bf85d0e-aea5-4b5e-a113-30e871412cec>,dropped,too_few_sentences
+<urn:uuid:d156a949-c32e-40ad-b623-5135f6bf16ee>,dropped,too_few_sentences
+<urn:uuid:956174e2-5459-4c86-9a84-cf0a548e6f92>,dropped,too_few_sentences
+<urn:uuid:c795ddcb-52b6-4dfb-9cbe-db0c4870c235>,dropped,too_few_sentences
+<urn:uuid:2a4862ac-b2eb-4938-8a88-6bfc4fed2f76>,dropped,too_few_sentences
+<urn:uuid:72eb5897-303f-482a-ab0f-03b22a86714a>,dropped,too_few_sentences
+<urn:uuid:ce06923c-22a1-4bca-8d7d-f4cb863226a7>,dropped,badword: porn
+<urn:uuid:6b1bbec1-869c-4435-93d9-21a3e4bbc1bf>,dropped,too_few_sentences
+<urn:uuid:ca3ba45a-319e-409e-b60b-8efb7fc215cb>,dropped,too_few_sentences
+<urn:uuid:f57465b1-a07c-4ef2-a376-ad24872a2d04>,dropped,curly_bracket
+<urn:uuid:8f695e52-ff77-45cf-9f64-550d562c3384>,dropped,too_few_sentences
+<urn:uuid:8a00815c-50c7-47a7-a2af-add0ce583e73>,dropped,too_few_sentences
+<urn:uuid:60ced847-9960-401f-b04b-dc496282b2be>,dropped,top 3 paragraphs too short
+<urn:uuid:8e7d3712-620e-4239-8d96-c125e2824dae>,dropped,too_few_sentences
+<urn:uuid:e6b168ef-3e61-43fd-8c5c-eae9c91add8d>,dropped,too_few_sentences
+<urn:uuid:61330fb7-5b32-452d-b042-4a59c6987dd9>,dropped,too_few_sentences
+<urn:uuid:e8795f03-a7f6-4a02-92e3-4726426c9034>,dropped,too_few_sentences
+<urn:uuid:9e019671-b59f-4ff0-a5b3-4b87999b8761>,dropped,too_few_sentences
+<urn:uuid:db4549fe-1a0a-4983-8281-3ab6dacbbbcf>,dropped,too_few_sentences
+<urn:uuid:eca882c3-0861-4178-86df-7b350433c58e>,dropped,too_few_sentences
+<urn:uuid:9073422c-35d3-4dc9-a134-a8b6ca275606>,dropped,empty_text
+<urn:uuid:daf2334a-0b32-4a21-a1a3-d7345f77d86c>,dropped,too_few_sentences
+<urn:uuid:26e53c98-3e8e-4fc8-9864-ecc9c0969ab7>,dropped,too_few_sentences
+<urn:uuid:bbd6e76b-5568-46be-a8bd-95535c24edb1>,dropped,too_few_sentences
+<urn:uuid:6a8971a2-01e2-458e-a1a8-438b70b5a7b5>,kept,
+<urn:uuid:57b7f55b-47b9-45e7-8941-c892ced56c81>,dropped,too_few_sentences
+<urn:uuid:aa8c1422-ed12-48b5-9758-51d069f94a9a>,dropped,too_few_sentences
+<urn:uuid:3ad42e47-414a-413f-99f6-77403fa0ee73>,dropped,too_few_sentences
+<urn:uuid:9c2c0b79-d5df-45f4-8d61-d6267ecd1e3e>,dropped,too_few_sentences
+<urn:uuid:b2df3453-88be-4c11-9b82-3df2fe5c31d3>,dropped,too_few_sentences
+<urn:uuid:aceefef7-3cf9-40f7-a973-e07c95b5d2ce>,dropped,too_few_sentences
+<urn:uuid:f1ab863d-2c1b-44fe-9f4a-9769f43cbd99>,dropped,too_few_sentences
+<urn:uuid:2f935a4b-6e98-4cba-a4c0-bb049a4e3da9>,dropped,too_few_sentences
+<urn:uuid:3d89cffb-00f4-47a9-94a2-aaf66ecf415c>,dropped,too_few_sentences
+<urn:uuid:5feb248a-a4a9-4dc1-8262-9b03a4061c1f>,dropped,too_few_sentences
+<urn:uuid:7d11aa17-665c-48c3-b2c9-1caf7bb9a3b6>,dropped,too_few_sentences
+<urn:uuid:d9c0c137-f1cd-49bb-95ec-839df76e5606>,dropped,too_few_sentences
+<urn:uuid:c559fc2c-de44-4d44-ba48-7ccf5d769d1b>,dropped,too_few_sentences
+<urn:uuid:8d0183f6-f4a0-4a7e-9ff7-39382279bc8c>,dropped,too_few_sentences
+<urn:uuid:9fe44748-6ff5-4bb4-a930-fae5331b9dcc>,dropped,too_few_sentences
+<urn:uuid:42024b95-655e-4fae-a188-89c6965cb755>,dropped,too_few_sentences
+<urn:uuid:c5751b99-401a-48c8-aa44-1090987c99d6>,dropped,top 3 paragraphs too short
+<urn:uuid:ee081205-46fd-4a01-8c19-abc8345b656b>,dropped,too_few_sentences
+<urn:uuid:c174e6f9-26d3-4e57-9322-32392360fc6c>,dropped,top 3 paragraphs too short
+<urn:uuid:071eb22f-60c4-4c7a-a2d2-48b0012dfff0>,dropped,top 3 paragraphs too short
+<urn:uuid:95700996-1451-4eae-9a2d-ca14322196b4>,dropped,too_few_sentences
+<urn:uuid:15d0c0b3-1fb4-42f3-a6b5-dfead18318bc>,dropped,too_few_sentences
+<urn:uuid:535885dc-3bc6-4088-ae5d-baa369942359>,dropped,top 3 paragraphs too short
+<urn:uuid:d1435c4e-5e3a-4942-a828-7169270da40c>,dropped,too_few_sentences
+<urn:uuid:d1529eeb-d3d7-4baa-b759-2d98295eb232>,dropped,too_few_sentences
+<urn:uuid:1f785e69-3f95-4d77-b0d4-da42e48f2831>,dropped,too_few_sentences
+<urn:uuid:36211506-8766-4aea-8745-bd11258dbf68>,dropped,too_few_sentences
+<urn:uuid:2a415823-a6bc-472f-a91e-75a1d9682817>,dropped,top 3 paragraphs too short
+<urn:uuid:7e0b23ee-d342-42fc-8257-1837031d9a29>,dropped,too_few_sentences
+<urn:uuid:6ef1b3d4-05bd-41cd-9b31-e8425a87c32d>,dropped,too_few_sentences
+<urn:uuid:071ee5eb-b8b3-4f6d-84c9-2094aa722556>,dropped,curly_bracket
+<urn:uuid:37816a87-f1c9-481d-b8a9-39f08acb4818>,dropped,too_few_sentences
+<urn:uuid:542009b7-4516-444d-a36d-fa6b0791c9ea>,dropped,too_few_sentences
+<urn:uuid:23f83725-2cd0-41c7-9bc7-a974bcfda21e>,dropped,too_few_sentences
+<urn:uuid:720f385d-44f1-48a1-a177-52eff0fd2333>,dropped,top 3 paragraphs too short
+<urn:uuid:71b3abf0-041a-4c33-a833-a0e25ee00a3e>,dropped,top 3 paragraphs too short
+<urn:uuid:a23f48b8-0047-4111-a4b7-b6345b635e75>,dropped,too_few_sentences
+<urn:uuid:c96642b8-407d-44c8-bf82-b48e3ee49cde>,dropped,too_few_sentences
+<urn:uuid:a76d9842-a527-4fa6-93a0-8a16e546dd60>,dropped,too_few_sentences
+<urn:uuid:5ca32f8a-84c8-4a44-a7d9-b5f5241c1ec5>,dropped,too_few_sentences
+<urn:uuid:d4f2a5b0-6afa-4064-8265-c6f0505fc229>,dropped,too_few_sentences
+<urn:uuid:8dc33ef2-9af6-48e4-ba51-e9cf1a2d02ea>,dropped,top 3 paragraphs too short
+<urn:uuid:bd86bfb7-ebfc-4c01-aa77-e3e7ef657920>,dropped,too_few_sentences
+<urn:uuid:c3277b6a-d90b-4f8e-a7d8-3503afc8839f>,dropped,too_few_sentences
+<urn:uuid:28eeb4e3-176b-4a38-9da4-d9a575c3d5e1>,kept,
+<urn:uuid:5315205e-7b47-4748-882e-2f2cd7157c39>,dropped,top 3 paragraphs too short
+<urn:uuid:ca9a472d-7828-4877-8820-f48898dbe9a3>,dropped,too_few_sentences
+<urn:uuid:6fa57550-5996-45fb-a645-e775adcb192e>,dropped,too_few_sentences
+<urn:uuid:e57e81c7-9f21-4aa7-9b1b-ebd16237c395>,dropped,too_few_sentences
+<urn:uuid:cf850a67-5bda-4d42-8eb9-50b59cbb59f1>,dropped,too_few_sentences
+<urn:uuid:ca057027-faa9-4f56-8674-6adbf72617d1>,dropped,too_few_sentences
+<urn:uuid:c5479c2b-262c-4570-9bc5-28bac2bd2c8f>,dropped,too_few_sentences
+<urn:uuid:c9d799d5-84e2-4dfc-8e12-406930f4e7ca>,dropped,too_few_sentences
+<urn:uuid:99ef83ef-8d7d-4149-8dc4-ed1f384e6688>,dropped,lorem_ipsum
+<urn:uuid:efd4f3c4-4c54-443e-aa87-223c8d98c7e3>,dropped,too_few_sentences
+<urn:uuid:5007b12e-6472-471c-8062-23e7e9d438ac>,dropped,too_few_sentences
+<urn:uuid:de00f8a3-1a0e-48e7-be7f-b067b8f03e85>,dropped,badword: bdsm
+<urn:uuid:7c1d0e2a-c364-42f9-8f1f-c689bd379ebb>,dropped,too_few_sentences
+<urn:uuid:2ad20d79-9592-4aad-b979-37f8813c2a03>,kept,
+<urn:uuid:dfb7b897-0afb-49b5-aaba-12895bfd65f4>,kept,
+<urn:uuid:aae0ea9d-24c9-4e6e-905b-62ea1ce454a3>,dropped,too_few_sentences
+<urn:uuid:4599e9cd-1ab7-49bc-8bfb-ea3c9af8efc8>,kept,
+<urn:uuid:445acb72-a36e-43b0-971f-cc3b8b9c1e5d>,dropped,too_few_sentences
+<urn:uuid:44b2eed3-b6de-4f73-b0b7-e527303c03c5>,kept,
+<urn:uuid:1ef9f2c8-1a4f-4dd9-939c-4546ecc0463f>,dropped,too_few_sentences
+<urn:uuid:fe9b0033-aa92-4e40-a0e1-99045e91ecc4>,dropped,too_few_sentences
+<urn:uuid:390577df-61de-4e47-9d6f-fed87caa7ebd>,dropped,too_few_sentences
+<urn:uuid:4e58cb49-e929-4848-824e-4db4ab8c50e4>,dropped,empty_text
+<urn:uuid:7d51f4ec-0ecd-41ac-8922-306794e493ad>,dropped,too_few_sentences
+<urn:uuid:fecbe44b-7e55-4a83-b3de-0719a8fd669e>,dropped,too_few_sentences
+<urn:uuid:d2a2384f-3f86-408c-a957-0388b9841c76>,dropped,too_few_sentences
+<urn:uuid:fa597fda-ba11-4cb6-8f15-41b15af1b272>,dropped,too_few_sentences
+<urn:uuid:4b8a4435-c743-4e19-bde6-886fe79b7655>,dropped,too_few_sentences
+<urn:uuid:b30a5c6a-c052-431f-b4a8-5c93300e7ff4>,dropped,too_few_sentences
+<urn:uuid:8e2b9143-b0e5-4988-a72e-8342c886fdf2>,dropped,too_few_sentences
+<urn:uuid:504fdc28-b6db-44f6-bc70-5a71f9167a43>,dropped,too_few_sentences
+<urn:uuid:7214c24d-b98d-4c62-9358-918fa75af78a>,dropped,top 3 paragraphs too short
+<urn:uuid:449f2eac-fbfa-44a4-8616-056604f5c4ab>,dropped,too_few_sentences
+<urn:uuid:a03a795f-cfa4-43af-b765-cfd63eba5654>,dropped,top 3 paragraphs too short
+<urn:uuid:51f09ee9-4558-468e-ab45-caa9d7c8b1f0>,dropped,too_few_sentences
+<urn:uuid:b65d2e0c-3a16-4df8-8bf6-c97ed6531d76>,dropped,top 3 paragraphs too short
+<urn:uuid:a9d87b02-e111-48ba-8c55-d738580eeab8>,dropped,too_few_sentences
+<urn:uuid:acac6166-97fb-4600-ae70-a0e1ecfee415>,dropped,too_few_sentences
+<urn:uuid:0d78ded8-a52f-4978-91b0-40754a11664c>,dropped,too_few_sentences
+<urn:uuid:2ca851d2-d6a7-4daf-beee-acffe5f086cf>,dropped,top 3 paragraphs too short
+<urn:uuid:38d729ae-7c08-4688-b601-7f2279811626>,dropped,too_few_sentences
+<urn:uuid:137c6ef6-5f78-4e99-8f1d-4dc8178b34ce>,dropped,too_few_sentences
+<urn:uuid:a7ecd850-4eef-488f-b874-debc495072c8>,dropped,too_few_sentences
+<urn:uuid:9137d596-c857-4948-8a31-e563159f7dc8>,dropped,too_few_sentences
+<urn:uuid:a1b8ca0b-c7d3-4899-8659-455191ff4af9>,dropped,curly_bracket
+<urn:uuid:3364df03-f646-475c-bd20-3c08462373ea>,dropped,too_few_sentences
+<urn:uuid:2549c6ec-2e29-483f-b990-c5390f054bda>,dropped,top 3 paragraphs too short
+<urn:uuid:776dc3f4-4f19-468c-a8a2-556243fc6e37>,dropped,too_few_sentences
+<urn:uuid:b95df728-82a2-4061-bcba-d73ac4e6211b>,dropped,curly_bracket
+<urn:uuid:aa9ca110-9d43-44fc-a78f-26e60c8b5532>,dropped,too_few_sentences
+<urn:uuid:e09b3df2-c2d1-4549-a267-4cc2001c23ff>,dropped,too_few_sentences
+<urn:uuid:857c0e7a-d8a9-491c-a311-2fb46f7ce9cb>,dropped,too_few_sentences
+<urn:uuid:412ab7de-cf75-41b0-9c6f-6be019657ffc>,kept,
+<urn:uuid:056152e6-13ed-4963-bc56-68414e0ae2f9>,dropped,too_few_sentences
+<urn:uuid:d13c5d38-7f87-4b6e-a7df-3e762e4e2f43>,dropped,too_few_sentences
+<urn:uuid:3039e462-de1b-42e7-b944-e6975648149d>,dropped,top 3 paragraphs too short
+<urn:uuid:50cd66f5-236e-4007-9cff-5bc3cec2dffb>,dropped,too_few_sentences
+<urn:uuid:0273bf6f-ea77-4f96-ab91-3f9ad62462c1>,dropped,too_few_sentences
+<urn:uuid:6aee809b-de1f-4b2c-bf78-cd0f1280071e>,dropped,too_few_sentences
+<urn:uuid:ade0b35e-4a9a-476b-831e-85db49eedcac>,dropped,too_few_sentences
+<urn:uuid:a6837a25-eac0-456d-b9ce-06fc0503eeab>,dropped,too_few_sentences
+<urn:uuid:17c49a84-d8aa-427b-9dfc-00362b9d99ef>,dropped,too_few_sentences
+<urn:uuid:900c4e50-e9b4-4fce-8224-599d0219c909>,dropped,badword: ass
+<urn:uuid:d5dad0d9-6243-4315-8512-b6baa19dcb31>,kept,
+<urn:uuid:6e8401be-44ad-422b-81b6-94a61e76442d>,dropped,too_few_sentences
+<urn:uuid:0096a8f7-6c66-47d4-9bb9-2634f04bae49>,dropped,too_few_sentences
+<urn:uuid:e4fa7fee-0e99-4771-8d2c-80d27eb4b000>,dropped,too_few_sentences
+<urn:uuid:a8bca350-18cc-4fa2-b59a-28d17db8f45f>,dropped,too_few_sentences
+<urn:uuid:ced13c52-7bee-4ec9-aa7c-e19da1337380>,dropped,too_few_sentences
+<urn:uuid:b818a7b2-2dcd-4188-9f22-8032f93eb277>,dropped,too_few_sentences
+<urn:uuid:fc2fbad5-dd12-406c-b26e-8431d29785df>,dropped,too_few_sentences
+<urn:uuid:021ec643-2059-434b-86c0-38ee4ea3c56a>,kept,
+<urn:uuid:8cf4312d-078d-48e7-86a3-f45c00589c0a>,dropped,too_few_sentences
+<urn:uuid:d09751e9-b4ea-4ae8-8899-915892bb2426>,dropped,top 3 paragraphs too short
+<urn:uuid:ba5c75ad-0ce9-4d56-94bb-8b0aa7cc9468>,kept,
+<urn:uuid:8d4df0cd-0b4f-4d44-83fc-a0efb13934c8>,dropped,too_few_sentences
+<urn:uuid:81d96443-0499-4191-8971-89a976fcf44d>,dropped,too_few_sentences
+<urn:uuid:0903858d-0551-4282-ab01-5c915e96f83d>,dropped,too_few_sentences
+<urn:uuid:7559b0bd-33b3-4bf8-a408-673b9d2f06ba>,dropped,too_few_sentences
+<urn:uuid:4fbd5224-7e4d-43fe-b720-b96d1dcd4de9>,dropped,too_few_sentences
+<urn:uuid:ac38fb88-515f-4aa3-89b7-7c1c5cdaf947>,dropped,too_few_sentences
+<urn:uuid:9191963f-9141-4027-8769-b9aa1ae5853a>,dropped,too_few_sentences
+<urn:uuid:34b2cc0a-6aa5-4a81-a889-1108e9f42ac4>,dropped,too_few_sentences
+<urn:uuid:e519c2ad-39bf-48d9-a275-edd953bb2198>,dropped,too_few_sentences
+<urn:uuid:93b59dad-f5c8-40f7-9bb3-1cf577738727>,dropped,too_few_sentences
+<urn:uuid:0a33edfb-2067-40a7-a4fd-eec742488ee1>,dropped,top 3 paragraphs too short
+<urn:uuid:0de01003-ba7f-4375-a99d-c0fc482e5f3f>,dropped,too_few_sentences
+<urn:uuid:22f2133c-bd57-4310-863e-5df73f05d82a>,dropped,too_few_sentences
+<urn:uuid:2dd9c7cf-4d4e-4893-bffa-49688c412d3a>,dropped,too_few_sentences
+<urn:uuid:a4021446-083d-40ea-a4fc-b0fa3d724c52>,dropped,too_few_sentences
+<urn:uuid:dc6a5f85-1bd5-4946-b567-f2172117b7c8>,dropped,too_few_sentences
+<urn:uuid:8085d20b-6399-4fd5-af10-249e179997ff>,dropped,top 3 paragraphs too short
+<urn:uuid:3d0b5ac2-b79b-4e09-9516-04bd3606b75d>,dropped,too_few_sentences
+<urn:uuid:179999fd-01c8-4e4d-8dd2-f03e0a60f44d>,dropped,too_few_sentences
+<urn:uuid:1f6448cf-687a-4bdd-ad69-7d12e7c0551b>,dropped,top 3 paragraphs too short
+<urn:uuid:251c952c-8aa9-49f7-ac96-06697ff2d1f7>,dropped,too_few_sentences
+<urn:uuid:0ea24f88-5ef3-4718-a4df-dd0dd5b382d9>,dropped,too_few_sentences
+<urn:uuid:3f9845c1-9309-4cde-9c55-a288bd49b623>,kept,
+<urn:uuid:adea9f04-f6ce-47a0-87e3-f4e0a5b89edb>,dropped,too_few_sentences
+<urn:uuid:69aa9a00-91e4-4883-a17b-0a378d0e448d>,dropped,too_few_sentences
+<urn:uuid:ad3d656f-c63c-4798-a8ad-91e47266d93b>,dropped,too_few_sentences
+<urn:uuid:2e09a681-aa97-4c70-80cd-d2b5260df75a>,dropped,too_few_sentences
+<urn:uuid:29d9dc90-2dd9-4b47-9319-5211da8cab88>,dropped,too_few_sentences
+<urn:uuid:b9cc6ac0-1bda-4b00-ab97-a3d55374fee0>,kept,
+<urn:uuid:6e8e92c1-6472-460d-bfac-4346d61d0f0c>,dropped,top 3 paragraphs too short
+<urn:uuid:09318581-f2e2-487a-8d92-24a3a31c9469>,dropped,too_few_sentences
+<urn:uuid:f0596507-618a-4bda-8a83-192087e20d56>,dropped,too_few_sentences
+<urn:uuid:ec592502-b222-4193-a377-9bbf22536aa5>,dropped,too_few_sentences
+<urn:uuid:cd97f361-a19b-43ab-9d5d-0a6f9ce0aa19>,dropped,too_few_sentences
+<urn:uuid:f3a55c42-14ef-45ee-9e2b-46324e77c097>,dropped,too_few_sentences
+<urn:uuid:0f01de56-8493-45af-9a43-cb27032ed50a>,dropped,too_few_sentences
+<urn:uuid:b1c1eb63-7206-4aaa-98c5-f6b0b645c7fc>,kept,
+<urn:uuid:648e76e0-f179-446c-9326-4fde4b87360f>,dropped,top 3 paragraphs too short
+<urn:uuid:5c38580c-eea5-458e-84f1-da34571188d6>,dropped,too_few_sentences
+<urn:uuid:73c97c4a-8282-4e81-8f99-63d300f1122d>,dropped,top 3 paragraphs too short
+<urn:uuid:14bebf83-b4e4-42ec-b4b4-3840218f32ce>,dropped,top 3 paragraphs too short
+<urn:uuid:06da7e73-6af2-40fa-8c2d-ae486b9ad063>,dropped,too_few_sentences
+<urn:uuid:49a7d7ba-c56c-43b9-b9c7-bfa8c206bd43>,dropped,too_few_sentences
+<urn:uuid:d1187028-5176-49bc-9e44-c5a55ceddc2f>,dropped,too_few_sentences
+<urn:uuid:cae6a53e-6d13-4315-8c6e-8246d1b34e19>,dropped,too_few_sentences
+<urn:uuid:940e7845-c5d8-461f-bad3-0bcd05579129>,dropped,too_few_sentences
+<urn:uuid:e45ddeb9-3739-4d3d-8fd9-a347df20d4c5>,dropped,too_few_sentences
+<urn:uuid:dcdc7705-2194-4254-8976-c01ebb7c6309>,dropped,too_few_sentences
+<urn:uuid:ead39936-58bc-4747-81be-60fcaaf0e1db>,dropped,too_few_sentences
+<urn:uuid:64524510-7533-455e-994a-a72ec09bbcf8>,dropped,too_few_sentences
+<urn:uuid:ce793672-75d5-4625-bd66-f9213ca8f717>,kept,
+<urn:uuid:85410608-938c-4ba0-994e-fb3bd1ec9e0c>,dropped,too_few_sentences
+<urn:uuid:a9e91728-00ec-4c15-8d55-7ce59f6284ca>,dropped,too_few_sentences
+<urn:uuid:a51854bf-5f2a-4a92-bc0f-ef0d8ea7872d>,dropped,too_few_sentences
+<urn:uuid:8bad2002-b68a-4f8f-aad7-9ecb39b534fa>,kept,
+<urn:uuid:fcfa9675-5e9a-4a54-a4ee-c61bdb665dfa>,dropped,too_few_sentences
+<urn:uuid:ea5c35b3-f0bc-4a73-b126-9e1fe778f060>,dropped,too_few_sentences
+<urn:uuid:dd9d5ab3-1b56-4c2f-adf6-f62745064c7c>,dropped,too_few_sentences
+<urn:uuid:653270b5-3e6d-45f2-b980-41ba7eee0405>,dropped,too_few_sentences
+<urn:uuid:9b05c84c-98c1-44b4-bf72-e6e6791a0510>,dropped,too_few_sentences
+<urn:uuid:58764d29-4796-464a-95b3-88974920ea29>,dropped,too_few_sentences
+<urn:uuid:cbab7362-1328-4299-b464-801af45f4a77>,kept,
+<urn:uuid:30f4dd85-fd97-436d-911d-a3228817c394>,dropped,too_few_sentences
+<urn:uuid:4b6373ef-6eb0-42af-898b-0fb03c84d389>,dropped,too_few_sentences
+<urn:uuid:85f127a2-a507-4ca2-8c62-8c2723a2d507>,dropped,too_few_sentences
+<urn:uuid:09d17e41-bd65-4d3a-baad-b8e24a87d6b5>,dropped,top 3 paragraphs too short
+<urn:uuid:4a020438-b133-4f6c-8aab-bc1ccfa818e3>,dropped,too_few_sentences
+<urn:uuid:28f29419-a440-4799-8c36-c45ca3e38b40>,dropped,too_few_sentences
+<urn:uuid:b1114cd8-c979-4130-9bf4-d90201e2a708>,dropped,too_few_sentences
+<urn:uuid:d0b05af9-b38a-4a75-a738-258fdbf8243f>,dropped,top 3 paragraphs too short
+<urn:uuid:ed9732cb-0e0d-47e4-af7c-abbf3aa3f6ee>,dropped,too_few_sentences
+<urn:uuid:dcbb4115-bb7e-4eff-a299-aa027ddf2fb2>,dropped,too_few_sentences
+<urn:uuid:9b4647a6-d8a3-4426-98b0-8d248ca3d906>,dropped,too_few_sentences
+<urn:uuid:9d917aa8-daa4-4a3d-8ac1-d64ec3b1b631>,dropped,too_few_sentences
+<urn:uuid:8d2e397c-171b-40db-8bae-23710b7a6b99>,dropped,too_few_sentences
+<urn:uuid:e90780cb-21fc-461a-b5d8-a6b56ce745b0>,dropped,too_few_sentences
+<urn:uuid:20b73b7a-8dfd-4ce8-a739-b2dc3e187ec4>,dropped,too_few_sentences
+<urn:uuid:01cd1d23-7d41-48ee-8566-3917edde9a15>,dropped,too_few_sentences
+<urn:uuid:d28b44cc-fb8f-4569-a1c1-5feba9de2997>,dropped,too_few_sentences
+<urn:uuid:44c180e2-213c-4e0c-9573-35ad39d552d7>,dropped,too_few_sentences
+<urn:uuid:de1718e1-c903-47f0-b7fc-0e5bfdf7d0e2>,dropped,top 3 paragraphs too short
+<urn:uuid:e95be073-c965-4a43-8c6f-93ac97ddf1a7>,dropped,too_few_sentences
+<urn:uuid:3a5bd934-b6cb-4bfd-b2ae-09a550a01045>,dropped,too_few_sentences
+<urn:uuid:ce4d7347-047b-472d-9b39-87813b96ca4e>,dropped,too_few_sentences
+<urn:uuid:66011fdd-f188-48a3-846d-21fb822ef4f3>,dropped,too_few_sentences
+<urn:uuid:3fdd256d-a4bd-4fb1-8c76-2b96c9c70a65>,dropped,too_few_sentences
+<urn:uuid:38e75d9e-9d22-4c72-9ea2-1e49732a4f7b>,dropped,too_few_sentences
+<urn:uuid:89fda6a9-a5dc-4df3-bcab-3289b49ccc73>,dropped,too_few_sentences
+<urn:uuid:eb705674-5b75-4405-8f6a-1fef96dd2d27>,dropped,too_few_sentences
+<urn:uuid:cff4fc3b-4f5f-4298-9d11-ddc27074d048>,dropped,too_few_sentences
+<urn:uuid:ff6e2183-cf8a-4b88-8bf2-a00a73893345>,dropped,too_few_sentences
+<urn:uuid:92f7f3e0-28fb-4a12-8784-7a2de6551971>,dropped,too_few_sentences
+<urn:uuid:e6020b4e-b300-4d9d-bbd4-044652ebf31f>,dropped,too_few_sentences
+<urn:uuid:1c54eb18-ade1-4017-925a-d4803862a5c2>,dropped,too_few_sentences
+<urn:uuid:fe4df216-ccea-40d6-981c-50bbc8d393fd>,dropped,too_few_sentences
+<urn:uuid:b6b29e68-ff5d-4cd0-b02c-ee7a9a2728c4>,dropped,badword: sex
+<urn:uuid:094b9a1f-07b2-40f3-8ead-2e7a7925051c>,dropped,top 3 paragraphs too short
+<urn:uuid:b3338475-a558-4c36-a257-0284dc0cb2a2>,dropped,top 3 paragraphs too short
+<urn:uuid:0657c69a-b8df-4b36-b374-267c86d87b67>,dropped,too_few_sentences
+<urn:uuid:5465907e-6df2-493e-b3d6-78f2f46b272f>,dropped,too_few_sentences
+<urn:uuid:a2252521-50c6-4fec-a1c5-57b8a9173899>,dropped,too_few_sentences
+<urn:uuid:c2b35ef5-bdc8-4801-85ec-7ea4529e8526>,dropped,too_few_sentences
+<urn:uuid:f6b8f1e1-bd7b-4137-89a0-8273dc840856>,dropped,too_few_sentences
+<urn:uuid:d5826b7c-1435-4b69-aeae-53616e295567>,dropped,too_few_sentences
+<urn:uuid:5987535d-d879-4dc2-b1ba-2f06aa7aad3d>,dropped,too_few_sentences
+<urn:uuid:8ee15677-5ab5-46dd-b9c1-98db493b13a4>,dropped,too_few_sentences
+<urn:uuid:db52c500-d6d4-45ba-9d7f-4fb0f388b153>,dropped,too_few_sentences
+<urn:uuid:a348cfc7-0272-4f2f-ad81-9f63220dc449>,dropped,too_few_sentences
+<urn:uuid:56d730d5-5d41-4aaa-adcc-b47191bf1f2e>,kept,
+<urn:uuid:ed798ea6-4604-465b-ae18-1325303705f3>,dropped,too_few_sentences
+<urn:uuid:6d69dce8-9677-46ad-b07d-46580b82cda0>,dropped,too_few_sentences
+<urn:uuid:87e8b6d5-8336-482f-8b7e-fcd949a36904>,dropped,too_few_sentences
+<urn:uuid:61c7e290-fa53-4a23-b033-e9d9df143438>,dropped,too_few_sentences
+<urn:uuid:387cfdb5-7feb-4ab9-9136-49008dc5129e>,dropped,too_few_sentences
+<urn:uuid:ce2c4e1d-02e7-43d5-8a33-9335911d8f56>,dropped,too_few_sentences
+<urn:uuid:93aa1883-7278-4278-82e3-18b7e3792893>,dropped,too_few_sentences
+<urn:uuid:2d3e777f-cc29-4752-83a7-0bf66796c4ba>,dropped,too_few_sentences
+<urn:uuid:eb39fa7e-e3e9-4a9c-8722-388bcb4e25ec>,dropped,too_few_sentences
+<urn:uuid:ea9c8336-87d6-4251-b2b1-375604f7a0dc>,dropped,too_few_sentences
+<urn:uuid:224a1c7d-0ff5-409c-9056-20a06a3ea360>,kept,
+<urn:uuid:deb5acbd-63c1-4b78-bbd9-43957f4e987f>,dropped,too_few_sentences
+<urn:uuid:130bfabc-35aa-419c-aa6c-183e10a473e4>,dropped,too_few_sentences
+<urn:uuid:70017f91-82d9-44c7-8fe4-385e71e3cdbc>,dropped,top 3 paragraphs too short
+<urn:uuid:b660701e-9a66-489c-810c-2b873e6b419b>,dropped,too_few_sentences
+<urn:uuid:356eed20-0208-4c52-b28a-797d8c40a3c2>,dropped,too_few_sentences
+<urn:uuid:59950ff1-006f-429c-9ff5-8bd9a280df49>,dropped,too_few_sentences
+<urn:uuid:8aac589b-6665-4209-9411-59772f682c29>,dropped,too_few_sentences
+<urn:uuid:7d582ed7-965b-4d7c-9a68-7738e65fe3d8>,dropped,too_few_sentences
+<urn:uuid:8b764d68-0027-4ee5-9d4b-eaf6b4b4aff7>,dropped,too_few_sentences
+<urn:uuid:0bdce8c2-bf86-48f8-ac62-feb115f28a3b>,dropped,too_few_sentences
+<urn:uuid:f0e5179f-0a5f-450d-8a1c-8e04c23a22d6>,dropped,too_few_sentences
+<urn:uuid:43d16331-0d65-4e27-8d2d-e609c29cc436>,dropped,too_few_sentences
+<urn:uuid:28f9de2e-9bc0-40b5-9125-a8a6c89944e3>,dropped,too_few_sentences
+<urn:uuid:e598e52a-885c-4f85-ad4a-4e6fa6a793df>,dropped,lorem_ipsum
+<urn:uuid:c384a97f-8f89-4edd-9bfd-28c4d3e1f303>,dropped,too_few_sentences
+<urn:uuid:39a6941f-ac8c-4d92-994e-6d47d4d17c38>,dropped,top 3 paragraphs too short
+<urn:uuid:028b28e0-6d1d-4531-bf1f-4195f3472bc1>,dropped,too_few_sentences
+<urn:uuid:3ef102be-d20f-4f66-aed1-505ee2f7c96e>,dropped,too_few_sentences
+<urn:uuid:41b2e14f-6746-4050-84b1-3946b3b0eb34>,dropped,too_few_sentences
+<urn:uuid:62cf7feb-605a-43d8-bcfa-a6a23d3d6668>,kept,
+<urn:uuid:84eb54ce-4712-4b68-a3a3-44cce0f9cdbe>,dropped,too_few_sentences
+<urn:uuid:efa93fa2-67ed-43d4-bf90-fc71b04d6672>,dropped,too_few_sentences
+<urn:uuid:9865b45b-bc79-4163-b099-84a1bec4a923>,dropped,too_few_sentences
+<urn:uuid:2a776067-36cf-47bd-bd69-348d65748e01>,dropped,too_few_sentences
+<urn:uuid:ae6399ce-38c2-4bc1-a73f-b51f63e3e7dc>,dropped,too_few_sentences
+<urn:uuid:cd761275-1c30-40c0-a6c1-ef310d523076>,dropped,too_few_sentences
+<urn:uuid:7ae1c125-cb35-4603-9dac-817030dc0158>,dropped,too_few_sentences
+<urn:uuid:848a5c52-1d11-4b8a-aadd-6cb3aa0bb7de>,dropped,too_few_sentences
+<urn:uuid:95c36caf-91de-4438-8d11-b8fbb7988020>,dropped,top 3 paragraphs too short
+<urn:uuid:97f11f1e-ab52-4d8d-9325-0558f4c88bf4>,kept,
+<urn:uuid:1096b8fc-77cc-454a-966e-768bead50097>,dropped,too_few_sentences
+<urn:uuid:d7d58b68-6664-4163-9b7b-e7fd5970d125>,dropped,top 3 paragraphs too short
+<urn:uuid:5241a684-49d8-4208-88e0-e4fa1f91e2c2>,dropped,too_few_sentences
+<urn:uuid:5235be82-c521-40ea-aee7-16289c9dfe50>,dropped,too_few_sentences
+<urn:uuid:1eec869b-76d5-499e-b5f3-473903818395>,dropped,too_few_sentences
+<urn:uuid:2f16d918-02ff-4831-883e-9f9fb6bdb6b1>,dropped,too_few_sentences
+<urn:uuid:0a500d31-73b6-41d3-b814-0fb094bf1a79>,dropped,too_few_sentences
+<urn:uuid:1029a385-692c-4dc8-aa96-567f497381f7>,dropped,too_few_sentences
+<urn:uuid:a3137931-eaf6-4f6e-bc4f-4ebf8313593e>,dropped,too_few_sentences
+<urn:uuid:137dbb94-71af-4283-ae15-9d379cb3c871>,dropped,too_few_sentences
+<urn:uuid:5a5df926-868c-4a19-a43a-76bfa9411af5>,dropped,too_few_sentences
+<urn:uuid:94f961a2-8c93-42bf-8dbd-94b215c80c0d>,dropped,too_few_sentences
+<urn:uuid:c2b38ebf-63c3-4620-b87f-a21d1fcda68a>,dropped,too_few_sentences
+<urn:uuid:2194b2f5-1214-4a09-a060-879f846b21f4>,dropped,too_few_sentences
+<urn:uuid:5e9f0c4d-4020-4282-b2f3-635f1b32e775>,dropped,too_few_sentences
+<urn:uuid:e81e50e1-5633-4a63-90c7-e2e925e886da>,dropped,too_few_sentences
+<urn:uuid:b4cfe057-f803-429d-b910-b7fb06fd9542>,dropped,top 3 paragraphs too short
+<urn:uuid:1c457f9c-84ff-4ca9-8027-e9074cfe42c2>,dropped,too_few_sentences
+<urn:uuid:b68991c8-28da-4b31-982e-8bec7f2adbfd>,dropped,too_few_sentences
+<urn:uuid:1ef619af-5f87-408f-8a71-d48d2589d9c3>,dropped,too_few_sentences
+<urn:uuid:9dfb5de6-79b8-4ff0-b98c-2fe858f75680>,dropped,too_few_sentences
+<urn:uuid:c2ea1995-807d-4824-a050-597c1e7213b3>,dropped,too_few_sentences
+<urn:uuid:b11e7162-e472-4fb9-8814-2a2b569f3e1e>,dropped,too_few_sentences
+<urn:uuid:caf80b61-af02-434e-a81c-4fa1c11fb29a>,dropped,too_few_sentences
+<urn:uuid:09c2b955-0837-4761-9cfe-216cad0f1760>,dropped,too_few_sentences
+<urn:uuid:6e2f36a8-fa38-416a-bfd6-8a9e835dbab5>,dropped,too_few_sentences
+<urn:uuid:caef3a3a-20aa-4063-8121-3e83883ae012>,dropped,too_few_sentences
+<urn:uuid:e3fbbc8c-b5e1-4551-9d19-0b2d6412cbbe>,dropped,too_few_sentences
+<urn:uuid:f5bec795-207c-4c0b-ae57-b54d4f197e0d>,dropped,too_few_sentences
+<urn:uuid:b1d7b713-073e-4608-8bba-9192dc0e2fb6>,dropped,too_few_sentences
+<urn:uuid:ab532c66-1716-4b7c-ae89-3d483fe2bbde>,dropped,too_few_sentences
+<urn:uuid:4c4824cc-097c-4f88-a763-97b43b7efff2>,dropped,too_few_sentences
+<urn:uuid:fa60e675-89f8-41f5-8b54-db3474add4aa>,dropped,too_few_sentences
+<urn:uuid:b315fc01-aa2f-4124-9dc6-185f84f3ced7>,dropped,too_few_sentences
+<urn:uuid:484d94d2-ab31-4189-9081-48751de5f53d>,dropped,too_few_sentences
+<urn:uuid:30fad9ae-2afe-4924-8d1e-378227e535a3>,dropped,too_few_sentences
+<urn:uuid:313c899d-d784-4589-8433-6945e06046a0>,dropped,too_few_sentences
+<urn:uuid:7816d3b2-7078-47c1-99cc-e08a94a15dbe>,dropped,too_few_sentences
+<urn:uuid:b8675ca2-36ac-4ee0-a4c6-e3e129cf22a5>,dropped,too_few_sentences
+<urn:uuid:d2401582-4304-49d8-869e-ee66c3484191>,dropped,too_few_sentences
+<urn:uuid:3b174a48-31bc-4bea-9865-2597bc38e6b4>,dropped,too_few_sentences
+<urn:uuid:fefb184a-6fae-4a66-91a7-00078d055007>,dropped,too_few_sentences
+<urn:uuid:2eb755c4-e3f1-4414-b7ee-33f8bec69d5c>,dropped,too_few_sentences
+<urn:uuid:9f1240de-c45d-466e-8685-b7db7bcb9d90>,dropped,too_few_sentences
+<urn:uuid:00596281-6f9f-4f08-9417-4fee62cc4235>,dropped,too_few_sentences
+<urn:uuid:04e3fdad-753a-444c-b0fe-d83fc2a30b14>,dropped,too_few_sentences
+<urn:uuid:3ac82fe2-d91b-49f3-a3cf-1fca40d09834>,dropped,too_few_sentences
+<urn:uuid:ada78e6b-6730-4c5e-9d47-68901c1d132b>,dropped,top 3 paragraphs too short
+<urn:uuid:049c2def-c947-4c1f-8854-f7c997df6e4a>,dropped,too_few_sentences
+<urn:uuid:9b18ff45-cbab-4203-bed1-23580fd786a2>,dropped,too_few_sentences
+<urn:uuid:0bbedb6e-7cc0-4f45-a914-3f26ef69e6f9>,dropped,too_few_sentences
+<urn:uuid:3f1217bd-9e7c-4839-9cf4-4687ca44f8dd>,dropped,too_few_sentences
+<urn:uuid:4be1e436-90d1-4dd6-aec8-c5c6dfbb1a2b>,dropped,too_few_sentences
+<urn:uuid:481dca94-7db7-4b61-b090-8063cfdc03ec>,dropped,too_few_sentences
+<urn:uuid:d852b5d2-8bad-455e-80c7-70f78cd77cf4>,dropped,too_few_sentences
+<urn:uuid:bc56c407-6bc5-42d6-b846-7721f72fc193>,dropped,too_few_sentences
+<urn:uuid:455dd71f-a953-4373-8674-8f1c8394b10d>,dropped,too_few_sentences
+<urn:uuid:f459920a-90f1-4cca-bded-1d71dad81d76>,dropped,too_few_sentences
+<urn:uuid:923af347-a4b1-4470-84fc-6895802d1b27>,dropped,too_few_sentences
+<urn:uuid:98916e00-1c2f-419d-b0e8-690cc09b52b3>,dropped,too_few_sentences
+<urn:uuid:99787be7-0fd4-477c-b670-65111a6a7e3e>,dropped,too_few_sentences
+<urn:uuid:e4868ba3-32fc-44ce-bffb-b1031f949bed>,dropped,too_few_sentences
+<urn:uuid:9d9a5441-4ed3-462c-ae1f-190a0e3d03c7>,dropped,too_few_sentences
+<urn:uuid:5fefa64f-2bd7-42de-b968-c6b8efe4a3ca>,dropped,too_few_sentences
+<urn:uuid:2304db9a-c97a-4510-a0b0-821b43f90738>,dropped,too_few_sentences
+<urn:uuid:727e5033-0222-49a4-9f22-82dc8a0817c0>,dropped,too_few_sentences
+<urn:uuid:5fc05965-310c-407e-9055-7edeafa73ca3>,dropped,too_few_sentences
+<urn:uuid:358630d5-dd98-4d54-8c61-3e5c3982a721>,dropped,too_few_sentences
+<urn:uuid:403b9f2f-052a-4649-b69e-3e828b0f7607>,dropped,too_few_sentences
+<urn:uuid:5902ce3f-404a-44c0-ab29-e9569c417a28>,dropped,too_few_sentences
+<urn:uuid:9eabbe43-2b85-48a6-9898-115db4352d14>,dropped,too_few_sentences
+<urn:uuid:48a7b251-7dc4-42b2-9c84-1cc5e8e9a8f1>,dropped,too_few_sentences
+<urn:uuid:0c18bf66-4bd6-4321-ae0d-49da7a72573b>,dropped,too_few_sentences
+<urn:uuid:777a6aad-8975-4dec-ad3a-70f95174fcab>,dropped,too_few_sentences
+<urn:uuid:25c7e80a-9512-465b-b6a4-6bf10fce66e7>,dropped,too_few_sentences
+<urn:uuid:3a0542ee-36bb-4484-b560-163fc64d1f6a>,kept,
+<urn:uuid:eab4bd85-1a66-4700-a23d-5cceab907b97>,dropped,too_few_sentences
+<urn:uuid:1ed47e90-7eb1-4586-820d-5d3e0cc84af7>,dropped,top 3 paragraphs too short
+<urn:uuid:af7539f5-7df8-4172-b64e-dea5c84a67c7>,dropped,too_few_sentences
+<urn:uuid:f78b1c84-8ea7-4e33-9782-8f5801d729fc>,dropped,too_few_sentences
+<urn:uuid:7d1b9d61-f163-45be-8774-1e7ccccafb26>,dropped,too_few_sentences
+<urn:uuid:5faf74f2-2420-4de6-a36e-bf85ee7b4bdf>,dropped,too_few_sentences
+<urn:uuid:93e8a5aa-51ed-4d1a-8743-c806aaff99ff>,dropped,too_few_sentences
+<urn:uuid:fb1a94ce-dd8d-4144-a461-0712500ed03a>,dropped,curly_bracket
+<urn:uuid:6e51190f-2543-417c-8a24-89ddb9ca2f76>,dropped,too_few_sentences
+<urn:uuid:c309f53e-e814-4be3-b46d-9d83d986f194>,dropped,too_few_sentences
+<urn:uuid:e852eb8f-a011-4c43-81fe-f27968482a38>,dropped,too_few_sentences
+<urn:uuid:6499ac21-ab5b-40dd-8bf3-af2e93ce9a0b>,dropped,too_few_sentences
+<urn:uuid:3959a348-12da-4d94-ba30-0a7e17d9a9bd>,dropped,too_few_sentences
+<urn:uuid:c678756a-89c3-4f1b-a4d7-b62ddb34c916>,dropped,empty_text
+<urn:uuid:f7dfcada-cd80-4d37-8edd-c8a3c1e39326>,dropped,curly_bracket
+<urn:uuid:cfc9941e-1401-46aa-935f-372a24ae5ff8>,kept,
+<urn:uuid:610ec8c2-04ab-4e6e-9dd7-9f97e1bf1020>,kept,
+<urn:uuid:01c320e8-1c13-4433-b975-a773f6ff40bd>,kept,
+<urn:uuid:a6846ad8-7491-4689-ae4a-0c4e82a7bf14>,dropped,too_few_sentences
+<urn:uuid:7d4ffdbb-d184-448a-98af-fb7cfdffe168>,dropped,too_few_sentences
+<urn:uuid:4a41530b-7ac2-4395-99ea-d08dce254fee>,dropped,too_few_sentences
+<urn:uuid:2da45f4f-9da2-4278-a878-565cee31b27f>,dropped,top 3 paragraphs too short
+<urn:uuid:d3f0a274-7dd1-4146-bfd4-d969d84b97d0>,dropped,too_few_sentences
+<urn:uuid:335b7caa-7a01-47af-a236-749a3248f10a>,dropped,too_few_sentences
+<urn:uuid:f6d57121-4ace-4aa4-b0f4-6fa0cd8d39fb>,dropped,too_few_sentences
+<urn:uuid:7c04726d-27bb-448e-85d8-6b85ebe04388>,dropped,too_few_sentences
+<urn:uuid:0f8f3342-6146-4800-ab75-92ebea8b55bd>,dropped,too_few_sentences
+<urn:uuid:e864b689-1371-4f6e-a97b-ce06d8442504>,kept,
+<urn:uuid:b35290a7-e5ef-4296-a1b3-c60f24d62322>,dropped,top 3 paragraphs too short
+<urn:uuid:e01c4ada-4145-404d-8e6d-e5527ac728b6>,dropped,top 3 paragraphs too short
+<urn:uuid:8dd776d5-074b-4d44-b7c4-b1111cbc9857>,dropped,too_few_sentences
+<urn:uuid:4af4c986-ce02-4361-b5ba-d3b6d06dd046>,dropped,too_few_sentences
+<urn:uuid:316275eb-0ac3-482e-9638-ff987e6274cd>,dropped,too_few_sentences
+<urn:uuid:98c72fa6-9703-4ae3-875a-eef7a93d38e2>,dropped,too_few_sentences
+<urn:uuid:0367665c-8ec6-4764-8187-3ca49140051d>,dropped,top 3 paragraphs too short
+<urn:uuid:053eb404-3ce4-4f48-8142-8adf759b7f6c>,dropped,too_few_sentences
+<urn:uuid:1f014694-7ac3-49ee-ad16-105af6e053a2>,dropped,top 3 paragraphs too short
+<urn:uuid:c033115f-d2b6-4d40-82c0-bedaffbae80f>,kept,
+<urn:uuid:d791bfaa-854f-4575-9e11-08c3784d45d2>,dropped,too_few_sentences
+<urn:uuid:5a4d134d-44ef-49f0-a90b-8e0580924f63>,dropped,too_few_sentences
+<urn:uuid:ced7d17a-d8b2-4c90-a637-c131b3ef4271>,dropped,too_few_sentences
+<urn:uuid:8d36f087-53e1-41fc-b022-5a0652e53762>,kept,
+<urn:uuid:ecbba9c3-6cfd-4f2b-9afb-6467e3ccc187>,dropped,top 3 paragraphs too short
+<urn:uuid:38ff79ee-a54d-42fa-994e-0553d466b732>,dropped,top 3 paragraphs too short
+<urn:uuid:a3219192-a4a8-4b9d-ad0e-1694e48fe073>,dropped,too_few_sentences
+<urn:uuid:4c9ab379-fbfb-4294-9b42-bd2faa0d9e5b>,dropped,too_few_sentences
+<urn:uuid:ae347c35-b4e4-4987-b23e-ca08e829315f>,kept,
+<urn:uuid:f03f9245-ad00-4a55-80f4-0e609f0224cf>,dropped,curly_bracket
+<urn:uuid:3e3d80d6-9655-4ebf-91e6-b5ce9239fe11>,dropped,too_few_sentences
+<urn:uuid:953c763d-c441-4c56-9e56-cfe596228bbc>,dropped,too_few_sentences
+<urn:uuid:d303decd-fcc6-4f4f-b0bb-6677ca4ec7c8>,dropped,too_few_sentences
+<urn:uuid:649e94e5-2589-4bed-b764-f76a0d5c9278>,dropped,too_few_sentences
+<urn:uuid:568237bf-109b-4365-ab10-753fa26636a2>,dropped,too_few_sentences
+<urn:uuid:bf48dd7e-ea55-4a97-9fe8-169d36fd44ee>,dropped,too_few_sentences
+<urn:uuid:aecc80a7-f211-4fdc-9e63-f09620955c5b>,dropped,top 3 paragraphs too short
+<urn:uuid:d9049ce8-f8ae-46f2-9332-d0af65718fd7>,dropped,too_few_sentences
+<urn:uuid:b432a752-226d-4881-bd1a-9671ef10a553>,dropped,too_few_sentences
+<urn:uuid:e5045032-7a09-4610-9bd3-643eab45571c>,dropped,too_few_sentences
+<urn:uuid:70ec53be-25c3-4911-b19c-815159765660>,dropped,too_few_sentences
+<urn:uuid:1ead47e2-3cf8-4999-907e-f4d87a996886>,dropped,top 3 paragraphs too short
+<urn:uuid:d1714619-f24c-450e-b6e7-d864020a8d15>,dropped,too_few_sentences
+<urn:uuid:af508d7e-2eb8-4494-a7fe-c4b964926af8>,kept,
+<urn:uuid:f3659882-83bf-4888-8c04-19448b68eac7>,dropped,too_few_sentences
+<urn:uuid:bb5a829a-8f86-455a-b25e-61636c76b6b5>,dropped,top 3 paragraphs too short
+<urn:uuid:a2c107e1-17cb-4fc1-9246-e732ea540b26>,kept,
+<urn:uuid:bcf6f386-f458-4261-b400-5ec3e7d1448d>,dropped,too_few_sentences
+<urn:uuid:16b530f1-64c4-4b45-9890-3dd83ad85490>,dropped,too_few_sentences
+<urn:uuid:387d4b4f-704f-4398-9017-bdcf8429f2fc>,dropped,too_few_sentences
+<urn:uuid:ccabf6ca-71c9-4f54-bc2b-f46f0d8a0dac>,dropped,too_few_sentences
+<urn:uuid:04e115ca-47bb-4dca-aea6-f0d4b81de99d>,dropped,top 3 paragraphs too short
+<urn:uuid:d6e7fecd-15b5-47c3-b4cc-ffa662532494>,dropped,top 3 paragraphs too short
+<urn:uuid:de204b48-5852-4511-a10c-f47a1b6820f6>,dropped,too_few_sentences
+<urn:uuid:7383c53d-ba92-45f2-9371-1cdcfa3bab5d>,kept,
+<urn:uuid:9b1cecf1-ae45-4db4-a493-f56615fdedec>,dropped,too_few_sentences
+<urn:uuid:eb755ab1-9c97-4a15-bbcb-c79b62627cf9>,dropped,too_few_sentences
+<urn:uuid:63e9e892-d8c6-4a21-95fd-6d7733ee89d2>,kept,
+<urn:uuid:0e2575dc-06e3-4d0f-afca-8af062b44502>,kept,
+<urn:uuid:49492b79-e6f0-43d5-8afc-70ce7c9d9b29>,dropped,too_few_sentences
+<urn:uuid:e1ea1790-f43d-4a04-94a0-8e6b0b9c5142>,dropped,too_few_sentences
+<urn:uuid:e5908eb2-646d-4b77-a9e7-1b921d5fbc5b>,dropped,too_few_sentences
+<urn:uuid:66e1c445-e8a2-45a9-800e-df88702e0cdd>,dropped,curly_bracket
+<urn:uuid:e2cf51ff-7c75-447c-a2f8-4ba222017242>,dropped,too_few_sentences
+<urn:uuid:e05d1078-ffcc-4301-8be1-179607e6fea9>,dropped,too_few_sentences
+<urn:uuid:bb7a98ac-d883-4c7a-97ae-f4fe44957b58>,dropped,too_few_sentences
+<urn:uuid:64d1f233-8d63-49dc-9afe-155dfbaaa2a6>,dropped,too_few_sentences
+<urn:uuid:1e430811-ab53-4f91-bf65-414331a53dca>,dropped,too_few_sentences
+<urn:uuid:6ab081ce-8180-496f-81d5-850e6fcf2e30>,kept,
+<urn:uuid:dd0c5495-f182-46c0-80ce-3a06585f7dbd>,dropped,top 3 paragraphs too short
+<urn:uuid:b317dd45-aa71-4de9-9019-c8fe833a31c3>,dropped,top 3 paragraphs too short
+<urn:uuid:035faaaa-4eeb-4477-a999-5547eb49a8de>,dropped,too_few_sentences
+<urn:uuid:97f64dfb-718a-41ea-9870-c68481bac5bf>,dropped,too_few_sentences
+<urn:uuid:a4abc04f-6304-45e2-b345-4e8deee97662>,dropped,too_few_sentences
+<urn:uuid:5e2d3529-ac97-485f-a770-d66989cdbf7b>,dropped,too_few_sentences
+<urn:uuid:8e9b5951-e765-4e26-8264-fc7439b6a594>,dropped,too_few_sentences
+<urn:uuid:fdff66de-7d61-471e-8e5e-d12fb85d3367>,dropped,too_few_sentences
+<urn:uuid:970b6d3d-b939-4799-b1c0-ab94fe3ea7bc>,dropped,top 3 paragraphs too short
+<urn:uuid:9c349c63-782f-447e-bef1-bbca640aef30>,dropped,too_few_sentences
+<urn:uuid:2193e9ad-8e2d-4252-9cee-0dabcf44220c>,dropped,too_few_sentences
+<urn:uuid:1f773e93-3d66-4082-9950-f1de34da2e16>,dropped,too_few_sentences
+<urn:uuid:6ccc34e6-b7f5-42fd-a1e7-c3c477230ff0>,dropped,too_few_sentences
+<urn:uuid:b11c5e3c-ea19-4fb4-a03f-86ae22f5e5aa>,dropped,too_few_sentences
+<urn:uuid:6cc76ef1-9b5a-4e41-9ef7-816509a4c48a>,dropped,too_few_sentences
+<urn:uuid:87832888-8427-4da9-8bd0-110fb12deb7b>,dropped,too_few_sentences
+<urn:uuid:e6723ea9-b6bd-4ef6-99e5-0c45b90846b7>,dropped,top 3 paragraphs too short
+<urn:uuid:7910f6bd-83fa-4ad2-a891-5009f81da87b>,dropped,curly_bracket
+<urn:uuid:622c09c4-b2e8-4962-ba97-3abbb40c534b>,dropped,too_few_sentences
+<urn:uuid:3221aa48-b272-46d8-9901-07f384c013f3>,dropped,too_few_sentences
+<urn:uuid:d41e532b-c73f-4043-8aec-017d8dd84843>,dropped,top 3 paragraphs too short
+<urn:uuid:319f2a79-beed-463e-ab76-668f762bf608>,dropped,too_few_sentences
+<urn:uuid:c4429ccb-1875-4221-aefc-0ef5ce63a268>,dropped,curly_bracket
+<urn:uuid:d145b304-5c29-4480-98fb-7063fdbcacd3>,dropped,too_few_sentences
+<urn:uuid:d9ffc0c6-162b-4451-b524-b961a9a6dd1c>,dropped,too_few_sentences
+<urn:uuid:e461323b-0881-4775-9020-bfab222f096d>,dropped,top 3 paragraphs too short
+<urn:uuid:4a42d8d9-0d55-4322-9aae-702f316cd717>,dropped,too_few_sentences
+<urn:uuid:7c1d8709-9a88-4a56-8174-3ce2c5c6fb4d>,dropped,too_few_sentences
+<urn:uuid:9e60dc73-7ed3-4b48-997c-5577f308ab97>,dropped,too_few_sentences
+<urn:uuid:d046086b-854c-4971-9d7b-667d0afa9e3b>,dropped,too_few_sentences
+<urn:uuid:dbde6400-f632-44d6-b58b-6e62c512b87d>,dropped,too_few_sentences
+<urn:uuid:a3c462e1-36d0-45c2-86df-5cff974ee755>,dropped,too_few_sentences
+<urn:uuid:58f7c460-3bf0-4cf4-804e-af8e7af074d6>,dropped,too_few_sentences
+<urn:uuid:65798428-90a9-4c05-9c75-8ee7c916c7a4>,dropped,curly_bracket
+<urn:uuid:e297fa4f-0f9f-4a98-98c9-4d9ae679ff4d>,dropped,too_few_sentences
+<urn:uuid:6d8d8be7-a45a-4090-a6c7-8c5df3b16c2c>,dropped,top 3 paragraphs too short
+<urn:uuid:0288b054-a148-491a-b0d9-b06468189ec0>,dropped,too_few_sentences
+<urn:uuid:dc601153-8516-4b68-8137-a79afda0ae35>,dropped,too_few_sentences
+<urn:uuid:435206ce-e85e-41c0-b888-884929b2a766>,dropped,too_few_sentences
+<urn:uuid:d346aac6-3433-461d-81b7-802f9903df8d>,dropped,too_few_sentences
+<urn:uuid:604233d0-ae12-4d92-b4e0-055f4b0d3051>,kept,
+<urn:uuid:1e25d947-db6c-478d-a72f-ea1fdcc3bb3d>,dropped,too_few_sentences
+<urn:uuid:19577804-496e-447b-80a5-5ac8e4200b74>,dropped,too_few_sentences
+<urn:uuid:29eb8e4e-1037-4dec-9b84-0d01c5d005fd>,kept,
+<urn:uuid:c129464d-aa76-4ae8-9bac-8f56a9f6c022>,dropped,curly_bracket
+<urn:uuid:c1591e6a-19c5-4ab5-94de-560408f0e196>,dropped,top 3 paragraphs too short
+<urn:uuid:883bb7ae-ffdc-4589-9552-e76aa878face>,dropped,too_few_sentences
+<urn:uuid:fc59fd6f-47dd-4f0a-990e-67ccba507bdc>,kept,
+<urn:uuid:7207ff35-3e52-43c0-80f4-bbcf372d6fed>,kept,
+<urn:uuid:9521f748-a168-4bf2-ab37-ff57a05c4dd5>,kept,
+<urn:uuid:0a77c8f9-2cc0-4ade-9a3a-3baf5747d850>,dropped,too_few_sentences
+<urn:uuid:ef49a1e3-f8b5-43bc-92c1-15b09339c925>,kept,
+<urn:uuid:f8326461-e1b4-485a-aab1-dd478b2ed0fc>,dropped,top 3 paragraphs too short
+<urn:uuid:dea6bfe5-6dbc-4a4f-9050-45a95ab1f26c>,dropped,too_few_sentences
+<urn:uuid:41b235e9-5832-4253-84bb-eba6f670f379>,dropped,too_few_sentences
+<urn:uuid:3d92053b-0e3d-45c4-8dd1-60ae072aecbc>,dropped,too_few_sentences
+<urn:uuid:9f8ae8f6-c93a-4946-9195-411d0bfae2c8>,kept,
+<urn:uuid:19a86626-d347-4534-aa90-6a4725499cfe>,dropped,too_few_sentences
+<urn:uuid:fa0f2b0b-ef17-4113-b2f3-d8e087758a5b>,kept,
+<urn:uuid:1bdd11e5-052c-4f8f-8bf1-0a132dec66ea>,dropped,too_few_sentences
+<urn:uuid:c7fd39ca-2068-4d68-bb54-5ed590aefe63>,dropped,too_few_sentences
+<urn:uuid:26ed6ff3-4c5c-437c-95b5-67db95798d67>,dropped,too_few_sentences
+<urn:uuid:cb10ee4c-2512-4f60-a208-c022bec1fcda>,dropped,too_few_sentences
+<urn:uuid:b92c0714-d990-4a3d-a61c-972878b5e4a5>,dropped,too_few_sentences
+<urn:uuid:1a6c35fa-1600-41cc-a110-7bc2f7c6acb7>,dropped,too_few_sentences
+<urn:uuid:100f6d55-a5df-4674-9c5a-798feb8c6e8f>,dropped,top 3 paragraphs too short
+<urn:uuid:9acc32dd-1765-492a-93f0-1888a89809dd>,dropped,too_few_sentences
+<urn:uuid:9009cb81-c95e-4abd-91a2-31829946e30d>,dropped,too_few_sentences
+<urn:uuid:1a061668-801e-4214-8e99-9a7e9d508226>,dropped,too_few_sentences
+<urn:uuid:6d1a1a6a-539a-4f97-8fa9-f7156af92aa6>,dropped,top 3 paragraphs too short
+<urn:uuid:c46867db-e95f-4767-a391-ef0c2369d758>,dropped,too_few_sentences
+<urn:uuid:ba239ddf-e670-4c17-9d9a-02399b6cb4e9>,dropped,too_few_sentences
+<urn:uuid:03c64f8f-e5d9-49f9-af51-a077368eac85>,dropped,badword: paki
+<urn:uuid:52711918-89ba-4ea9-b82d-c49b91aaf2f1>,kept,
+<urn:uuid:311342ec-40e0-4069-84b2-d174be9c3883>,dropped,too_few_sentences
+<urn:uuid:ce4195b6-fab9-422e-9409-2e62ac7924b8>,kept,
+<urn:uuid:0b064892-05ca-46b3-9fdc-b722e75d95ff>,dropped,too_few_sentences
+<urn:uuid:b21495a9-4b62-4a43-bff3-27bb906a0f2c>,kept,
+<urn:uuid:0163d9d4-37d3-4911-82f4-a70eb473eda1>,dropped,too_few_sentences
+<urn:uuid:137fff51-2c87-4ef9-b760-e53fb085552d>,dropped,too_few_sentences
+<urn:uuid:40141005-b20f-4c07-905e-99c42c8feb80>,dropped,too_few_sentences
+<urn:uuid:79e8f2c0-d471-4388-a4fe-634dbb5fb41f>,dropped,too_few_sentences
+<urn:uuid:32b4a004-b65b-46fc-aa26-1a10b42675a7>,dropped,top 3 paragraphs too short
+<urn:uuid:7abd2c38-f529-4978-9ddd-e7280594ac04>,dropped,too_few_sentences
+<urn:uuid:96094213-83ba-4e59-8f18-9a6614f87921>,dropped,too_few_sentences
+<urn:uuid:c76e13f1-d4be-41f1-814a-58d4708a06a7>,kept,
+<urn:uuid:6f4774f3-c6a2-4a34-b526-ba8aa34c9467>,dropped,too_few_sentences
+<urn:uuid:f296e714-2e08-458b-968a-f639260a759c>,dropped,too_few_sentences
+<urn:uuid:b4b6beb7-7f2c-45e7-9251-e309db780663>,dropped,too_few_sentences
+<urn:uuid:840093c3-60ba-4ca4-8114-85d701f86d6c>,dropped,too_few_sentences
+<urn:uuid:207c5cf3-51f4-4ff1-a9e7-ce3bae426788>,dropped,top 3 paragraphs too short
+<urn:uuid:b15b9fb6-ac69-41a2-80de-3a9a88a9f539>,dropped,top 3 paragraphs too short
+<urn:uuid:1f0e58ee-3ca0-44d9-83e3-486023451beb>,dropped,too_few_sentences
+<urn:uuid:c4cd1ded-5711-4934-9cbe-4e64f4903bb5>,dropped,too_few_sentences
+<urn:uuid:1360ca22-8caa-49c2-a1cd-837f2316acfc>,dropped,too_few_sentences
+<urn:uuid:9c5deac8-029e-4e97-ac5c-e5cd06d456d3>,dropped,too_few_sentences
+<urn:uuid:ade73392-1e8f-42e2-b86e-3b5ba408e50c>,kept,
+<urn:uuid:2fcecb6b-b26d-42f4-8240-91dca1f23190>,dropped,too_few_sentences
+<urn:uuid:a980a96e-8403-4974-ba92-b50c095b9121>,dropped,too_few_sentences
+<urn:uuid:29f35e5c-dd17-40d5-ab5f-49f3c9684a80>,dropped,too_few_sentences
+<urn:uuid:60e3f310-4bd7-4be9-8abf-d04855298787>,dropped,too_few_sentences
+<urn:uuid:adb662a6-4749-47c6-b852-2d899fd4085b>,dropped,too_few_sentences
+<urn:uuid:474e4107-75d6-4a8f-8210-2c2ecc35aed2>,kept,
+<urn:uuid:cc33e925-cb0d-40b9-82d5-601d5fa95889>,dropped,too_few_sentences
+<urn:uuid:9a5f229f-c47b-488e-bba8-8a18e8b11bd8>,dropped,too_few_sentences
+<urn:uuid:1e3cc3af-66ad-47ab-86b7-ac79588d4caa>,dropped,too_few_sentences
+<urn:uuid:15b1e8ba-3053-4318-bc15-d3dd5d7b807a>,dropped,too_few_sentences
+<urn:uuid:95d70e6e-54ea-4f5c-8474-d9edc2c86846>,dropped,too_few_sentences
+<urn:uuid:20b33569-bcbf-48ba-b9fa-167b6ade043d>,dropped,too_few_sentences
+<urn:uuid:cb222483-8dcb-4c21-9eff-863fa42ef55d>,kept,
+<urn:uuid:16a2ef64-18c8-4d1c-aaad-3663f1f6c25b>,dropped,too_few_sentences
+<urn:uuid:86002a76-f1d8-4786-a880-4ff719f4c341>,dropped,top 3 paragraphs too short
+<urn:uuid:6e213bf0-6ca8-4b24-8228-84ac270c4055>,dropped,too_few_sentences
+<urn:uuid:3a6d0e26-bc0f-47a2-bdeb-4ec48b23e1cf>,dropped,curly_bracket
+<urn:uuid:a7e7660a-caa2-4a56-853f-3958e46b1181>,dropped,too_few_sentences
+<urn:uuid:c219687c-695d-4c2f-93f8-9531898d6310>,dropped,too_few_sentences
+<urn:uuid:7360510b-0ff4-45cc-8794-c37d5148d55d>,dropped,too_few_sentences
+<urn:uuid:05c8bba6-7c20-46c1-b0f7-b6b38a74312c>,dropped,too_few_sentences
+<urn:uuid:9f0c1dcb-8fcc-4bd1-9616-81f780dea5d7>,dropped,too_few_sentences
+<urn:uuid:cf097adc-66d6-40ca-88c4-92eddb32ff9d>,dropped,top 3 paragraphs too short
+<urn:uuid:d6b05081-1e99-4bba-a6b2-2aa09ba2f7bd>,dropped,too_few_sentences
+<urn:uuid:9427757f-034c-4209-8d1b-32fa7b8c6a9c>,dropped,too_few_sentences
+<urn:uuid:168597b6-1ced-4ef5-a862-7d32fbbba9c3>,dropped,too_few_sentences
+<urn:uuid:5b962471-f0c1-420c-bb9e-caad3049f2c2>,dropped,too_few_sentences
+<urn:uuid:cbfb0745-0288-4a30-89b9-f2d074df46b2>,dropped,too_few_sentences
+<urn:uuid:752eb044-0ed4-4449-9907-0aeb24da9376>,dropped,too_few_sentences
+<urn:uuid:04c68a60-9b51-4a73-9ae6-70b8960fb572>,dropped,too_few_sentences
+<urn:uuid:585ef083-fb27-44a6-86d4-7bc708b1655a>,dropped,too_few_sentences
+<urn:uuid:b8d8cb73-0bcd-43f9-9779-91e54a431d17>,dropped,too_few_sentences
+<urn:uuid:39d40d53-39a1-425f-9c14-dc4c9c3be200>,dropped,top 3 paragraphs too short
+<urn:uuid:8a98815f-217a-4ddf-9138-5294417c53e9>,dropped,too_few_sentences
+<urn:uuid:5a46bbcd-427c-44d8-b996-5da5505334f6>,dropped,top 3 paragraphs too short
+<urn:uuid:ec916cc2-9bc0-466c-ad51-b94ac1ecc3e2>,dropped,too_few_sentences
+<urn:uuid:f3eb3d72-5a46-43fe-a1a8-ed34033a369d>,dropped,too_few_sentences
+<urn:uuid:4476ca87-c72e-468d-b62f-07acf561d98a>,dropped,too_few_sentences
+<urn:uuid:b395bc7c-1a38-4e0a-ae80-e00e43299391>,dropped,too_few_sentences
+<urn:uuid:db02e198-dd7e-4071-adde-1b4614d6887e>,dropped,too_few_sentences
+<urn:uuid:2dedc861-7b4b-474f-8a50-09fd0014f5b2>,dropped,too_few_sentences
+<urn:uuid:3a325684-ecde-403f-8c31-4aca42f87257>,kept,
+<urn:uuid:81da1af8-c280-474c-9b77-72134a002545>,kept,
+<urn:uuid:9ad3d749-50e6-4c8f-a271-2c797fb4e965>,dropped,too_few_sentences
+<urn:uuid:8a5e1081-91d3-42f5-848e-ad78e0b815c1>,dropped,top 3 paragraphs too short
+<urn:uuid:c4ff5d2d-9ce8-4010-a67a-007c0cbd9e16>,dropped,too_few_sentences
+<urn:uuid:7465a622-7a99-45d3-9acc-83ba8fc3bdd5>,dropped,too_few_sentences
+<urn:uuid:aa8740fc-be7c-4afb-a2c3-2f4bf4670336>,dropped,too_few_sentences
+<urn:uuid:6456108c-eac4-46a4-a9fb-400da01f9bc9>,dropped,too_few_sentences
+<urn:uuid:a244069d-1b66-4aba-b21e-577c47f2c72e>,dropped,too_few_sentences
+<urn:uuid:26b09c21-703e-46dd-834a-e49972b7250c>,dropped,too_few_sentences
+<urn:uuid:0e4b2467-4bc8-453e-b31c-dcf2114b5334>,dropped,too_few_sentences
+<urn:uuid:fc8df367-6217-4de0-8538-853b12e61857>,dropped,too_few_sentences
+<urn:uuid:60ad3e2d-ccee-453f-b53b-474776d39840>,dropped,too_few_sentences
+<urn:uuid:9a323463-c56e-40d2-96a0-20a944c617f0>,kept,
+<urn:uuid:4827cb58-b399-4526-ba27-2f52a3be9168>,dropped,too_few_sentences
+<urn:uuid:71fb9c9e-611e-4136-b2ef-3e35b33ec707>,dropped,top 3 paragraphs too short
+<urn:uuid:461f3671-fa06-421f-9cc2-ef8e2164e594>,dropped,curly_bracket
+<urn:uuid:28d40463-b4f6-499b-95a3-430fe714cb02>,kept,
+<urn:uuid:f54a15bf-5138-4ff2-91a7-d387c30e5b9b>,dropped,too_few_sentences
+<urn:uuid:d7d0dbde-7261-4a3c-8e4e-ed64f9333196>,dropped,too_few_sentences
+<urn:uuid:b04c6bf0-4de4-4acb-b1f5-20ff2edde4e1>,kept,
+<urn:uuid:f3d2afb9-6b7e-44f8-a84e-20f95ff76e46>,dropped,too_few_sentences
+<urn:uuid:737fb733-9648-44e9-87e7-c46a49e68a85>,dropped,too_few_sentences
+<urn:uuid:aaa0b936-9fe5-4eed-a316-c9a155215202>,dropped,too_few_sentences
+<urn:uuid:4fcc1f02-7d04-40bd-9e7a-7be494c85726>,dropped,curly_bracket
+<urn:uuid:2e0adbe7-471b-4554-8b61-0b7e345c1dc8>,dropped,too_few_sentences
+<urn:uuid:bbf9765b-bdbf-446b-aa1b-b95533975103>,dropped,too_few_sentences
+<urn:uuid:3104d484-33cc-423e-9501-cd7166a09f29>,dropped,too_few_sentences
+<urn:uuid:c8309bf1-0d27-4535-9bc0-929ea4a9a76d>,dropped,top 3 paragraphs too short
+<urn:uuid:2555d339-bb13-4ef7-ba2e-022b12206d50>,dropped,too_few_sentences
+<urn:uuid:006962a4-77a4-4484-93a1-4447ac9fd4df>,dropped,too_few_sentences
+<urn:uuid:3f1e5c45-b705-48df-a35f-6d9a39e55d05>,dropped,too_few_sentences
+<urn:uuid:a9ce5581-fe4b-4d19-aac9-d35515fe92f8>,kept,
+<urn:uuid:cb334975-b5d9-4556-809d-aece884dc69a>,kept,
+<urn:uuid:291c473b-df07-4165-9c89-be5e8daec75e>,kept,
+<urn:uuid:b707f72a-4e0f-49a3-8a75-fb185730e655>,dropped,too_few_sentences

@@ -1,0 +1,6 @@
+/Users/ericmodesitt/Desktop/repos/websift/build-release/CMakeFiles/websift.dir
+/Users/ericmodesitt/Desktop/repos/websift/build-release/CMakeFiles/gopher_filter_cli.dir
+/Users/ericmodesitt/Desktop/repos/websift/build-release/CMakeFiles/gopher_filter_batch.dir
+/Users/ericmodesitt/Desktop/repos/websift/build-release/CMakeFiles/extract_texts.dir
+/Users/ericmodesitt/Desktop/repos/websift/build-release/CMakeFiles/edit_cache.dir
+/Users/ericmodesitt/Desktop/repos/websift/build-release/CMakeFiles/rebuild_cache.dir

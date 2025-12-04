@@ -10,6 +10,7 @@ struct WarcRecord {
     std::string content;
     std::string type; // WARC-Type
     std::string url;  // WARC-Target-URI
+    std::string id;   // WARC-Record-ID
     size_t contentLength = 0;
     bool valid = false;
 };
@@ -31,4 +32,3 @@ private:
     bool readHeaders(WarcRecord& record);
     bool readContent(WarcRecord& record);
 };
-
