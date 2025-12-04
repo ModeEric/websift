@@ -1,0 +1,17 @@
+# Build directory
+build/
+
+# Data files
+*.warc.gz
+*.warc
+
+# Downloaded resources
+badwords_*.txt
+
+# OS specific
+.DS_Store
+
+# IDE specific
+.vscode/
+.cursor/
+
