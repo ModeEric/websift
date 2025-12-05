@@ -1,80 +1,91 @@
 base,curr,id,reason_base,reason_curr,type
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:96094213-83ba-4e59-8f18-9a6614f87921>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:a8e3eb0f-5e13-49d7-af18-a15417e59cc9>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:d072283a-8040-4b01-9633-9adf9d6a49d7>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:1ead47e2-3cf8-4999-907e-f4d87a996886>,,,reason_mismatch
-dropped,kept,<urn:uuid:53b70b55-d83c-4837-bb51-eaf78862a7cd>,too_few_sentences,,status_mismatch
-dropped,kept,<urn:uuid:77892187-931e-45a8-87ef-048f183d099b>,too_few_sentences,,status_mismatch
-dropped,kept,<urn:uuid:cff4fc3b-4f5f-4298-9d11-ddc27074d048>,too_few_sentences,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:e6723ea9-b6bd-4ef6-99e5-0c45b90846b7>,,,reason_mismatch
-dropped,kept,<urn:uuid:93aa1883-7278-4278-82e3-18b7e3792893>,too_few_sentences,,status_mismatch
-dropped,kept,<urn:uuid:e5046ae2-13ec-48b2-aa12-b88e0a95b0c2>,too_few_sentences,,status_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:ae6399ce-38c2-4bc1-a73f-b51f63e3e7dc>,,,reason_mismatch
-kept,dropped,<urn:uuid:28eeb4e3-176b-4a38-9da4-d9a575c3d5e1>,,too_few_sentences,status_mismatch
-dropped,kept,<urn:uuid:16a2ef64-18c8-4d1c-aaad-3663f1f6c25b>,too_few_sentences,,status_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:450e8359-0ffc-4cbb-8229-97cb9ec92609>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:d41e532b-c73f-4043-8aec-017d8dd84843>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:4fbd5224-7e4d-43fe-b720-b96d1dcd4de9>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:5007b12e-6472-471c-8062-23e7e9d438ac>,,,reason_mismatch
-dropped,kept,<urn:uuid:04e115ca-47bb-4dca-aea6-f0d4b81de99d>,top 3 paragraphs too short,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:720f385d-44f1-48a1-a177-52eff0fd2333>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:19577804-496e-447b-80a5-5ac8e4200b74>,,,reason_mismatch
-dropped,kept,<urn:uuid:4cbbaee5-089e-4ef8-b41f-45374cbf7306>,too_few_sentences,,status_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:04e3fdad-753a-444c-b0fe-d83fc2a30b14>,,,reason_mismatch
-too_few_sentences,curly_bracket,<urn:uuid:c2b38ebf-63c3-4620-b87f-a21d1fcda68a>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:d09751e9-b4ea-4ae8-8899-915892bb2426>,,,reason_mismatch
-too_few_sentences,lorem_ipsum,<urn:uuid:dc6a5f85-1bd5-4946-b567-f2172117b7c8>,,,reason_mismatch
-dropped,kept,<urn:uuid:8dd776d5-074b-4d44-b7c4-b1111cbc9857>,too_few_sentences,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:86002a76-f1d8-4786-a880-4ff719f4c341>,,,reason_mismatch
-dropped,kept,<urn:uuid:f8326461-e1b4-485a-aab1-dd478b2ed0fc>,top 3 paragraphs too short,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:59fb0991-6389-4030-adff-d87e041d2fef>,,,reason_mismatch
-dropped,kept,<urn:uuid:648e76e0-f179-446c-9326-4fde4b87360f>,top 3 paragraphs too short,,status_mismatch
-kept,dropped,<urn:uuid:81da1af8-c280-474c-9b77-72134a002545>,,too_few_sentences,status_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:59950ff1-006f-429c-9ff5-8bd9a280df49>,,,reason_mismatch
-too_few_sentences,lorem_ipsum,<urn:uuid:5241a684-49d8-4208-88e0-e4fa1f91e2c2>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:b317dd45-aa71-4de9-9019-c8fe833a31c3>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:09d17e41-bd65-4d3a-baad-b8e24a87d6b5>,,,reason_mismatch
-dropped,kept,<urn:uuid:aca6eb3c-5682-4674-85cc-f402c8a08c3f>,top 3 paragraphs too short,,status_mismatch
-dropped,kept,<urn:uuid:fc8df367-6217-4de0-8538-853b12e61857>,too_few_sentences,,status_mismatch
-dropped,kept,<urn:uuid:95c36caf-91de-4438-8d11-b8fbb7988020>,top 3 paragraphs too short,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:d840f7eb-98f4-4bf4-86bd-27b5fcd428f6>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:0a77c8f9-2cc0-4ade-9a3a-3baf5747d850>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:70017f91-82d9-44c7-8fe4-385e71e3cdbc>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:71b3abf0-041a-4c33-a833-a0e25ee00a3e>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:34b2cc0a-6aa5-4a81-a889-1108e9f42ac4>,,,reason_mismatch
-dropped,kept,<urn:uuid:c795ddcb-52b6-4dfb-9cbe-db0c4870c235>,too_few_sentences,,status_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:d9685d53-dae9-4fc5-94cc-06f9d466609c>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:a6b0a7dd-55e2-4fdf-9383-34cafbffd936>,,,reason_mismatch
-dropped,kept,<urn:uuid:a4021446-083d-40ea-a4fc-b0fa3d724c52>,too_few_sentences,,status_mismatch
-dropped,kept,<urn:uuid:fe9b0033-aa92-4e40-a0e1-99045e91ecc4>,too_few_sentences,,status_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:95d70e6e-54ea-4f5c-8474-d9edc2c86846>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:ee081205-46fd-4a01-8c19-abc8345b656b>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:ef95b046-657c-487b-a1e3-fa4e6dfd8bbe>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:7abd2c38-f529-4978-9ddd-e7280594ac04>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:36788de8-f9f3-4da2-8405-9eea950b331c>,,,reason_mismatch
-dropped,kept,<urn:uuid:65525c04-a36c-41f0-b273-e643d691ecf5>,too_few_sentences,,status_mismatch
-dropped,kept,<urn:uuid:2dedc861-7b4b-474f-8a50-09fd0014f5b2>,too_few_sentences,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:10d79502-8217-4b4c-ba7b-fdf5dac7c264>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:de1718e1-c903-47f0-b7fc-0e5bfdf7d0e2>,,,reason_mismatch
 top 3 paragraphs too short,too_few_sentences,<urn:uuid:535885dc-3bc6-4088-ae5d-baa369942359>,,,reason_mismatch
-dropped,kept,<urn:uuid:d6e7fecd-15b5-47c3-b4cc-ffa662532494>,top 3 paragraphs too short,,status_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:3d92053b-0e3d-45c4-8dd1-60ae072aecbc>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:c1e5220a-0260-450c-a0e2-460c217f6680>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:168597b6-1ced-4ef5-a862-7d32fbbba9c3>,,,reason_mismatch
-dropped,kept,<urn:uuid:ba239ddf-e670-4c17-9d9a-02399b6cb4e9>,too_few_sentences,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:e64c20b9-f7d2-427c-9154-abcec8694b6f>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:2549c6ec-2e29-483f-b990-c5390f054bda>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:70017f91-82d9-44c7-8fe4-385e71e3cdbc>,,,reason_mismatch
+kept,dropped,<urn:uuid:28d40463-b4f6-499b-95a3-430fe714cb02>,,too_few_sentences,status_mismatch
 too_few_sentences,top 3 paragraphs too short,<urn:uuid:3dc142c6-e430-407b-8cc8-1dfc34494bf4>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:71fb9c9e-611e-4136-b2ef-3e35b33ec707>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:b47ac548-c1fc-48fb-ad70-3b7a4e059eb2>,,,reason_mismatch
-dropped,kept,<urn:uuid:25c7e80a-9512-465b-b6a4-6bf10fce66e7>,too_few_sentences,,status_mismatch
-dropped,kept,<urn:uuid:4e265b2b-b165-4579-a828-3a77d6c287b0>,top 3 paragraphs too short,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:a9d62c53-4bf5-44e0-a945-8cb55fdacd6e>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:2da45f4f-9da2-4278-a878-565cee31b27f>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:6d69dce8-9677-46ad-b07d-46580b82cda0>,,,reason_mismatch
-top 3 paragraphs too short,curly_bracket,<urn:uuid:60ced847-9960-401f-b04b-dc496282b2be>,,,reason_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:c1591e6a-19c5-4ab5-94de-560408f0e196>,,,reason_mismatch
-dropped,kept,<urn:uuid:251c952c-8aa9-49f7-ac96-06697ff2d1f7>,too_few_sentences,,status_mismatch
-top 3 paragraphs too short,too_few_sentences,<urn:uuid:a03a795f-cfa4-43af-b765-cfd63eba5654>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:3d92053b-0e3d-45c4-8dd1-60ae072aecbc>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:09d17e41-bd65-4d3a-baad-b8e24a87d6b5>,,,reason_mismatch
+dropped,kept,<urn:uuid:e5046ae2-13ec-48b2-aa12-b88e0a95b0c2>,too_few_sentences,,status_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:0367665c-8ec6-4764-8187-3ca49140051d>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:19577804-496e-447b-80a5-5ac8e4200b74>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:c3f4fddd-36e8-4b40-9b04-aa56d725755d>,,,reason_mismatch
+dropped,kept,<urn:uuid:6a6f58a2-dc5a-4612-af23-5ae3defbf37f>,too_few_sentences,,status_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:17a23898-37c5-4fc9-b44a-65108b5e21c9>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:71b3abf0-041a-4c33-a833-a0e25ee00a3e>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:c4ff5d2d-9ce8-4010-a67a-007c0cbd9e16>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:c5751b99-401a-48c8-aa44-1090987c99d6>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:5e614ae7-0217-4e8d-826e-797ba07b8712>,,,reason_mismatch
+dropped,kept,<urn:uuid:95c36caf-91de-4438-8d11-b8fbb7988020>,top 3 paragraphs too short,,status_mismatch
+dropped,kept,<urn:uuid:cff4fc3b-4f5f-4298-9d11-ddc27074d048>,too_few_sentences,,status_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:a8e3eb0f-5e13-49d7-af18-a15417e59cc9>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:96094213-83ba-4e59-8f18-9a6614f87921>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:41b235e9-5832-4253-84bb-eba6f670f379>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:d072283a-8040-4b01-9633-9adf9d6a49d7>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:168597b6-1ced-4ef5-a862-7d32fbbba9c3>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:7214c24d-b98d-4c62-9358-918fa75af78a>,,,reason_mismatch
 top 3 paragraphs too short,too_few_sentences,<urn:uuid:d0b05af9-b38a-4a75-a738-258fdbf8243f>,,,reason_mismatch
-too_few_sentences,top 3 paragraphs too short,<urn:uuid:5fc05965-310c-407e-9055-7edeafa73ca3>,,,reason_mismatch
-dropped,kept,<urn:uuid:5a5afa91-abd4-4df0-b2a9-60d4c1232160>,too_few_sentences,,status_mismatch
+dropped,kept,<urn:uuid:251c952c-8aa9-49f7-ac96-06697ff2d1f7>,too_few_sentences,,status_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:d9685d53-dae9-4fc5-94cc-06f9d466609c>,,,reason_mismatch
+too_few_sentences,curly_bracket,<urn:uuid:c2b38ebf-63c3-4620-b87f-a21d1fcda68a>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:e6723ea9-b6bd-4ef6-99e5-0c45b90846b7>,,,reason_mismatch
+dropped,kept,<urn:uuid:d6e7fecd-15b5-47c3-b4cc-ffa662532494>,top 3 paragraphs too short,,status_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:86002a76-f1d8-4786-a880-4ff719f4c341>,,,reason_mismatch
+dropped,kept,<urn:uuid:65525c04-a36c-41f0-b273-e643d691ecf5>,too_few_sentences,,status_mismatch
+too_few_sentences,lorem_ipsum,<urn:uuid:dc6a5f85-1bd5-4946-b567-f2172117b7c8>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:1ead47e2-3cf8-4999-907e-f4d87a996886>,,,reason_mismatch
+dropped,kept,<urn:uuid:4cbbaee5-089e-4ef8-b41f-45374cbf7306>,too_few_sentences,,status_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:5007b12e-6472-471c-8062-23e7e9d438ac>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:d32a26e2-57f3-4139-a6c9-dc173e9b8be5>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:6e8e92c1-6472-460d-bfac-4346d61d0f0c>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:b4cfe057-f803-429d-b910-b7fb06fd9542>,,,reason_mismatch
 top 3 paragraphs too short,too_few_sentences,<urn:uuid:100f6d55-a5df-4674-9c5a-798feb8c6e8f>,,,reason_mismatch
+dropped,kept,<urn:uuid:4e265b2b-b165-4579-a828-3a77d6c287b0>,top 3 paragraphs too short,,status_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:6d1a1a6a-539a-4f97-8fa9-f7156af92aa6>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:7d51f4ec-0ecd-41ac-8922-306794e493ad>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:c1591e6a-19c5-4ab5-94de-560408f0e196>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:1a7bfda2-b21d-451b-bf8c-a04ad84205db>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:ee081205-46fd-4a01-8c19-abc8345b656b>,,,reason_mismatch
+dropped,kept,<urn:uuid:a4021446-083d-40ea-a4fc-b0fa3d724c52>,too_few_sentences,,status_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:a03a795f-cfa4-43af-b765-cfd63eba5654>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:04e3fdad-753a-444c-b0fe-d83fc2a30b14>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:e64c20b9-f7d2-427c-9154-abcec8694b6f>,,,reason_mismatch
+top 3 paragraphs too short,curly_bracket,<urn:uuid:60ced847-9960-401f-b04b-dc496282b2be>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:6d69dce8-9677-46ad-b07d-46580b82cda0>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:95d70e6e-54ea-4f5c-8474-d9edc2c86846>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:2da45f4f-9da2-4278-a878-565cee31b27f>,,,reason_mismatch
+dropped,kept,<urn:uuid:f8326461-e1b4-485a-aab1-dd478b2ed0fc>,top 3 paragraphs too short,,status_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:e09b3df2-c2d1-4549-a267-4cc2001c23ff>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:ae6399ce-38c2-4bc1-a73f-b51f63e3e7dc>,,,reason_mismatch
+dropped,kept,<urn:uuid:25c7e80a-9512-465b-b6a4-6bf10fce66e7>,too_few_sentences,,status_mismatch
+dropped,kept,<urn:uuid:2debf709-b60d-4d02-a5a0-bc92bc8e9d67>,too_few_sentences,,status_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:720f385d-44f1-48a1-a177-52eff0fd2333>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:bc56c407-6bc5-42d6-b846-7721f72fc193>,,,reason_mismatch
+kept,dropped,<urn:uuid:9a323463-c56e-40d2-96a0-20a944c617f0>,,top 3 paragraphs too short,status_mismatch
+dropped,kept,<urn:uuid:04e115ca-47bb-4dca-aea6-f0d4b81de99d>,top 3 paragraphs too short,,status_mismatch
+dropped,kept,<urn:uuid:5a5afa91-abd4-4df0-b2a9-60d4c1232160>,too_few_sentences,,status_mismatch
+dropped,kept,<urn:uuid:8dd776d5-074b-4d44-b7c4-b1111cbc9857>,too_few_sentences,,status_mismatch
+dropped,kept,<urn:uuid:fc8df367-6217-4de0-8538-853b12e61857>,too_few_sentences,,status_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:b47ac548-c1fc-48fb-ad70-3b7a4e059eb2>,,,reason_mismatch
+dropped,kept,<urn:uuid:53b70b55-d83c-4837-bb51-eaf78862a7cd>,too_few_sentences,,status_mismatch
+dropped,kept,<urn:uuid:aca6eb3c-5682-4674-85cc-f402c8a08c3f>,top 3 paragraphs too short,,status_mismatch
+dropped,kept,<urn:uuid:648e76e0-f179-446c-9326-4fde4b87360f>,top 3 paragraphs too short,,status_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:59950ff1-006f-429c-9ff5-8bd9a280df49>,,,reason_mismatch
+dropped,kept,<urn:uuid:c795ddcb-52b6-4dfb-9cbe-db0c4870c235>,too_few_sentences,,status_mismatch
+curly_bracket,too_few_sentences,<urn:uuid:8a880d76-54de-4b03-b36f-6c848161acac>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:71fb9c9e-611e-4136-b2ef-3e35b33ec707>,,,reason_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:34b2cc0a-6aa5-4a81-a889-1108e9f42ac4>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:d09751e9-b4ea-4ae8-8899-915892bb2426>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:59fb0991-6389-4030-adff-d87e041d2fef>,,,reason_mismatch
+dropped,kept,<urn:uuid:fe9b0033-aa92-4e40-a0e1-99045e91ecc4>,too_few_sentences,,status_mismatch
+dropped,kept,<urn:uuid:16a2ef64-18c8-4d1c-aaad-3663f1f6c25b>,too_few_sentences,,status_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:16a75abb-df32-4f5a-8afe-e76013aa16fd>,,,reason_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:8dc33ef2-9af6-48e4-ba51-e9cf1a2d02ea>,,,reason_mismatch
+dropped,kept,<urn:uuid:4fcc1f02-7d04-40bd-9e7a-7be494c85726>,curly_bracket,,status_mismatch
+top 3 paragraphs too short,too_few_sentences,<urn:uuid:1f014694-7ac3-49ee-ad16-105af6e053a2>,,,reason_mismatch
+dropped,kept,<urn:uuid:77892187-931e-45a8-87ef-048f183d099b>,too_few_sentences,,status_mismatch
+too_few_sentences,top 3 paragraphs too short,<urn:uuid:4fbd5224-7e4d-43fe-b720-b96d1dcd4de9>,,,reason_mismatch
+dropped,kept,<urn:uuid:ba239ddf-e670-4c17-9d9a-02399b6cb4e9>,too_few_sentences,,status_mismatch
+dropped,kept,<urn:uuid:2dedc861-7b4b-474f-8a50-09fd0014f5b2>,too_few_sentences,,status_mismatch
+too_few_sentences,lorem_ipsum,<urn:uuid:5241a684-49d8-4208-88e0-e4fa1f91e2c2>,,,reason_mismatch

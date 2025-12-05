@@ -42,7 +42,7 @@ record_id,status,reason
 <urn:uuid:8ca3904d-a03f-4b33-b8af-038328d1bf93>,dropped,too_few_sentences
 <urn:uuid:07130cf2-de44-43ca-bc78-75149ac38878>,dropped,top 3 paragraphs too short
 <urn:uuid:654aceb2-72fc-4f22-8799-6c2cc7d2991c>,dropped,too_few_sentences
-<urn:uuid:1a7bfda2-b21d-451b-bf8c-a04ad84205db>,dropped,top 3 paragraphs too short
+<urn:uuid:1a7bfda2-b21d-451b-bf8c-a04ad84205db>,dropped,too_few_sentences
 <urn:uuid:506c042e-a254-4ac9-862d-098cf931706a>,dropped,too_few_sentences
 <urn:uuid:a798d6fc-5400-4863-9d6d-fe6df196428e>,dropped,empty_text
 <urn:uuid:56f7c513-16be-404c-8fe7-59013f011b4b>,dropped,empty_text
@@ -60,8 +60,8 @@ record_id,status,reason
 <urn:uuid:1b4434ff-9e02-40ac-a3cd-49afeac05c6e>,kept,
 <urn:uuid:6de78c91-e03d-4379-b68d-da9f0ae7ae30>,dropped,too_few_sentences
 <urn:uuid:b883a063-97a1-4ef5-a778-33f96b90119f>,dropped,empty_text
-<urn:uuid:e5046ae2-13ec-48b2-aa12-b88e0a95b0c2>,dropped,too_few_sentences
-<urn:uuid:b47ac548-c1fc-48fb-ad70-3b7a4e059eb2>,dropped,too_few_sentences
+<urn:uuid:e5046ae2-13ec-48b2-aa12-b88e0a95b0c2>,kept,
+<urn:uuid:b47ac548-c1fc-48fb-ad70-3b7a4e059eb2>,dropped,top 3 paragraphs too short
 <urn:uuid:c7276be5-051c-47da-adc1-b04fcda763bf>,dropped,top 3 paragraphs too short
 <urn:uuid:a5c478c0-760e-4358-91c4-ffca4dcb8b28>,dropped,too_few_sentences
 <urn:uuid:3e55affa-ca3c-4e11-b945-8178bb722ba6>,dropped,too_few_sentences
@@ -101,8 +101,8 @@ record_id,status,reason
 <urn:uuid:22679ed8-c2b2-475d-8d19-450ea986b419>,dropped,top 3 paragraphs too short
 <urn:uuid:2b21cdce-9d91-4b4b-b6ea-9c63998ebad0>,dropped,top 3 paragraphs too short
 <urn:uuid:d9726c49-8329-4fb4-8652-0f98045c8bb3>,dropped,too_few_sentences
-<urn:uuid:65525c04-a36c-41f0-b273-e643d691ecf5>,dropped,too_few_sentences
-<urn:uuid:5e614ae7-0217-4e8d-826e-797ba07b8712>,dropped,top 3 paragraphs too short
+<urn:uuid:65525c04-a36c-41f0-b273-e643d691ecf5>,kept,
+<urn:uuid:5e614ae7-0217-4e8d-826e-797ba07b8712>,dropped,too_few_sentences
 <urn:uuid:143f3427-91ce-41fa-9aab-05b69a931914>,dropped,too_few_sentences
 <urn:uuid:701f2ff9-db6e-40bd-acbe-ade695d81936>,dropped,too_few_sentences
 <urn:uuid:149d6df6-46c8-4136-af4d-d1555b018c09>,dropped,top 3 paragraphs too short
@@ -113,7 +113,7 @@ record_id,status,reason
 <urn:uuid:b1f1792a-ab1d-441c-b5ac-9620ba0fb6f0>,dropped,too_few_sentences
 <urn:uuid:1c5cea02-8338-4aae-b866-b2400ded9961>,dropped,too_few_sentences
 <urn:uuid:83ecaafb-a5eb-4012-ba3a-37e6d5ba30d7>,dropped,top 3 paragraphs too short
-<urn:uuid:59fb0991-6389-4030-adff-d87e041d2fef>,dropped,top 3 paragraphs too short
+<urn:uuid:59fb0991-6389-4030-adff-d87e041d2fef>,dropped,too_few_sentences
 <urn:uuid:d7357697-f056-4293-ad89-631f39eb167c>,dropped,too_few_sentences
 <urn:uuid:c822d604-180f-44f3-b71c-29e5a9f643ef>,dropped,too_few_sentences
 <urn:uuid:ada75609-5cfa-44ed-92ed-65fda6d47be3>,kept,
@@ -138,7 +138,7 @@ record_id,status,reason
 <urn:uuid:b803af45-295b-4bfa-a9d7-740aba5f39c6>,dropped,too_few_sentences
 <urn:uuid:a2b1680e-23af-41b4-9e75-6db0298aaf03>,dropped,too_few_sentences
 <urn:uuid:2f1cb50f-af16-4175-a3a1-b1df9ade305d>,dropped,too_few_sentences
-<urn:uuid:5a5afa91-abd4-4df0-b2a9-60d4c1232160>,dropped,too_few_sentences
+<urn:uuid:5a5afa91-abd4-4df0-b2a9-60d4c1232160>,kept,
 <urn:uuid:d764df9f-e7bb-44b8-8d60-7b4717f7e66f>,dropped,too_few_sentences
 <urn:uuid:a1ba9228-bacd-4aba-8a36-bb4245c5ab29>,dropped,top 3 paragraphs too short
 <urn:uuid:94fea791-e4c4-4e28-a432-50a6a3ae1d2c>,dropped,too_few_sentences
@@ -155,13 +155,13 @@ record_id,status,reason
 <urn:uuid:f1ed4deb-2f2c-42ed-a0bc-82d0d9ec96f9>,dropped,too_few_sentences
 <urn:uuid:98ac3056-1c60-4f00-bb1d-969e99f9eced>,dropped,too_few_sentences
 <urn:uuid:b44bba1c-f104-4a0e-8fca-e8f3ce484cbc>,dropped,too_few_sentences
-<urn:uuid:c3f4fddd-36e8-4b40-9b04-aa56d725755d>,dropped,too_few_sentences
+<urn:uuid:c3f4fddd-36e8-4b40-9b04-aa56d725755d>,dropped,top 3 paragraphs too short
 <urn:uuid:57961773-b21e-41d6-994a-2b9bb3050062>,dropped,too_few_sentences
 <urn:uuid:24d14049-fe51-454f-993e-3bda1c133d60>,kept,
 <urn:uuid:f40bdbd1-9e5a-4161-8e94-8848e0ca88fe>,dropped,too_few_sentences
 <urn:uuid:b10504ca-7726-4018-a3b6-c5780dcc891e>,dropped,top 3 paragraphs too short
 <urn:uuid:5f4cd5a9-5688-4dc3-8cca-b101be2a462a>,dropped,curly_bracket
-<urn:uuid:8a880d76-54de-4b03-b36f-6c848161acac>,dropped,curly_bracket
+<urn:uuid:8a880d76-54de-4b03-b36f-6c848161acac>,dropped,too_few_sentences
 <urn:uuid:48fb197f-5061-46bd-8c74-6f7c431f1d56>,dropped,too_few_sentences
 <urn:uuid:5f4da192-c26e-4582-93bf-60d9b2b9ce41>,dropped,too_few_sentences
 <urn:uuid:f29b2592-58a2-48e8-912a-1f7587338982>,dropped,too_few_sentences
@@ -173,9 +173,9 @@ record_id,status,reason
 <urn:uuid:84822003-6edf-4d9b-b31a-7c2a71c36e62>,dropped,curly_bracket
 <urn:uuid:93e5800a-7542-4c03-bd97-cf74b575d8f8>,kept,
 <urn:uuid:86bfe34f-8e66-4ea9-8983-d0e332f2aaa4>,dropped,too_few_sentences
-<urn:uuid:2debf709-b60d-4d02-a5a0-bc92bc8e9d67>,dropped,too_few_sentences
-<urn:uuid:a8e3eb0f-5e13-49d7-af18-a15417e59cc9>,dropped,too_few_sentences
-<urn:uuid:d9685d53-dae9-4fc5-94cc-06f9d466609c>,dropped,too_few_sentences
+<urn:uuid:2debf709-b60d-4d02-a5a0-bc92bc8e9d67>,kept,
+<urn:uuid:a8e3eb0f-5e13-49d7-af18-a15417e59cc9>,dropped,top 3 paragraphs too short
+<urn:uuid:d9685d53-dae9-4fc5-94cc-06f9d466609c>,dropped,top 3 paragraphs too short
 <urn:uuid:a2358776-1c1a-4ba5-952c-3de53ed66cff>,dropped,too_few_sentences
 <urn:uuid:534dc971-7d87-4bcd-a6c3-0eaada34be77>,dropped,too_few_sentences
 <urn:uuid:ce821b78-dde3-4535-a79b-9d6dbb59322a>,dropped,too_few_sentences
@@ -185,13 +185,13 @@ record_id,status,reason
 <urn:uuid:32a787d1-aedb-46a5-aede-d15d24f2ff4d>,dropped,top 3 paragraphs too short
 <urn:uuid:783afe02-5913-4ccc-a8e0-c87797fbd139>,kept,
 <urn:uuid:a4572c65-b1b5-455b-b79e-b579ac6e7dd0>,dropped,curly_bracket
-<urn:uuid:17a23898-37c5-4fc9-b44a-65108b5e21c9>,dropped,too_few_sentences
+<urn:uuid:17a23898-37c5-4fc9-b44a-65108b5e21c9>,dropped,top 3 paragraphs too short
 <urn:uuid:e699d829-d5ee-4f72-8df7-6f0376c7567d>,dropped,top 3 paragraphs too short
 <urn:uuid:8f9ed4b2-c221-48cc-a865-203d557bd575>,dropped,too_few_sentences
 <urn:uuid:848b1f1c-d297-4168-9a71-ebae6ae27d22>,dropped,too_few_sentences
 <urn:uuid:6d2c082d-d847-4546-9c29-5da887e602d0>,kept,
 <urn:uuid:c8239981-3061-435d-a68d-300b0c7bb359>,dropped,too_few_sentences
-<urn:uuid:4cbbaee5-089e-4ef8-b41f-45374cbf7306>,dropped,too_few_sentences
+<urn:uuid:4cbbaee5-089e-4ef8-b41f-45374cbf7306>,kept,
 <urn:uuid:6f2e3e9c-6441-436c-afc2-d9c5c457cf72>,dropped,too_few_sentences
 <urn:uuid:8ba450d1-e436-4dfb-882d-cd51f0a44eaf>,dropped,too_few_sentences
 <urn:uuid:2de1c978-82a2-45b2-9161-17bc0b22d348>,dropped,too_few_sentences
@@ -258,12 +258,12 @@ record_id,status,reason
 <urn:uuid:6e65def7-9f44-4516-b768-ffff69263951>,dropped,top 3 paragraphs too short
 <urn:uuid:644c5c20-e760-4a8a-a9ee-8cdcf00fc3f6>,dropped,curly_bracket
 <urn:uuid:e533bace-ea05-43ff-a086-536e8b7d0718>,dropped,too_few_sentences
-<urn:uuid:d072283a-8040-4b01-9633-9adf9d6a49d7>,dropped,top 3 paragraphs too short
+<urn:uuid:d072283a-8040-4b01-9633-9adf9d6a49d7>,dropped,too_few_sentences
 <urn:uuid:8d455f2e-e70d-4f51-9ca1-ae26e76ea657>,kept,
 <urn:uuid:2ca6e162-a15c-44a2-b1ec-9245c0deb0dc>,dropped,too_few_sentences
 <urn:uuid:2853ed20-9f43-4360-9a08-8e597a36b6c9>,kept,
 <urn:uuid:95771f90-53f7-4c12-983e-e814448c4931>,dropped,too_few_sentences
-<urn:uuid:d32a26e2-57f3-4139-a6c9-dc173e9b8be5>,dropped,top 3 paragraphs too short
+<urn:uuid:d32a26e2-57f3-4139-a6c9-dc173e9b8be5>,dropped,too_few_sentences
 <urn:uuid:5b557bb7-d6e5-4c2b-81d7-59524f5c5863>,dropped,too_few_sentences
 <urn:uuid:6210df52-f799-49ed-a1fb-913d746db2ae>,dropped,too_few_sentences
 <urn:uuid:00faeae3-4717-4063-a20f-f773707d889f>,dropped,too_few_sentences
@@ -283,24 +283,24 @@ record_id,status,reason
 <urn:uuid:5f98651b-d3de-4830-82ff-cca120c7acaa>,dropped,too_few_sentences
 <urn:uuid:df3aee25-2e33-4aeb-8903-647690b26538>,dropped,too_few_sentences
 <urn:uuid:881fa3a8-2672-4333-8d9f-8a2765d645d5>,dropped,too_few_sentences
-<urn:uuid:4e265b2b-b165-4579-a828-3a77d6c287b0>,dropped,top 3 paragraphs too short
-<urn:uuid:aca6eb3c-5682-4674-85cc-f402c8a08c3f>,dropped,top 3 paragraphs too short
+<urn:uuid:4e265b2b-b165-4579-a828-3a77d6c287b0>,kept,
+<urn:uuid:aca6eb3c-5682-4674-85cc-f402c8a08c3f>,kept,
 <urn:uuid:a26ddc22-68e6-4f62-9292-47f803831f1b>,dropped,too_few_sentences
 <urn:uuid:bbdd2525-4ed5-42c6-832d-bbc92c797ec9>,dropped,too_few_sentences
 <urn:uuid:f2a7b72a-de6c-4e77-b636-758c0c3eb1ed>,dropped,empty_text
 <urn:uuid:080934a0-0d25-48bf-81dc-9072671d3bc2>,dropped,empty_text
 <urn:uuid:8a7203ae-88c9-436a-837d-dcb0f96543b8>,dropped,too_few_sentences
-<urn:uuid:e64c20b9-f7d2-427c-9154-abcec8694b6f>,dropped,top 3 paragraphs too short
+<urn:uuid:e64c20b9-f7d2-427c-9154-abcec8694b6f>,dropped,too_few_sentences
 <urn:uuid:098f95bd-ce1e-484f-9a17-fdeff53d5130>,dropped,too_few_sentences
 <urn:uuid:ada7a7de-15a6-4eeb-b8ab-985cd36f29b3>,dropped,too_few_sentences
-<urn:uuid:53b70b55-d83c-4837-bb51-eaf78862a7cd>,dropped,too_few_sentences
+<urn:uuid:53b70b55-d83c-4837-bb51-eaf78862a7cd>,kept,
 <urn:uuid:3c5d09a6-004c-4e03-ac1f-70122497e42c>,dropped,too_few_sentences
 <urn:uuid:4b048a0a-2f5c-4944-9604-f6fe030e903d>,dropped,too_few_sentences
 <urn:uuid:8e1c5370-8582-4b35-a652-5b8e4f182e64>,kept,
 <urn:uuid:6fdfaa46-5475-46ab-b4c3-fabeb9ed5c5e>,dropped,top 3 paragraphs too short
 <urn:uuid:046c8e4e-600a-4a5c-bc0d-2720ac92e0a6>,dropped,too_few_sentences
 <urn:uuid:29275dce-7f16-4746-81f5-ccc2501a897f>,dropped,too_few_sentences
-<urn:uuid:3dc142c6-e430-407b-8cc8-1dfc34494bf4>,dropped,too_few_sentences
+<urn:uuid:3dc142c6-e430-407b-8cc8-1dfc34494bf4>,dropped,top 3 paragraphs too short
 <urn:uuid:972e0d50-79f9-45dd-869f-204f7377d9b8>,dropped,too_few_sentences
 <urn:uuid:3232c497-b443-4ee1-8dad-e8c77fcb0cd2>,dropped,too_few_sentences
 <urn:uuid:1b1e9322-c58b-4ca8-9971-50d43927d63a>,kept,
@@ -324,14 +324,14 @@ record_id,status,reason
 <urn:uuid:a056cbad-6cf2-4c17-86b2-9d35cbd1d0c1>,dropped,top 3 paragraphs too short
 <urn:uuid:89030ad4-1c0b-45ea-941b-5a9e3536f72f>,dropped,too_few_sentences
 <urn:uuid:5690f1f3-bcbc-46e3-a9fe-1f49374c61e4>,dropped,too_few_sentences
-<urn:uuid:6a6f58a2-dc5a-4612-af23-5ae3defbf37f>,dropped,too_few_sentences
+<urn:uuid:6a6f58a2-dc5a-4612-af23-5ae3defbf37f>,kept,
 <urn:uuid:d840f7eb-98f4-4bf4-86bd-27b5fcd428f6>,dropped,top 3 paragraphs too short
 <urn:uuid:ee2d7a99-42ba-43f1-914a-c4495e386877>,dropped,curly_bracket
 <urn:uuid:09501bde-1be5-4d95-aea3-ad5db8ba24fe>,dropped,too_few_sentences
 <urn:uuid:3120bfe6-0bca-4224-a914-7a5ea6163aa2>,dropped,too_few_sentences
 <urn:uuid:6b2dd6e3-6186-4f1e-94ad-69b02e08918a>,dropped,too_few_sentences
 <urn:uuid:c855ccbb-9efe-46b0-a25d-39d79202795f>,dropped,too_few_sentences
-<urn:uuid:77892187-931e-45a8-87ef-048f183d099b>,dropped,too_few_sentences
+<urn:uuid:77892187-931e-45a8-87ef-048f183d099b>,kept,
 <urn:uuid:8e895364-8582-4e3e-a67c-ffdba7721329>,dropped,top 3 paragraphs too short
 <urn:uuid:0eef763f-2070-4656-99b7-49ad67dbe5de>,dropped,too_few_sentences
 <urn:uuid:a0c7c1db-4d95-4abb-b19b-f5b24ec68a73>,dropped,too_few_sentences
@@ -351,7 +351,7 @@ record_id,status,reason
 <urn:uuid:b08db84a-410f-45d1-b212-b8e5b4cd0eb5>,dropped,too_few_sentences
 <urn:uuid:a4973d58-4477-48ad-adc0-f7f9778163fe>,dropped,too_few_sentences
 <urn:uuid:f44254f6-ca1d-4ffb-b1d8-2cd061db232a>,dropped,too_few_sentences
-<urn:uuid:16a75abb-df32-4f5a-8afe-e76013aa16fd>,dropped,top 3 paragraphs too short
+<urn:uuid:16a75abb-df32-4f5a-8afe-e76013aa16fd>,dropped,too_few_sentences
 <urn:uuid:7e181ed6-9760-4ade-b4c8-b98423cf5c2b>,dropped,too_few_sentences
 <urn:uuid:3fb9ae76-c65e-4b75-80aa-6e297d6cbe51>,dropped,too_few_sentences
 <urn:uuid:0e9e7ef7-c796-454d-9298-599961e9efc1>,dropped,too_few_sentences
@@ -370,7 +370,7 @@ record_id,status,reason
 <urn:uuid:0bf85d0e-aea5-4b5e-a113-30e871412cec>,dropped,too_few_sentences
 <urn:uuid:d156a949-c32e-40ad-b623-5135f6bf16ee>,dropped,too_few_sentences
 <urn:uuid:956174e2-5459-4c86-9a84-cf0a548e6f92>,dropped,too_few_sentences
-<urn:uuid:c795ddcb-52b6-4dfb-9cbe-db0c4870c235>,dropped,too_few_sentences
+<urn:uuid:c795ddcb-52b6-4dfb-9cbe-db0c4870c235>,kept,
 <urn:uuid:2a4862ac-b2eb-4938-8a88-6bfc4fed2f76>,dropped,too_few_sentences
 <urn:uuid:72eb5897-303f-482a-ab0f-03b22a86714a>,dropped,too_few_sentences
 <urn:uuid:ce06923c-22a1-4bca-8d7d-f4cb863226a7>,dropped,badword: porn
@@ -379,7 +379,7 @@ record_id,status,reason
 <urn:uuid:f57465b1-a07c-4ef2-a376-ad24872a2d04>,dropped,curly_bracket
 <urn:uuid:8f695e52-ff77-45cf-9f64-550d562c3384>,dropped,too_few_sentences
 <urn:uuid:8a00815c-50c7-47a7-a2af-add0ce583e73>,dropped,too_few_sentences
-<urn:uuid:60ced847-9960-401f-b04b-dc496282b2be>,dropped,top 3 paragraphs too short
+<urn:uuid:60ced847-9960-401f-b04b-dc496282b2be>,dropped,curly_bracket
 <urn:uuid:8e7d3712-620e-4239-8d96-c125e2824dae>,dropped,too_few_sentences
 <urn:uuid:e6b168ef-3e61-43fd-8c5c-eae9c91add8d>,dropped,too_few_sentences
 <urn:uuid:61330fb7-5b32-452d-b042-4a59c6987dd9>,dropped,too_few_sentences
@@ -408,13 +408,13 @@ record_id,status,reason
 <urn:uuid:8d0183f6-f4a0-4a7e-9ff7-39382279bc8c>,dropped,too_few_sentences
 <urn:uuid:9fe44748-6ff5-4bb4-a930-fae5331b9dcc>,dropped,too_few_sentences
 <urn:uuid:42024b95-655e-4fae-a188-89c6965cb755>,dropped,too_few_sentences
-<urn:uuid:c5751b99-401a-48c8-aa44-1090987c99d6>,dropped,top 3 paragraphs too short
-<urn:uuid:ee081205-46fd-4a01-8c19-abc8345b656b>,dropped,too_few_sentences
+<urn:uuid:c5751b99-401a-48c8-aa44-1090987c99d6>,dropped,too_few_sentences
+<urn:uuid:ee081205-46fd-4a01-8c19-abc8345b656b>,dropped,top 3 paragraphs too short
 <urn:uuid:c174e6f9-26d3-4e57-9322-32392360fc6c>,dropped,top 3 paragraphs too short
 <urn:uuid:071eb22f-60c4-4c7a-a2d2-48b0012dfff0>,dropped,top 3 paragraphs too short
 <urn:uuid:95700996-1451-4eae-9a2d-ca14322196b4>,dropped,too_few_sentences
 <urn:uuid:15d0c0b3-1fb4-42f3-a6b5-dfead18318bc>,dropped,too_few_sentences
-<urn:uuid:535885dc-3bc6-4088-ae5d-baa369942359>,dropped,top 3 paragraphs too short
+<urn:uuid:535885dc-3bc6-4088-ae5d-baa369942359>,dropped,too_few_sentences
 <urn:uuid:d1435c4e-5e3a-4942-a828-7169270da40c>,dropped,too_few_sentences
 <urn:uuid:d1529eeb-d3d7-4baa-b759-2d98295eb232>,dropped,too_few_sentences
 <urn:uuid:1f785e69-3f95-4d77-b0d4-da42e48f2831>,dropped,too_few_sentences
@@ -426,14 +426,14 @@ record_id,status,reason
 <urn:uuid:37816a87-f1c9-481d-b8a9-39f08acb4818>,dropped,too_few_sentences
 <urn:uuid:542009b7-4516-444d-a36d-fa6b0791c9ea>,dropped,too_few_sentences
 <urn:uuid:23f83725-2cd0-41c7-9bc7-a974bcfda21e>,dropped,too_few_sentences
-<urn:uuid:720f385d-44f1-48a1-a177-52eff0fd2333>,dropped,top 3 paragraphs too short
-<urn:uuid:71b3abf0-041a-4c33-a833-a0e25ee00a3e>,dropped,top 3 paragraphs too short
+<urn:uuid:720f385d-44f1-48a1-a177-52eff0fd2333>,dropped,too_few_sentences
+<urn:uuid:71b3abf0-041a-4c33-a833-a0e25ee00a3e>,dropped,too_few_sentences
 <urn:uuid:a23f48b8-0047-4111-a4b7-b6345b635e75>,dropped,too_few_sentences
 <urn:uuid:c96642b8-407d-44c8-bf82-b48e3ee49cde>,dropped,too_few_sentences
 <urn:uuid:a76d9842-a527-4fa6-93a0-8a16e546dd60>,dropped,too_few_sentences
 <urn:uuid:5ca32f8a-84c8-4a44-a7d9-b5f5241c1ec5>,dropped,too_few_sentences
 <urn:uuid:d4f2a5b0-6afa-4064-8265-c6f0505fc229>,dropped,too_few_sentences
-<urn:uuid:8dc33ef2-9af6-48e4-ba51-e9cf1a2d02ea>,dropped,top 3 paragraphs too short
+<urn:uuid:8dc33ef2-9af6-48e4-ba51-e9cf1a2d02ea>,dropped,too_few_sentences
 <urn:uuid:bd86bfb7-ebfc-4c01-aa77-e3e7ef657920>,dropped,too_few_sentences
 <urn:uuid:c3277b6a-d90b-4f8e-a7d8-3503afc8839f>,dropped,too_few_sentences
 <urn:uuid:28eeb4e3-176b-4a38-9da4-d9a575c3d5e1>,kept,
@@ -447,7 +447,7 @@ record_id,status,reason
 <urn:uuid:c9d799d5-84e2-4dfc-8e12-406930f4e7ca>,dropped,too_few_sentences
 <urn:uuid:99ef83ef-8d7d-4149-8dc4-ed1f384e6688>,dropped,lorem_ipsum
 <urn:uuid:efd4f3c4-4c54-443e-aa87-223c8d98c7e3>,dropped,too_few_sentences
-<urn:uuid:5007b12e-6472-471c-8062-23e7e9d438ac>,dropped,too_few_sentences
+<urn:uuid:5007b12e-6472-471c-8062-23e7e9d438ac>,dropped,top 3 paragraphs too short
 <urn:uuid:de00f8a3-1a0e-48e7-be7f-b067b8f03e85>,dropped,badword: bdsm
 <urn:uuid:7c1d0e2a-c364-42f9-8f1f-c689bd379ebb>,dropped,too_few_sentences
 <urn:uuid:2ad20d79-9592-4aad-b979-37f8813c2a03>,kept,
@@ -457,10 +457,10 @@ record_id,status,reason
 <urn:uuid:445acb72-a36e-43b0-971f-cc3b8b9c1e5d>,dropped,too_few_sentences
 <urn:uuid:44b2eed3-b6de-4f73-b0b7-e527303c03c5>,kept,
 <urn:uuid:1ef9f2c8-1a4f-4dd9-939c-4546ecc0463f>,dropped,too_few_sentences
-<urn:uuid:fe9b0033-aa92-4e40-a0e1-99045e91ecc4>,dropped,too_few_sentences
+<urn:uuid:fe9b0033-aa92-4e40-a0e1-99045e91ecc4>,kept,
 <urn:uuid:390577df-61de-4e47-9d6f-fed87caa7ebd>,dropped,too_few_sentences
 <urn:uuid:4e58cb49-e929-4848-824e-4db4ab8c50e4>,dropped,empty_text
-<urn:uuid:7d51f4ec-0ecd-41ac-8922-306794e493ad>,dropped,too_few_sentences
+<urn:uuid:7d51f4ec-0ecd-41ac-8922-306794e493ad>,dropped,top 3 paragraphs too short
 <urn:uuid:fecbe44b-7e55-4a83-b3de-0719a8fd669e>,dropped,too_few_sentences
 <urn:uuid:d2a2384f-3f86-408c-a957-0388b9841c76>,dropped,too_few_sentences
 <urn:uuid:fa597fda-ba11-4cb6-8f15-41b15af1b272>,dropped,too_few_sentences
@@ -468,9 +468,9 @@ record_id,status,reason
 <urn:uuid:b30a5c6a-c052-431f-b4a8-5c93300e7ff4>,dropped,too_few_sentences
 <urn:uuid:8e2b9143-b0e5-4988-a72e-8342c886fdf2>,dropped,too_few_sentences
 <urn:uuid:504fdc28-b6db-44f6-bc70-5a71f9167a43>,dropped,too_few_sentences
-<urn:uuid:7214c24d-b98d-4c62-9358-918fa75af78a>,dropped,top 3 paragraphs too short
+<urn:uuid:7214c24d-b98d-4c62-9358-918fa75af78a>,dropped,too_few_sentences
 <urn:uuid:449f2eac-fbfa-44a4-8616-056604f5c4ab>,dropped,too_few_sentences
-<urn:uuid:a03a795f-cfa4-43af-b765-cfd63eba5654>,dropped,top 3 paragraphs too short
+<urn:uuid:a03a795f-cfa4-43af-b765-cfd63eba5654>,dropped,too_few_sentences
 <urn:uuid:51f09ee9-4558-468e-ab45-caa9d7c8b1f0>,dropped,too_few_sentences
 <urn:uuid:b65d2e0c-3a16-4df8-8bf6-c97ed6531d76>,dropped,top 3 paragraphs too short
 <urn:uuid:a9d87b02-e111-48ba-8c55-d738580eeab8>,dropped,too_few_sentences
@@ -483,11 +483,11 @@ record_id,status,reason
 <urn:uuid:9137d596-c857-4948-8a31-e563159f7dc8>,dropped,too_few_sentences
 <urn:uuid:a1b8ca0b-c7d3-4899-8659-455191ff4af9>,dropped,curly_bracket
 <urn:uuid:3364df03-f646-475c-bd20-3c08462373ea>,dropped,too_few_sentences
-<urn:uuid:2549c6ec-2e29-483f-b990-c5390f054bda>,dropped,top 3 paragraphs too short
+<urn:uuid:2549c6ec-2e29-483f-b990-c5390f054bda>,dropped,too_few_sentences
 <urn:uuid:776dc3f4-4f19-468c-a8a2-556243fc6e37>,dropped,too_few_sentences
 <urn:uuid:b95df728-82a2-4061-bcba-d73ac4e6211b>,dropped,curly_bracket
 <urn:uuid:aa9ca110-9d43-44fc-a78f-26e60c8b5532>,dropped,too_few_sentences
-<urn:uuid:e09b3df2-c2d1-4549-a267-4cc2001c23ff>,dropped,too_few_sentences
+<urn:uuid:e09b3df2-c2d1-4549-a267-4cc2001c23ff>,dropped,top 3 paragraphs too short
 <urn:uuid:857c0e7a-d8a9-491c-a311-2fb46f7ce9cb>,dropped,too_few_sentences
 <urn:uuid:412ab7de-cf75-41b0-9c6f-6be019657ffc>,kept,
 <urn:uuid:056152e6-13ed-4963-bc56-68414e0ae2f9>,dropped,too_few_sentences
@@ -510,29 +510,29 @@ record_id,status,reason
 <urn:uuid:fc2fbad5-dd12-406c-b26e-8431d29785df>,dropped,too_few_sentences
 <urn:uuid:021ec643-2059-434b-86c0-38ee4ea3c56a>,kept,
 <urn:uuid:8cf4312d-078d-48e7-86a3-f45c00589c0a>,dropped,too_few_sentences
-<urn:uuid:d09751e9-b4ea-4ae8-8899-915892bb2426>,dropped,top 3 paragraphs too short
+<urn:uuid:d09751e9-b4ea-4ae8-8899-915892bb2426>,dropped,too_few_sentences
 <urn:uuid:ba5c75ad-0ce9-4d56-94bb-8b0aa7cc9468>,kept,
 <urn:uuid:8d4df0cd-0b4f-4d44-83fc-a0efb13934c8>,dropped,too_few_sentences
 <urn:uuid:81d96443-0499-4191-8971-89a976fcf44d>,dropped,too_few_sentences
 <urn:uuid:0903858d-0551-4282-ab01-5c915e96f83d>,dropped,too_few_sentences
 <urn:uuid:7559b0bd-33b3-4bf8-a408-673b9d2f06ba>,dropped,too_few_sentences
-<urn:uuid:4fbd5224-7e4d-43fe-b720-b96d1dcd4de9>,dropped,too_few_sentences
+<urn:uuid:4fbd5224-7e4d-43fe-b720-b96d1dcd4de9>,dropped,top 3 paragraphs too short
 <urn:uuid:ac38fb88-515f-4aa3-89b7-7c1c5cdaf947>,dropped,too_few_sentences
 <urn:uuid:9191963f-9141-4027-8769-b9aa1ae5853a>,dropped,too_few_sentences
-<urn:uuid:34b2cc0a-6aa5-4a81-a889-1108e9f42ac4>,dropped,too_few_sentences
+<urn:uuid:34b2cc0a-6aa5-4a81-a889-1108e9f42ac4>,dropped,top 3 paragraphs too short
 <urn:uuid:e519c2ad-39bf-48d9-a275-edd953bb2198>,dropped,too_few_sentences
 <urn:uuid:93b59dad-f5c8-40f7-9bb3-1cf577738727>,dropped,too_few_sentences
 <urn:uuid:0a33edfb-2067-40a7-a4fd-eec742488ee1>,dropped,top 3 paragraphs too short
 <urn:uuid:0de01003-ba7f-4375-a99d-c0fc482e5f3f>,dropped,too_few_sentences
 <urn:uuid:22f2133c-bd57-4310-863e-5df73f05d82a>,dropped,too_few_sentences
 <urn:uuid:2dd9c7cf-4d4e-4893-bffa-49688c412d3a>,dropped,too_few_sentences
-<urn:uuid:a4021446-083d-40ea-a4fc-b0fa3d724c52>,dropped,too_few_sentences
-<urn:uuid:dc6a5f85-1bd5-4946-b567-f2172117b7c8>,dropped,too_few_sentences
+<urn:uuid:a4021446-083d-40ea-a4fc-b0fa3d724c52>,kept,
+<urn:uuid:dc6a5f85-1bd5-4946-b567-f2172117b7c8>,dropped,lorem_ipsum
 <urn:uuid:8085d20b-6399-4fd5-af10-249e179997ff>,dropped,top 3 paragraphs too short
 <urn:uuid:3d0b5ac2-b79b-4e09-9516-04bd3606b75d>,dropped,too_few_sentences
 <urn:uuid:179999fd-01c8-4e4d-8dd2-f03e0a60f44d>,dropped,too_few_sentences
 <urn:uuid:1f6448cf-687a-4bdd-ad69-7d12e7c0551b>,dropped,top 3 paragraphs too short
-<urn:uuid:251c952c-8aa9-49f7-ac96-06697ff2d1f7>,dropped,too_few_sentences
+<urn:uuid:251c952c-8aa9-49f7-ac96-06697ff2d1f7>,kept,
 <urn:uuid:0ea24f88-5ef3-4718-a4df-dd0dd5b382d9>,dropped,too_few_sentences
 <urn:uuid:3f9845c1-9309-4cde-9c55-a288bd49b623>,kept,
 <urn:uuid:adea9f04-f6ce-47a0-87e3-f4e0a5b89edb>,dropped,too_few_sentences
@@ -541,7 +541,7 @@ record_id,status,reason
 <urn:uuid:2e09a681-aa97-4c70-80cd-d2b5260df75a>,dropped,too_few_sentences
 <urn:uuid:29d9dc90-2dd9-4b47-9319-5211da8cab88>,dropped,too_few_sentences
 <urn:uuid:b9cc6ac0-1bda-4b00-ab97-a3d55374fee0>,kept,
-<urn:uuid:6e8e92c1-6472-460d-bfac-4346d61d0f0c>,dropped,top 3 paragraphs too short
+<urn:uuid:6e8e92c1-6472-460d-bfac-4346d61d0f0c>,dropped,too_few_sentences
 <urn:uuid:09318581-f2e2-487a-8d92-24a3a31c9469>,dropped,too_few_sentences
 <urn:uuid:f0596507-618a-4bda-8a83-192087e20d56>,dropped,too_few_sentences
 <urn:uuid:ec592502-b222-4193-a377-9bbf22536aa5>,dropped,too_few_sentences
@@ -549,7 +549,7 @@ record_id,status,reason
 <urn:uuid:f3a55c42-14ef-45ee-9e2b-46324e77c097>,dropped,too_few_sentences
 <urn:uuid:0f01de56-8493-45af-9a43-cb27032ed50a>,dropped,too_few_sentences
 <urn:uuid:b1c1eb63-7206-4aaa-98c5-f6b0b645c7fc>,kept,
-<urn:uuid:648e76e0-f179-446c-9326-4fde4b87360f>,dropped,top 3 paragraphs too short
+<urn:uuid:648e76e0-f179-446c-9326-4fde4b87360f>,kept,
 <urn:uuid:5c38580c-eea5-458e-84f1-da34571188d6>,dropped,too_few_sentences
 <urn:uuid:73c97c4a-8282-4e81-8f99-63d300f1122d>,dropped,top 3 paragraphs too short
 <urn:uuid:14bebf83-b4e4-42ec-b4b4-3840218f32ce>,dropped,top 3 paragraphs too short
@@ -577,11 +577,11 @@ record_id,status,reason
 <urn:uuid:30f4dd85-fd97-436d-911d-a3228817c394>,dropped,too_few_sentences
 <urn:uuid:4b6373ef-6eb0-42af-898b-0fb03c84d389>,dropped,too_few_sentences
 <urn:uuid:85f127a2-a507-4ca2-8c62-8c2723a2d507>,dropped,too_few_sentences
-<urn:uuid:09d17e41-bd65-4d3a-baad-b8e24a87d6b5>,dropped,top 3 paragraphs too short
+<urn:uuid:09d17e41-bd65-4d3a-baad-b8e24a87d6b5>,dropped,too_few_sentences
 <urn:uuid:4a020438-b133-4f6c-8aab-bc1ccfa818e3>,dropped,too_few_sentences
 <urn:uuid:28f29419-a440-4799-8c36-c45ca3e38b40>,dropped,too_few_sentences
 <urn:uuid:b1114cd8-c979-4130-9bf4-d90201e2a708>,dropped,too_few_sentences
-<urn:uuid:d0b05af9-b38a-4a75-a738-258fdbf8243f>,dropped,top 3 paragraphs too short
+<urn:uuid:d0b05af9-b38a-4a75-a738-258fdbf8243f>,dropped,too_few_sentences
 <urn:uuid:ed9732cb-0e0d-47e4-af7c-abbf3aa3f6ee>,dropped,too_few_sentences
 <urn:uuid:dcbb4115-bb7e-4eff-a299-aa027ddf2fb2>,dropped,too_few_sentences
 <urn:uuid:9b4647a6-d8a3-4426-98b0-8d248ca3d906>,dropped,too_few_sentences
@@ -592,7 +592,7 @@ record_id,status,reason
 <urn:uuid:01cd1d23-7d41-48ee-8566-3917edde9a15>,dropped,too_few_sentences
 <urn:uuid:d28b44cc-fb8f-4569-a1c1-5feba9de2997>,dropped,too_few_sentences
 <urn:uuid:44c180e2-213c-4e0c-9573-35ad39d552d7>,dropped,too_few_sentences
-<urn:uuid:de1718e1-c903-47f0-b7fc-0e5bfdf7d0e2>,dropped,top 3 paragraphs too short
+<urn:uuid:de1718e1-c903-47f0-b7fc-0e5bfdf7d0e2>,dropped,too_few_sentences
 <urn:uuid:e95be073-c965-4a43-8c6f-93ac97ddf1a7>,dropped,too_few_sentences
 <urn:uuid:3a5bd934-b6cb-4bfd-b2ae-09a550a01045>,dropped,too_few_sentences
 <urn:uuid:ce4d7347-047b-472d-9b39-87813b96ca4e>,dropped,too_few_sentences
@@ -601,7 +601,7 @@ record_id,status,reason
 <urn:uuid:38e75d9e-9d22-4c72-9ea2-1e49732a4f7b>,dropped,too_few_sentences
 <urn:uuid:89fda6a9-a5dc-4df3-bcab-3289b49ccc73>,dropped,too_few_sentences
 <urn:uuid:eb705674-5b75-4405-8f6a-1fef96dd2d27>,dropped,too_few_sentences
-<urn:uuid:cff4fc3b-4f5f-4298-9d11-ddc27074d048>,dropped,too_few_sentences
+<urn:uuid:cff4fc3b-4f5f-4298-9d11-ddc27074d048>,kept,
 <urn:uuid:ff6e2183-cf8a-4b88-8bf2-a00a73893345>,dropped,too_few_sentences
 <urn:uuid:92f7f3e0-28fb-4a12-8784-7a2de6551971>,dropped,too_few_sentences
 <urn:uuid:e6020b4e-b300-4d9d-bbd4-044652ebf31f>,dropped,too_few_sentences
@@ -622,7 +622,7 @@ record_id,status,reason
 <urn:uuid:a348cfc7-0272-4f2f-ad81-9f63220dc449>,dropped,too_few_sentences
 <urn:uuid:56d730d5-5d41-4aaa-adcc-b47191bf1f2e>,kept,
 <urn:uuid:ed798ea6-4604-465b-ae18-1325303705f3>,dropped,too_few_sentences
-<urn:uuid:6d69dce8-9677-46ad-b07d-46580b82cda0>,dropped,too_few_sentences
+<urn:uuid:6d69dce8-9677-46ad-b07d-46580b82cda0>,dropped,top 3 paragraphs too short
 <urn:uuid:87e8b6d5-8336-482f-8b7e-fcd949a36904>,dropped,too_few_sentences
 <urn:uuid:61c7e290-fa53-4a23-b033-e9d9df143438>,dropped,too_few_sentences
 <urn:uuid:387cfdb5-7feb-4ab9-9136-49008dc5129e>,dropped,too_few_sentences
@@ -634,10 +634,10 @@ record_id,status,reason
 <urn:uuid:224a1c7d-0ff5-409c-9056-20a06a3ea360>,kept,
 <urn:uuid:deb5acbd-63c1-4b78-bbd9-43957f4e987f>,dropped,too_few_sentences
 <urn:uuid:130bfabc-35aa-419c-aa6c-183e10a473e4>,dropped,too_few_sentences
-<urn:uuid:70017f91-82d9-44c7-8fe4-385e71e3cdbc>,dropped,top 3 paragraphs too short
+<urn:uuid:70017f91-82d9-44c7-8fe4-385e71e3cdbc>,dropped,too_few_sentences
 <urn:uuid:b660701e-9a66-489c-810c-2b873e6b419b>,dropped,too_few_sentences
 <urn:uuid:356eed20-0208-4c52-b28a-797d8c40a3c2>,dropped,too_few_sentences
-<urn:uuid:59950ff1-006f-429c-9ff5-8bd9a280df49>,dropped,too_few_sentences
+<urn:uuid:59950ff1-006f-429c-9ff5-8bd9a280df49>,dropped,top 3 paragraphs too short
 <urn:uuid:8aac589b-6665-4209-9411-59772f682c29>,dropped,too_few_sentences
 <urn:uuid:7d582ed7-965b-4d7c-9a68-7738e65fe3d8>,dropped,too_few_sentences
 <urn:uuid:8b764d68-0027-4ee5-9d4b-eaf6b4b4aff7>,dropped,too_few_sentences
@@ -656,15 +656,15 @@ record_id,status,reason
 <urn:uuid:efa93fa2-67ed-43d4-bf90-fc71b04d6672>,dropped,too_few_sentences
 <urn:uuid:9865b45b-bc79-4163-b099-84a1bec4a923>,dropped,too_few_sentences
 <urn:uuid:2a776067-36cf-47bd-bd69-348d65748e01>,dropped,too_few_sentences
-<urn:uuid:ae6399ce-38c2-4bc1-a73f-b51f63e3e7dc>,dropped,too_few_sentences
+<urn:uuid:ae6399ce-38c2-4bc1-a73f-b51f63e3e7dc>,dropped,top 3 paragraphs too short
 <urn:uuid:cd761275-1c30-40c0-a6c1-ef310d523076>,dropped,too_few_sentences
 <urn:uuid:7ae1c125-cb35-4603-9dac-817030dc0158>,dropped,too_few_sentences
 <urn:uuid:848a5c52-1d11-4b8a-aadd-6cb3aa0bb7de>,dropped,too_few_sentences
-<urn:uuid:95c36caf-91de-4438-8d11-b8fbb7988020>,dropped,top 3 paragraphs too short
+<urn:uuid:95c36caf-91de-4438-8d11-b8fbb7988020>,kept,
 <urn:uuid:97f11f1e-ab52-4d8d-9325-0558f4c88bf4>,kept,
 <urn:uuid:1096b8fc-77cc-454a-966e-768bead50097>,dropped,too_few_sentences
 <urn:uuid:d7d58b68-6664-4163-9b7b-e7fd5970d125>,dropped,top 3 paragraphs too short
-<urn:uuid:5241a684-49d8-4208-88e0-e4fa1f91e2c2>,dropped,too_few_sentences
+<urn:uuid:5241a684-49d8-4208-88e0-e4fa1f91e2c2>,dropped,lorem_ipsum
 <urn:uuid:5235be82-c521-40ea-aee7-16289c9dfe50>,dropped,too_few_sentences
 <urn:uuid:1eec869b-76d5-499e-b5f3-473903818395>,dropped,too_few_sentences
 <urn:uuid:2f16d918-02ff-4831-883e-9f9fb6bdb6b1>,dropped,too_few_sentences
@@ -674,11 +674,11 @@ record_id,status,reason
 <urn:uuid:137dbb94-71af-4283-ae15-9d379cb3c871>,dropped,too_few_sentences
 <urn:uuid:5a5df926-868c-4a19-a43a-76bfa9411af5>,dropped,too_few_sentences
 <urn:uuid:94f961a2-8c93-42bf-8dbd-94b215c80c0d>,dropped,too_few_sentences
-<urn:uuid:c2b38ebf-63c3-4620-b87f-a21d1fcda68a>,dropped,too_few_sentences
+<urn:uuid:c2b38ebf-63c3-4620-b87f-a21d1fcda68a>,dropped,curly_bracket
 <urn:uuid:2194b2f5-1214-4a09-a060-879f846b21f4>,dropped,too_few_sentences
 <urn:uuid:5e9f0c4d-4020-4282-b2f3-635f1b32e775>,dropped,too_few_sentences
 <urn:uuid:e81e50e1-5633-4a63-90c7-e2e925e886da>,dropped,too_few_sentences
-<urn:uuid:b4cfe057-f803-429d-b910-b7fb06fd9542>,dropped,top 3 paragraphs too short
+<urn:uuid:b4cfe057-f803-429d-b910-b7fb06fd9542>,dropped,too_few_sentences
 <urn:uuid:1c457f9c-84ff-4ca9-8027-e9074cfe42c2>,dropped,too_few_sentences
 <urn:uuid:b68991c8-28da-4b31-982e-8bec7f2adbfd>,dropped,too_few_sentences
 <urn:uuid:1ef619af-5f87-408f-8a71-d48d2589d9c3>,dropped,too_few_sentences
@@ -707,7 +707,7 @@ record_id,status,reason
 <urn:uuid:2eb755c4-e3f1-4414-b7ee-33f8bec69d5c>,dropped,too_few_sentences
 <urn:uuid:9f1240de-c45d-466e-8685-b7db7bcb9d90>,dropped,too_few_sentences
 <urn:uuid:00596281-6f9f-4f08-9417-4fee62cc4235>,dropped,too_few_sentences
-<urn:uuid:04e3fdad-753a-444c-b0fe-d83fc2a30b14>,dropped,too_few_sentences
+<urn:uuid:04e3fdad-753a-444c-b0fe-d83fc2a30b14>,dropped,top 3 paragraphs too short
 <urn:uuid:3ac82fe2-d91b-49f3-a3cf-1fca40d09834>,dropped,too_few_sentences
 <urn:uuid:ada78e6b-6730-4c5e-9d47-68901c1d132b>,dropped,top 3 paragraphs too short
 <urn:uuid:049c2def-c947-4c1f-8854-f7c997df6e4a>,dropped,too_few_sentences
@@ -717,7 +717,7 @@ record_id,status,reason
 <urn:uuid:4be1e436-90d1-4dd6-aec8-c5c6dfbb1a2b>,dropped,too_few_sentences
 <urn:uuid:481dca94-7db7-4b61-b090-8063cfdc03ec>,dropped,too_few_sentences
 <urn:uuid:d852b5d2-8bad-455e-80c7-70f78cd77cf4>,dropped,too_few_sentences
-<urn:uuid:bc56c407-6bc5-42d6-b846-7721f72fc193>,dropped,too_few_sentences
+<urn:uuid:bc56c407-6bc5-42d6-b846-7721f72fc193>,dropped,top 3 paragraphs too short
 <urn:uuid:455dd71f-a953-4373-8674-8f1c8394b10d>,dropped,too_few_sentences
 <urn:uuid:f459920a-90f1-4cca-bded-1d71dad81d76>,dropped,too_few_sentences
 <urn:uuid:923af347-a4b1-4470-84fc-6895802d1b27>,dropped,too_few_sentences
@@ -736,7 +736,7 @@ record_id,status,reason
 <urn:uuid:48a7b251-7dc4-42b2-9c84-1cc5e8e9a8f1>,dropped,too_few_sentences
 <urn:uuid:0c18bf66-4bd6-4321-ae0d-49da7a72573b>,dropped,too_few_sentences
 <urn:uuid:777a6aad-8975-4dec-ad3a-70f95174fcab>,dropped,too_few_sentences
-<urn:uuid:25c7e80a-9512-465b-b6a4-6bf10fce66e7>,dropped,too_few_sentences
+<urn:uuid:25c7e80a-9512-465b-b6a4-6bf10fce66e7>,kept,
 <urn:uuid:3a0542ee-36bb-4484-b560-163fc64d1f6a>,kept,
 <urn:uuid:eab4bd85-1a66-4700-a23d-5cceab907b97>,dropped,too_few_sentences
 <urn:uuid:1ed47e90-7eb1-4586-820d-5d3e0cc84af7>,dropped,top 3 paragraphs too short
@@ -759,7 +759,7 @@ record_id,status,reason
 <urn:uuid:a6846ad8-7491-4689-ae4a-0c4e82a7bf14>,dropped,too_few_sentences
 <urn:uuid:7d4ffdbb-d184-448a-98af-fb7cfdffe168>,dropped,too_few_sentences
 <urn:uuid:4a41530b-7ac2-4395-99ea-d08dce254fee>,dropped,too_few_sentences
-<urn:uuid:2da45f4f-9da2-4278-a878-565cee31b27f>,dropped,top 3 paragraphs too short
+<urn:uuid:2da45f4f-9da2-4278-a878-565cee31b27f>,dropped,too_few_sentences
 <urn:uuid:d3f0a274-7dd1-4146-bfd4-d969d84b97d0>,dropped,too_few_sentences
 <urn:uuid:335b7caa-7a01-47af-a236-749a3248f10a>,dropped,too_few_sentences
 <urn:uuid:f6d57121-4ace-4aa4-b0f4-6fa0cd8d39fb>,dropped,too_few_sentences
@@ -768,13 +768,13 @@ record_id,status,reason
 <urn:uuid:e864b689-1371-4f6e-a97b-ce06d8442504>,kept,
 <urn:uuid:b35290a7-e5ef-4296-a1b3-c60f24d62322>,dropped,top 3 paragraphs too short
 <urn:uuid:e01c4ada-4145-404d-8e6d-e5527ac728b6>,dropped,top 3 paragraphs too short
-<urn:uuid:8dd776d5-074b-4d44-b7c4-b1111cbc9857>,dropped,too_few_sentences
+<urn:uuid:8dd776d5-074b-4d44-b7c4-b1111cbc9857>,kept,
 <urn:uuid:4af4c986-ce02-4361-b5ba-d3b6d06dd046>,dropped,too_few_sentences
 <urn:uuid:316275eb-0ac3-482e-9638-ff987e6274cd>,dropped,too_few_sentences
 <urn:uuid:98c72fa6-9703-4ae3-875a-eef7a93d38e2>,dropped,too_few_sentences
-<urn:uuid:0367665c-8ec6-4764-8187-3ca49140051d>,dropped,top 3 paragraphs too short
+<urn:uuid:0367665c-8ec6-4764-8187-3ca49140051d>,dropped,too_few_sentences
 <urn:uuid:053eb404-3ce4-4f48-8142-8adf759b7f6c>,dropped,too_few_sentences
-<urn:uuid:1f014694-7ac3-49ee-ad16-105af6e053a2>,dropped,top 3 paragraphs too short
+<urn:uuid:1f014694-7ac3-49ee-ad16-105af6e053a2>,dropped,too_few_sentences
 <urn:uuid:c033115f-d2b6-4d40-82c0-bedaffbae80f>,kept,
 <urn:uuid:d791bfaa-854f-4575-9e11-08c3784d45d2>,dropped,too_few_sentences
 <urn:uuid:5a4d134d-44ef-49f0-a90b-8e0580924f63>,dropped,too_few_sentences
@@ -797,7 +797,7 @@ record_id,status,reason
 <urn:uuid:b432a752-226d-4881-bd1a-9671ef10a553>,dropped,too_few_sentences
 <urn:uuid:e5045032-7a09-4610-9bd3-643eab45571c>,dropped,too_few_sentences
 <urn:uuid:70ec53be-25c3-4911-b19c-815159765660>,dropped,too_few_sentences
-<urn:uuid:1ead47e2-3cf8-4999-907e-f4d87a996886>,dropped,top 3 paragraphs too short
+<urn:uuid:1ead47e2-3cf8-4999-907e-f4d87a996886>,dropped,too_few_sentences
 <urn:uuid:d1714619-f24c-450e-b6e7-d864020a8d15>,dropped,too_few_sentences
 <urn:uuid:af508d7e-2eb8-4494-a7fe-c4b964926af8>,kept,
 <urn:uuid:f3659882-83bf-4888-8c04-19448b68eac7>,dropped,too_few_sentences
@@ -807,8 +807,8 @@ record_id,status,reason
 <urn:uuid:16b530f1-64c4-4b45-9890-3dd83ad85490>,dropped,too_few_sentences
 <urn:uuid:387d4b4f-704f-4398-9017-bdcf8429f2fc>,dropped,too_few_sentences
 <urn:uuid:ccabf6ca-71c9-4f54-bc2b-f46f0d8a0dac>,dropped,too_few_sentences
-<urn:uuid:04e115ca-47bb-4dca-aea6-f0d4b81de99d>,dropped,top 3 paragraphs too short
-<urn:uuid:d6e7fecd-15b5-47c3-b4cc-ffa662532494>,dropped,top 3 paragraphs too short
+<urn:uuid:04e115ca-47bb-4dca-aea6-f0d4b81de99d>,kept,
+<urn:uuid:d6e7fecd-15b5-47c3-b4cc-ffa662532494>,kept,
 <urn:uuid:de204b48-5852-4511-a10c-f47a1b6820f6>,dropped,too_few_sentences
 <urn:uuid:7383c53d-ba92-45f2-9371-1cdcfa3bab5d>,kept,
 <urn:uuid:9b1cecf1-ae45-4db4-a493-f56615fdedec>,dropped,too_few_sentences
@@ -841,7 +841,7 @@ record_id,status,reason
 <urn:uuid:b11c5e3c-ea19-4fb4-a03f-86ae22f5e5aa>,dropped,too_few_sentences
 <urn:uuid:6cc76ef1-9b5a-4e41-9ef7-816509a4c48a>,dropped,too_few_sentences
 <urn:uuid:87832888-8427-4da9-8bd0-110fb12deb7b>,dropped,too_few_sentences
-<urn:uuid:e6723ea9-b6bd-4ef6-99e5-0c45b90846b7>,dropped,top 3 paragraphs too short
+<urn:uuid:e6723ea9-b6bd-4ef6-99e5-0c45b90846b7>,dropped,too_few_sentences
 <urn:uuid:7910f6bd-83fa-4ad2-a891-5009f81da87b>,dropped,curly_bracket
 <urn:uuid:622c09c4-b2e8-4962-ba97-3abbb40c534b>,dropped,too_few_sentences
 <urn:uuid:3221aa48-b272-46d8-9901-07f384c013f3>,dropped,too_few_sentences
@@ -867,20 +867,20 @@ record_id,status,reason
 <urn:uuid:d346aac6-3433-461d-81b7-802f9903df8d>,dropped,too_few_sentences
 <urn:uuid:604233d0-ae12-4d92-b4e0-055f4b0d3051>,kept,
 <urn:uuid:1e25d947-db6c-478d-a72f-ea1fdcc3bb3d>,dropped,too_few_sentences
-<urn:uuid:19577804-496e-447b-80a5-5ac8e4200b74>,dropped,too_few_sentences
+<urn:uuid:19577804-496e-447b-80a5-5ac8e4200b74>,dropped,top 3 paragraphs too short
 <urn:uuid:29eb8e4e-1037-4dec-9b84-0d01c5d005fd>,kept,
 <urn:uuid:c129464d-aa76-4ae8-9bac-8f56a9f6c022>,dropped,curly_bracket
-<urn:uuid:c1591e6a-19c5-4ab5-94de-560408f0e196>,dropped,top 3 paragraphs too short
+<urn:uuid:c1591e6a-19c5-4ab5-94de-560408f0e196>,dropped,too_few_sentences
 <urn:uuid:883bb7ae-ffdc-4589-9552-e76aa878face>,dropped,too_few_sentences
 <urn:uuid:fc59fd6f-47dd-4f0a-990e-67ccba507bdc>,kept,
 <urn:uuid:7207ff35-3e52-43c0-80f4-bbcf372d6fed>,kept,
 <urn:uuid:9521f748-a168-4bf2-ab37-ff57a05c4dd5>,kept,
 <urn:uuid:0a77c8f9-2cc0-4ade-9a3a-3baf5747d850>,dropped,too_few_sentences
 <urn:uuid:ef49a1e3-f8b5-43bc-92c1-15b09339c925>,kept,
-<urn:uuid:f8326461-e1b4-485a-aab1-dd478b2ed0fc>,dropped,top 3 paragraphs too short
+<urn:uuid:f8326461-e1b4-485a-aab1-dd478b2ed0fc>,kept,
 <urn:uuid:dea6bfe5-6dbc-4a4f-9050-45a95ab1f26c>,dropped,too_few_sentences
-<urn:uuid:41b235e9-5832-4253-84bb-eba6f670f379>,dropped,too_few_sentences
-<urn:uuid:3d92053b-0e3d-45c4-8dd1-60ae072aecbc>,dropped,too_few_sentences
+<urn:uuid:41b235e9-5832-4253-84bb-eba6f670f379>,dropped,top 3 paragraphs too short
+<urn:uuid:3d92053b-0e3d-45c4-8dd1-60ae072aecbc>,dropped,top 3 paragraphs too short
 <urn:uuid:9f8ae8f6-c93a-4946-9195-411d0bfae2c8>,kept,
 <urn:uuid:19a86626-d347-4534-aa90-6a4725499cfe>,dropped,too_few_sentences
 <urn:uuid:fa0f2b0b-ef17-4113-b2f3-d8e087758a5b>,kept,
@@ -890,13 +890,13 @@ record_id,status,reason
 <urn:uuid:cb10ee4c-2512-4f60-a208-c022bec1fcda>,dropped,too_few_sentences
 <urn:uuid:b92c0714-d990-4a3d-a61c-972878b5e4a5>,dropped,too_few_sentences
 <urn:uuid:1a6c35fa-1600-41cc-a110-7bc2f7c6acb7>,dropped,too_few_sentences
-<urn:uuid:100f6d55-a5df-4674-9c5a-798feb8c6e8f>,dropped,top 3 paragraphs too short
+<urn:uuid:100f6d55-a5df-4674-9c5a-798feb8c6e8f>,dropped,too_few_sentences
 <urn:uuid:9acc32dd-1765-492a-93f0-1888a89809dd>,dropped,too_few_sentences
 <urn:uuid:9009cb81-c95e-4abd-91a2-31829946e30d>,dropped,too_few_sentences
 <urn:uuid:1a061668-801e-4214-8e99-9a7e9d508226>,dropped,too_few_sentences
-<urn:uuid:6d1a1a6a-539a-4f97-8fa9-f7156af92aa6>,dropped,top 3 paragraphs too short
+<urn:uuid:6d1a1a6a-539a-4f97-8fa9-f7156af92aa6>,dropped,too_few_sentences
 <urn:uuid:c46867db-e95f-4767-a391-ef0c2369d758>,dropped,too_few_sentences
-<urn:uuid:ba239ddf-e670-4c17-9d9a-02399b6cb4e9>,dropped,too_few_sentences
+<urn:uuid:ba239ddf-e670-4c17-9d9a-02399b6cb4e9>,kept,
 <urn:uuid:03c64f8f-e5d9-49f9-af51-a077368eac85>,dropped,badword: paki
 <urn:uuid:52711918-89ba-4ea9-b82d-c49b91aaf2f1>,kept,
 <urn:uuid:311342ec-40e0-4069-84b2-d174be9c3883>,dropped,too_few_sentences
@@ -909,7 +909,7 @@ record_id,status,reason
 <urn:uuid:79e8f2c0-d471-4388-a4fe-634dbb5fb41f>,dropped,too_few_sentences
 <urn:uuid:32b4a004-b65b-46fc-aa26-1a10b42675a7>,dropped,top 3 paragraphs too short
 <urn:uuid:7abd2c38-f529-4978-9ddd-e7280594ac04>,dropped,too_few_sentences
-<urn:uuid:96094213-83ba-4e59-8f18-9a6614f87921>,dropped,too_few_sentences
+<urn:uuid:96094213-83ba-4e59-8f18-9a6614f87921>,dropped,top 3 paragraphs too short
 <urn:uuid:c76e13f1-d4be-41f1-814a-58d4708a06a7>,kept,
 <urn:uuid:6f4774f3-c6a2-4a34-b526-ba8aa34c9467>,dropped,too_few_sentences
 <urn:uuid:f296e714-2e08-458b-968a-f639260a759c>,dropped,too_few_sentences
@@ -932,11 +932,11 @@ record_id,status,reason
 <urn:uuid:9a5f229f-c47b-488e-bba8-8a18e8b11bd8>,dropped,too_few_sentences
 <urn:uuid:1e3cc3af-66ad-47ab-86b7-ac79588d4caa>,dropped,too_few_sentences
 <urn:uuid:15b1e8ba-3053-4318-bc15-d3dd5d7b807a>,dropped,too_few_sentences
-<urn:uuid:95d70e6e-54ea-4f5c-8474-d9edc2c86846>,dropped,too_few_sentences
+<urn:uuid:95d70e6e-54ea-4f5c-8474-d9edc2c86846>,dropped,top 3 paragraphs too short
 <urn:uuid:20b33569-bcbf-48ba-b9fa-167b6ade043d>,dropped,too_few_sentences
 <urn:uuid:cb222483-8dcb-4c21-9eff-863fa42ef55d>,kept,
-<urn:uuid:16a2ef64-18c8-4d1c-aaad-3663f1f6c25b>,dropped,too_few_sentences
-<urn:uuid:86002a76-f1d8-4786-a880-4ff719f4c341>,dropped,top 3 paragraphs too short
+<urn:uuid:16a2ef64-18c8-4d1c-aaad-3663f1f6c25b>,kept,
+<urn:uuid:86002a76-f1d8-4786-a880-4ff719f4c341>,dropped,too_few_sentences
 <urn:uuid:6e213bf0-6ca8-4b24-8228-84ac270c4055>,dropped,too_few_sentences
 <urn:uuid:3a6d0e26-bc0f-47a2-bdeb-4ec48b23e1cf>,dropped,curly_bracket
 <urn:uuid:a7e7660a-caa2-4a56-853f-3958e46b1181>,dropped,too_few_sentences
@@ -947,7 +947,7 @@ record_id,status,reason
 <urn:uuid:cf097adc-66d6-40ca-88c4-92eddb32ff9d>,dropped,top 3 paragraphs too short
 <urn:uuid:d6b05081-1e99-4bba-a6b2-2aa09ba2f7bd>,dropped,too_few_sentences
 <urn:uuid:9427757f-034c-4209-8d1b-32fa7b8c6a9c>,dropped,too_few_sentences
-<urn:uuid:168597b6-1ced-4ef5-a862-7d32fbbba9c3>,dropped,too_few_sentences
+<urn:uuid:168597b6-1ced-4ef5-a862-7d32fbbba9c3>,dropped,top 3 paragraphs too short
 <urn:uuid:5b962471-f0c1-420c-bb9e-caad3049f2c2>,dropped,too_few_sentences
 <urn:uuid:cbfb0745-0288-4a30-89b9-f2d074df46b2>,dropped,too_few_sentences
 <urn:uuid:752eb044-0ed4-4449-9907-0aeb24da9376>,dropped,too_few_sentences
@@ -962,32 +962,32 @@ record_id,status,reason
 <urn:uuid:4476ca87-c72e-468d-b62f-07acf561d98a>,dropped,too_few_sentences
 <urn:uuid:b395bc7c-1a38-4e0a-ae80-e00e43299391>,dropped,too_few_sentences
 <urn:uuid:db02e198-dd7e-4071-adde-1b4614d6887e>,dropped,too_few_sentences
-<urn:uuid:2dedc861-7b4b-474f-8a50-09fd0014f5b2>,dropped,too_few_sentences
+<urn:uuid:2dedc861-7b4b-474f-8a50-09fd0014f5b2>,kept,
 <urn:uuid:3a325684-ecde-403f-8c31-4aca42f87257>,kept,
 <urn:uuid:81da1af8-c280-474c-9b77-72134a002545>,kept,
 <urn:uuid:9ad3d749-50e6-4c8f-a271-2c797fb4e965>,dropped,too_few_sentences
 <urn:uuid:8a5e1081-91d3-42f5-848e-ad78e0b815c1>,dropped,top 3 paragraphs too short
-<urn:uuid:c4ff5d2d-9ce8-4010-a67a-007c0cbd9e16>,dropped,too_few_sentences
+<urn:uuid:c4ff5d2d-9ce8-4010-a67a-007c0cbd9e16>,dropped,top 3 paragraphs too short
 <urn:uuid:7465a622-7a99-45d3-9acc-83ba8fc3bdd5>,dropped,too_few_sentences
 <urn:uuid:aa8740fc-be7c-4afb-a2c3-2f4bf4670336>,dropped,too_few_sentences
 <urn:uuid:6456108c-eac4-46a4-a9fb-400da01f9bc9>,dropped,too_few_sentences
 <urn:uuid:a244069d-1b66-4aba-b21e-577c47f2c72e>,dropped,too_few_sentences
 <urn:uuid:26b09c21-703e-46dd-834a-e49972b7250c>,dropped,too_few_sentences
 <urn:uuid:0e4b2467-4bc8-453e-b31c-dcf2114b5334>,dropped,too_few_sentences
-<urn:uuid:fc8df367-6217-4de0-8538-853b12e61857>,dropped,too_few_sentences
+<urn:uuid:fc8df367-6217-4de0-8538-853b12e61857>,kept,
 <urn:uuid:60ad3e2d-ccee-453f-b53b-474776d39840>,dropped,too_few_sentences
-<urn:uuid:9a323463-c56e-40d2-96a0-20a944c617f0>,kept,
+<urn:uuid:9a323463-c56e-40d2-96a0-20a944c617f0>,dropped,top 3 paragraphs too short
 <urn:uuid:4827cb58-b399-4526-ba27-2f52a3be9168>,dropped,too_few_sentences
-<urn:uuid:71fb9c9e-611e-4136-b2ef-3e35b33ec707>,dropped,top 3 paragraphs too short
+<urn:uuid:71fb9c9e-611e-4136-b2ef-3e35b33ec707>,dropped,too_few_sentences
 <urn:uuid:461f3671-fa06-421f-9cc2-ef8e2164e594>,dropped,curly_bracket
-<urn:uuid:28d40463-b4f6-499b-95a3-430fe714cb02>,kept,
+<urn:uuid:28d40463-b4f6-499b-95a3-430fe714cb02>,dropped,too_few_sentences
 <urn:uuid:f54a15bf-5138-4ff2-91a7-d387c30e5b9b>,dropped,too_few_sentences
 <urn:uuid:d7d0dbde-7261-4a3c-8e4e-ed64f9333196>,dropped,too_few_sentences
 <urn:uuid:b04c6bf0-4de4-4acb-b1f5-20ff2edde4e1>,kept,
 <urn:uuid:f3d2afb9-6b7e-44f8-a84e-20f95ff76e46>,dropped,too_few_sentences
 <urn:uuid:737fb733-9648-44e9-87e7-c46a49e68a85>,dropped,too_few_sentences
 <urn:uuid:aaa0b936-9fe5-4eed-a316-c9a155215202>,dropped,too_few_sentences
-<urn:uuid:4fcc1f02-7d04-40bd-9e7a-7be494c85726>,dropped,curly_bracket
+<urn:uuid:4fcc1f02-7d04-40bd-9e7a-7be494c85726>,kept,
 <urn:uuid:2e0adbe7-471b-4554-8b61-0b7e345c1dc8>,dropped,too_few_sentences
 <urn:uuid:bbf9765b-bdbf-446b-aa1b-b95533975103>,dropped,too_few_sentences
 <urn:uuid:3104d484-33cc-423e-9501-cd7166a09f29>,dropped,too_few_sentences

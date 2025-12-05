@@ -9,21 +9,6 @@
 #include <algorithm>
 #include <cstring>
 
-// C4QualityFilter
-
-C4QualityFilter::C4QualityFilter() 
-{
-    policy_substrings = {
-        "terms of use",
-        "privacy policy",
-        "cookie policy",
-        "uses cookies",
-        "use of cookies",
-        "use cookies"
-    };
-    end_punctuation = {'.', '?', '!', '"', '\''};
-}
-
 // In-place citation removal to avoid allocation
 // Returns new length
 size_t removeCitationsInPlace(char* str, size_t len) {
@@ -82,6 +67,25 @@ LineStats analyzeLine(std::string_view line, int max_len) {
         }
     }
     return stats;
+}
+
+// C4QualityFilter
+
+C4QualityFilter::C4QualityFilter() 
+{
+    policy_substrings = {
+        "terms of use",
+        "privacy policy",
+        "cookie policy",
+        "uses cookies",
+        "use of cookies",
+        "use cookies"
+    };
+
+    end_punct_table.fill(false);
+    for (char c : {'.', '?', '!', '"', '\''}) {
+        end_punct_table[static_cast<unsigned char>(c)] = true;
+    }
 }
 
 FilterResult C4QualityFilter::filter(std::string& text) {
@@ -147,7 +151,7 @@ FilterResult C4QualityFilter::filter(std::string& text) {
         // Check terminal punct
         if (filter_no_terminal_punct) {
             char last_char = line_buf.back();
-            bool has_end_punct = end_punctuation.count(last_char);
+            bool has_end_punct = end_punct_table[static_cast<unsigned char>(last_char)];
             bool ends_ellipsis = (line_buf.length() >= 3 && line_buf.substr(line_buf.length()-3) == "...");
             
             if (!has_end_punct || ends_ellipsis) continue;
@@ -225,15 +229,21 @@ C4BadWordsFilter::C4BadWordsFilter() {
 
 void C4BadWordsFilter::loadBadWords() {
     std::ifstream f("badwords_en.txt");
+    badwords.clear();
+
     if (f.good()) {
+        badwords.reserve(512);
         std::string line;
         while (std::getline(f, line)) {
-            line.erase(line.find_last_not_of(" \n\r\t")+1);
+            size_t last = line.find_last_not_of(" \n\r\t");
+            if (last == std::string::npos) continue;
+            line.erase(last + 1);
             if (!line.empty()) badwords.push_back(line);
         }
     } else {
         badwords = {"porn", "xxx", "sex"}; 
     }
+
 }
 
 FilterResult C4BadWordsFilter::filter(const std::string& text) {
@@ -284,37 +294,23 @@ GopherQualityFilter::GopherQualityFilter(
         stop_words_vec_ = stop_words;
         using_default_stopwords_ = false;
     }
-    stop_check_enabled_ = (min_stop_words_ > 0) && (!stop_words_vec_.empty() || using_default_stopwords_);
-
-    if (!using_default_stopwords_) {
-        for (const auto& sw : stop_words_vec_) {
-            size_t len = sw.size();
-            if (len <= kStopBucketMaxLen) {
-                stop_buckets_[len].push_back(sw);
-            } else {
-                stop_long_.push_back(sw);
-            }
-        }
-    }
 
     const std::string punctuation = R"(!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~)";
-    punctuation_mask_.fill(0);
+    punctuation_table_.fill(false);
     for (unsigned char c : punctuation) {
-        punctuation_mask_[c >> 6] |= (1ULL << (c & 63));
+        punctuation_table_[c] = true;
     }
 
-    space_mask_.fill(0);
+    space_table_.fill(false);
     for (unsigned char c : std::string(" \t\n\r\f\v")) {
-        space_mask_[c >> 6] |= (1ULL << (c & 63));
+        space_table_[c] = true;
     }
-    alpha_mask_.fill(0);
-    for (unsigned char c = 'A'; c <= 'Z'; ++c) alpha_mask_[c >> 6] |= (1ULL << (c & 63));
-    for (unsigned char c = 'a'; c <= 'z'; ++c) alpha_mask_[c >> 6] |= (1ULL << (c & 63));
+    alpha_table_.fill(false);
+    for (unsigned char c = 'A'; c <= 'Z'; ++c) alpha_table_[c] = true;
+    for (unsigned char c = 'a'; c <= 'z'; ++c) alpha_table_[c] = true;
 }
 
 bool GopherQualityFilter::isStopWord(const char* w, size_t len) const {
-    if (!stop_check_enabled_) return false;
-
     if (using_default_stopwords_) {
         switch (len) {
             case 2:
@@ -332,16 +328,9 @@ bool GopherQualityFilter::isStopWord(const char* w, size_t len) const {
                 break;
         }
     }
-    if (len <= kStopBucketMaxLen) {
-        const auto& bucket = stop_buckets_[len];
-        for (const auto& sw : bucket) {
-            if (std::memcmp(sw.data(), w, len) == 0) return true;
-        }
-    } else {
-        for (const auto& sw : stop_long_) {
-            if (sw.size() != len) continue;
-            if (std::memcmp(sw.data(), w, len) == 0) return true;
-        }
+    for (const auto& sw : stop_words_vec_) {
+        if (sw.size() != len) continue;
+        if (std::memcmp(sw.data(), w, len) == 0) return true;
     }
     return false;
 }
@@ -350,138 +339,42 @@ FilterResult GopherQualityFilter::filter(const std::string& text) const {
     const char* data = text.data();
     const size_t n = text.size();
 
-    size_t n_words = 0;
+    // Tokenize on whitespace (like Python word_tokenize default whitespace splitter here)
+    std::vector<std::string_view> words;
+    size_t i = 0;
+    while (i < n) {
+        while (i < n && space_table_[static_cast<unsigned char>(data[i])]) i++;
+        size_t start = i;
+        while (i < n && !space_table_[static_cast<unsigned char>(data[i])]) i++;
+        if (start < i) {
+            words.emplace_back(data + start, i - start);
+        }
+    }
+
+    const size_t n_words = words.size();
     size_t n_non_symbol_words = 0;
     size_t total_non_symbol_len = 0;
     size_t words_with_alpha = 0;
     size_t stop_word_count = 0;
-    size_t hash_count = 0;
-    size_t ellipsis_tokens = 0;
 
-    size_t line_count = 0;
-    size_t bullet_lines = 0;
-    size_t ellipsis_lines = 0;
-
-    size_t word_start = std::string::npos;
-    size_t line_start = 0;
-    size_t dot_run = 0; // track ascii ellipsis non-overlapping
-    size_t unicode_ellipsis_pending = 0; // bytes left to confirm U+2026
-
-    auto flush_word = [&](size_t start, size_t end) {
-        if (start >= end) return;
-        n_words++;
+    for (const auto& w : words) {
         bool non_symbol = false;
         bool has_alpha = false;
-        const char* w = data + start;
-        size_t len = end - start;
-        for (size_t i = 0; i < len; ++i) {
-            unsigned char uc = static_cast<unsigned char>(w[i]);
-            if (!isPunct(uc)) non_symbol = true;
-            if (isAlpha(uc)) has_alpha = true;
+        for (char ch : w) {
+            unsigned char uc = static_cast<unsigned char>(ch);
+            if (!punctuation_table_[uc]) non_symbol = true;
+            if (alpha_table_[uc]) has_alpha = true;
         }
         if (non_symbol) {
             n_non_symbol_words++;
-            total_non_symbol_len += len;
+            total_non_symbol_len += w.size();
         }
         if (has_alpha) {
             words_with_alpha++;
         }
-        if (min_stop_words_ && (using_default_stopwords_ || !stop_words_vec_.empty())) {
-            if (isStopWord(w, len)) {
-                stop_word_count++;
-            }
+        if (min_stop_words_ && isStopWord(w.data(), w.size())) {
+            stop_word_count++;
         }
-    };
-
-    auto process_line = [&](size_t start, size_t end) {
-        if (start > end) return;
-        line_count++;
-        // trim
-        while (start < end && isSpace(static_cast<unsigned char>(data[start]))) start++;
-        while (end > start && isSpace(static_cast<unsigned char>(data[end - 1]))) end--;
-        if (start >= end) return;
-
-        if (max_bullet_lines_ratio_) {
-            unsigned char c0 = static_cast<unsigned char>(data[start]);
-            if (c0 == '-') {
-                bullet_lines++;
-            } else if (end - start >= 3 &&
-                       c0 == 0xE2 &&
-                       static_cast<unsigned char>(data[start + 1]) == 0x80 &&
-                       static_cast<unsigned char>(data[start + 2]) == 0xA2) {
-                bullet_lines++;
-            }
-        }
-
-        if (max_ellipsis_lines_ratio_) {
-            size_t len = end - start;
-            if (len >= 3) {
-                const unsigned char* tail = reinterpret_cast<const unsigned char*>(data + end - 3);
-                if (tail[0] == '.' && tail[1] == '.' && tail[2] == '.') {
-                    ellipsis_lines++;
-                } else if (tail[0] == 0xE2 && tail[1] == 0x80 && tail[2] == 0xA6) {
-                    ellipsis_lines++;
-                }
-            }
-        }
-    };
-
-    {
-        Utils::ScopedTimer t("QF_scan");
-        for (size_t i = 0; i < n; ++i) {
-            unsigned char uc = static_cast<unsigned char>(data[i]);
-            char c = data[i];
-
-            if (c == '#') {
-                hash_count++;
-            }
-
-            if (c == '.') {
-                dot_run++;
-                if (dot_run == 3) {
-                    ellipsis_tokens++;
-                    dot_run = 0;
-                }
-            } else {
-                dot_run = 0;
-            }
-
-        // Track UTF-8 ellipsis without lookahead; simple DFA over 0xE2 0x80 0xA6
-        if (unicode_ellipsis_pending == 0) {
-            if (uc == 0xE2) unicode_ellipsis_pending = 1;
-        } else if (unicode_ellipsis_pending == 1) {
-            if (uc == 0x80) unicode_ellipsis_pending = 2;
-            else unicode_ellipsis_pending = (uc == 0xE2) ? 1 : 0;
-        } else if (unicode_ellipsis_pending == 2) {
-            if (uc == 0xA6) {
-                ellipsis_tokens++;
-            }
-            unicode_ellipsis_pending = (uc == 0xE2) ? 1 : 0;
-        }
-
-        if (!isSpace(uc)) {
-                if (word_start == std::string::npos) {
-                    word_start = i;
-                }
-            } else if (word_start != std::string::npos) {
-                flush_word(word_start, i);
-                word_start = std::string::npos;
-            }
-
-            if (c == '\n') {
-                process_line(line_start, i);
-                line_start = i + 1;
-            }
-        }
-
-        if (word_start != std::string::npos) {
-            flush_word(word_start, n);
-        }
-        process_line(line_start, n);
-    }
-
-    if (line_count == 0) {
-        line_count = 1;
     }
 
     if (n_words == 0) {
@@ -503,14 +396,21 @@ FilterResult GopherQualityFilter::filter(const std::string& text) const {
         if (max_avg_word_length_ && avg_len > max_avg_word_length_) {
             return {false, "gopher_above_avg_threshold"};
         }
-    } else if (min_avg_word_length_ || max_avg_word_length_) {
-        // Matches Python behavior: empty non-symbol set triggers below threshold
-        if (min_avg_word_length_) {
-            return {false, "gopher_below_avg_threshold"};
-        }
+    } else if (min_avg_word_length_) {
+        return {false, "gopher_below_avg_threshold"};
     }
 
     if (max_symbol_word_ratio_) {
+        size_t hash_count = std::count(text.begin(), text.end(), '#');
+
+        size_t ellipsis_tokens = 0;
+        for (size_t pos = 0; (pos = text.find("...", pos)) != std::string::npos; pos += 3) {
+            ellipsis_tokens++;
+        }
+        for (size_t pos = 0; (pos = text.find("\xE2\x80\xA6", pos)) != std::string::npos; pos += 3) {
+            ellipsis_tokens++;
+        }
+
         double hash_ratio = static_cast<double>(hash_count) / static_cast<double>(n_words);
         if (hash_ratio > max_symbol_word_ratio_) {
             return {false, "gopher_too_many_hashes"};
@@ -518,6 +418,48 @@ FilterResult GopherQualityFilter::filter(const std::string& text) const {
         double ellipsis_ratio = static_cast<double>(ellipsis_tokens) / static_cast<double>(n_words);
         if (ellipsis_ratio > max_symbol_word_ratio_) {
             return {false, "gopher_too_many_ellipsis"};
+        }
+    }
+
+    // Line-based checks
+    std::vector<std::string_view> lines;
+    size_t line_start = 0;
+    for (size_t idx = 0; idx <= n; ++idx) {
+        if (idx == n || data[idx] == '\n') {
+            lines.emplace_back(data + line_start, idx - line_start);
+            line_start = idx + 1;
+        }
+    }
+    const size_t line_count = lines.size();
+    if (line_count == 0) {
+        return {false, "gopher_short_doc"};
+    }
+
+    size_t bullet_lines = 0;
+    size_t ellipsis_lines = 0;
+    for (auto line : lines) {
+        size_t l = 0;
+        while (l < line.size() && space_table_[static_cast<unsigned char>(line[l])]) l++;
+        if (l < line.size()) {
+            unsigned char c0 = static_cast<unsigned char>(line[l]);
+            if (c0 == '-') {
+                bullet_lines++;
+            } else if (line.size() - l >= 3 &&
+                       c0 == 0xE2 &&
+                       static_cast<unsigned char>(line[l + 1]) == 0x80 &&
+                       static_cast<unsigned char>(line[l + 2]) == 0xA2) {
+                bullet_lines++;
+            }
+        }
+
+        size_t r = line.size();
+        while (r > 0 && space_table_[static_cast<unsigned char>(line[r - 1])]) r--;
+        if (r >= 3) {
+            const unsigned char* tail = reinterpret_cast<const unsigned char*>(line.data() + r - 3);
+            if ((tail[0] == '.' && tail[1] == '.' && tail[2] == '.') ||
+                (tail[0] == 0xE2 && tail[1] == 0x80 && tail[2] == 0xA6)) {
+                ellipsis_lines++;
+            }
         }
     }
 

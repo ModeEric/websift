@@ -53,7 +53,7 @@ int main(int argc, char** argv) {
     downloadBadWords();
 
     WarcReader reader(args.input_file);
-    GopherQualityFilter qualityFilter;
+    C4QualityFilter qualityFilter;
     C4ParagraphFilter paragraphFilter;
     C4BadWordsFilter badWordsFilter;
     

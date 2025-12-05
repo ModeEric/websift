@@ -2,10 +2,8 @@
 
 #include <string>
 #include <vector>
-#include <regex>
-#include <set>
-#include <unordered_set>
 #include <array>
+#include <unordered_set>
 
 struct FilterResult {
     bool keep;
@@ -22,16 +20,15 @@ private:
     bool remove_citations = true;
     bool filter_no_terminal_punct = true;
     int min_num_sentences = 5;
-    int min_words_per_line = 3;
+    int min_words_per_line = 5;
     int max_word_length = 1000;
     bool filter_lorem_ipsum = true;
     bool filter_javascript = true;
     bool filter_curly_bracket = true;
     bool filter_policy = true;
 
-    std::regex citation_regex;
     std::vector<std::string> policy_substrings;
-    std::set<char> end_punctuation;
+    std::array<bool, 256> end_punct_table{};
 };
 
 class C4ParagraphFilter {
@@ -52,6 +49,7 @@ public:
 private:
     // For this implementation, we'll use a simple list for "en"
     std::vector<std::string> badwords;
+
     void loadBadWords();
 };
 
@@ -93,28 +91,12 @@ private:
     double max_non_alpha_words_ratio_;
     int min_stop_words_;
 
-    static constexpr size_t kStopBucketMaxLen = 32;
-    bool stop_check_enabled_ = true;
-    bool using_default_stopwords_ = true;
     std::vector<std::string> stop_words_vec_;
-    std::array<std::vector<std::string>, kStopBucketMaxLen + 1> stop_buckets_;
-    std::vector<std::string> stop_long_;
-    // Bitmask tables for fast char classification (256 bits each)
-    std::array<uint64_t, 4> punctuation_mask_{}; // 4 * 64 = 256 bits
-    std::array<uint64_t, 4> space_mask_{};
-    std::array<uint64_t, 4> alpha_mask_{};
-
-    inline bool isPunct(unsigned char c) const {
-        return (punctuation_mask_[c >> 6] >> (c & 63)) & 1ULL;
-    }
-    inline bool isSpace(unsigned char c) const {
-        return (space_mask_[c >> 6] >> (c & 63)) & 1ULL;
-    }
-    inline bool isAlpha(unsigned char c) const {
-        return (alpha_mask_[c >> 6] >> (c & 63)) & 1ULL;
-    }
+    bool using_default_stopwords_ = true;
+    std::array<bool, 256> punctuation_table_{};
+    std::array<bool, 256> space_table_{};
+    std::array<bool, 256> alpha_table_{};
 
     bool isStopWord(const char* w, size_t len) const;
-    static constexpr bool kHasMinStopWordsDefault = true;
 };
 
