@@ -8,10 +8,56 @@
 #include <future>
 #include <thread>
 #include <memory>
+#include <deque>
+#include <atomic>
+#include <mutex>
+#include <condition_variable>
 #include <string>
 #include <vector>
 
 namespace {
+template <typename T>
+class BoundedQueue {
+public:
+    explicit BoundedQueue(size_t capacity) : capacity_(capacity) {}
+
+    bool push(T&& item) {
+        std::unique_lock<std::mutex> lock(mu_);
+        cv_push_.wait(lock, [&] { return closed_ || queue_.size() < capacity_; });
+        if (closed_) return false;
+        queue_.push_back(std::move(item));
+        cv_pop_.notify_one();
+        return true;
+    }
+
+    bool pop(T& out) {
+        std::unique_lock<std::mutex> lock(mu_);
+        cv_pop_.wait(lock, [&] { return closed_ || !queue_.empty(); });
+        if (queue_.empty()) {
+            return false;
+        }
+        out = std::move(queue_.front());
+        queue_.pop_front();
+        cv_push_.notify_one();
+        return true;
+    }
+
+    void close() {
+        std::lock_guard<std::mutex> lock(mu_);
+        closed_ = true;
+        cv_pop_.notify_all();
+        cv_push_.notify_all();
+    }
+
+private:
+    std::mutex mu_;
+    std::condition_variable cv_push_;
+    std::condition_variable cv_pop_;
+    std::deque<T> queue_;
+    size_t capacity_;
+    bool closed_ = false;
+};
+
 struct Args {
     std::string input;
     int limit = -1;
@@ -204,8 +250,8 @@ int main(int argc, char** argv) {
     double mb_sec = secs > 0 ? (bytes / 1024.0 / 1024.0) / secs : 0.0;
 
     std::cout << "{"
-              << "\"docs\":" << docs << ","
-              << "\"kept\":" << kept << ","
+              << "\"docs\":" << docs_count << ","
+              << "\"kept\":" << kept_count << ","
               << "\"elapsed_sec\":" << secs << ","
               << "\"docs_sec\":" << docs_sec << ","
               << "\"mb_sec\":" << mb_sec
