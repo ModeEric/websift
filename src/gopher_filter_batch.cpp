@@ -175,57 +175,60 @@ int main(int argc, char** argv) {
     auto start = std::chrono::high_resolution_clock::now();
 
     const bool use_parallel = args.threads != 1;
-    std::atomic<size_t> docs{0};
-    std::atomic<size_t> kept{0};
+    size_t docs = 0;
+    size_t kept = 0;
     size_t bytes = 0;
 
     if (use_parallel) {
-        unsigned int hw_threads = std::thread::hardware_concurrency();
-        if (hw_threads == 0) hw_threads = 4;
-        unsigned int thread_count = args.threads > 0 ? static_cast<unsigned int>(args.threads) : hw_threads;
-        thread_count = std::max(1u, thread_count);
+        std::vector<std::string> texts;
+        texts.reserve(args.limit > 0 ? static_cast<size_t>(args.limit) : 1024);
 
-        const size_t queue_capacity = 1024;
-        BoundedQueue<std::string> queue(queue_capacity);
-        std::vector<std::thread> workers;
-        workers.reserve(thread_count);
-
-        for (unsigned int t = 0; t < thread_count; ++t) {
-            workers.emplace_back([&queue, &filter, &kept, &docs]() {
-                std::string text;
-                size_t kept_local = 0;
-                size_t docs_local = 0;
-                while (queue.pop(text)) {
-                    docs_local++;
-                    if (filter.filter(text).keep) kept_local++;
-                }
-                kept.fetch_add(kept_local, std::memory_order_relaxed);
-                docs.fetch_add(docs_local, std::memory_order_relaxed);
-            });
-        }
-
-        size_t produced = 0;
         std::string line;
         while (true) {
             bool ok = use_gz ? readLineGz(gz, line) : readLine(fin, line);
             if (!ok) break;
-            if (args.limit != -1 && static_cast<int>(produced) >= args.limit) break;
+            if (args.limit != -1 && static_cast<int>(texts.size()) >= args.limit) break;
             if (line.empty()) continue;
             std::string text = parseTextField(line);
             if (text.empty()) continue;
 
             bytes += text.size();
-            produced++;
-            if (!queue.push(std::move(text))) break;
+            texts.emplace_back(std::move(text));
         }
-        queue.close();
-        for (auto& w : workers) w.join();
+
+        docs = texts.size();
+
+        unsigned int hw_threads = std::thread::hardware_concurrency();
+        if (hw_threads == 0) hw_threads = 4;
+        unsigned int thread_count = args.threads > 0 ? static_cast<unsigned int>(args.threads) : hw_threads;
+        thread_count = std::max(1u, std::min<unsigned int>(thread_count, static_cast<unsigned int>(docs == 0 ? 1 : docs)));
+
+        const size_t chunk = (docs + thread_count - 1) / thread_count;
+        std::vector<std::future<size_t>> futures;
+        futures.reserve(thread_count);
+
+        for (unsigned int t = 0; t < thread_count; ++t) {
+            const size_t start_idx = t * chunk;
+            if (start_idx >= docs) break;
+            const size_t end_idx = std::min(docs, start_idx + chunk);
+            futures.emplace_back(std::async(std::launch::async, [start_idx, end_idx, &texts, &filter]() -> size_t {
+                size_t kept_local = 0;
+                for (size_t i = start_idx; i < end_idx; ++i) {
+                    if (filter.filter(texts[i]).keep) kept_local++;
+                }
+                return kept_local;
+            }));
+        }
+
+        for (auto& f : futures) {
+            kept += f.get();
+        }
     } else {
         std::string line;
         while (true) {
             bool ok = use_gz ? readLineGz(gz, line) : readLine(fin, line);
             if (!ok) break;
-            if (args.limit != -1 && static_cast<int>(docs.load(std::memory_order_relaxed)) >= args.limit) break;
+            if (args.limit != -1 && static_cast<int>(docs) >= args.limit) break;
             if (line.empty()) continue;
             std::string text = parseTextField(line);
             if (text.empty()) continue;
@@ -243,9 +246,7 @@ int main(int argc, char** argv) {
     std::chrono::duration<double> elapsed = end - start;
 
     double secs = elapsed.count();
-    size_t docs_count = docs.load(std::memory_order_relaxed);
-    size_t kept_count = kept.load(std::memory_order_relaxed);
-    double docs_sec = secs > 0 ? static_cast<double>(docs_count) / secs : 0.0;
+    double docs_sec = secs > 0 ? static_cast<double>(docs) / secs : 0.0;
     double mb_sec = secs > 0 ? (bytes / 1024.0 / 1024.0) / secs : 0.0;
 
     std::cout << "{"
